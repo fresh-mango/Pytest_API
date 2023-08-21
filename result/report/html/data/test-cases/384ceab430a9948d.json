@@ -1,0 +1,228 @@
+{
+  "uid" : "384ceab430a9948d",
+  "name" : "车型信息",
+  "fullName" : "comm.testcase_parameter.Testcase_Suite#testcase_parameter",
+  "historyId" : "0dcc9231409c3caa377dcfa586d78a5c",
+  "time" : {
+    "start" : 1692546683767,
+    "stop" : 1692546685055,
+    "duration" : 1288
+  },
+  "description" : "新增车型信息",
+  "descriptionHtml" : "<p>新增车型信息</p>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: 错误信息：Traceback (most recent call last):\n  File \"D:\\Pytest_API\\comm\\check_result.py\", line 53, in test_check_result\n    assert str(expected_code) == str(actual_code)\nAssertionError",
+  "statusTrace" : "self = <comm.check_result.Check_Result object at 0x000001B389B34100>\nvalidate = {'check_mode': 'check_code', 'expected_code': 401, 'expected_desc': {'$..msg': '门店车型代码重复！'}, 'expected_format': {'code': 101058, 'data': {}, 'msg': '门店车型代码重复！', 'success': False}}\nresponse = [400, '{\"error\":\"invalid_grant\",\"error_description\":\"Bad credentials\"}']\n\n    def test_check_result(self,validate,response):\n        \"\"\"\n        校验预期结果与实际结果是否一致\n        \"\"\"\n    \n        if response ==None:\n            with allure.step(\"验证信息\"):\n                allure.attach(name=\"待核验信息\", body=str(validate))\n                allure.attach(name=\"检查模式\", body=str(validate['check_mode']))\n                allure.attach(name=\"预期响应码\", body=str(validate['expected_code']))\n                allure.attach(name=\"待核验字段信息\", body=str(validate['expected_desc']))\n                allure.attach(name=\"预期数据--数据格式\", body=str(validate['expected_format']))\n                allure.attach(name=\"实际数据\", body=str(response))\n                allure.attach(name=\"验证结果\", body=str('通过' if validate == response else '失败'))\n    \n    \n            assert validate == response\n            log.info('\\n待核验信息：{0} \\n实际数据：{1} \\n校验结果：'.format(validate,  response,('通过' if validate == response else '失败')))\n    \n    \n        else:\n            response = json.loads(response)\n    \n            if validate['check_mode'] == 'no_check':\n                with allure.step(\"验证信息--不校验接口结果\"):\n                    pass\n    \n    \n            elif validate['check_mode'] == 'check_code':\n                expected_code = validate['expected_code']\n                actual_code = response[0]\n    \n                with allure.step(\"验证信息--校验响应码\"):\n                    allure.attach(name=\"待核验信息\", body=str(validate))\n                    allure.attach(name=\"检查模式\", body=str(validate['check_mode']))\n                    allure.attach(name=\"预期响应码\", body=str(validate['expected_code']))\n                    allure.attach(name=\"实际响应码\", body=str(response[0]))\n                try:\n>                   assert str(expected_code) == str(actual_code)\nE                   AssertionError\n\ncomm\\check_result.py:53: AssertionError\n\nDuring handling of the above exception, another exception occurred:\n\nself = <comm.testcase_parameter.Testcase_Suite object at 0x000001B389B34E80>\ncase = {'api_name': '车型信息', 'case_id': 4, 'case_name': '新增车型信息', 'cookies': False, ...}\n\n    @pytest.mark.parametrize('case', cases)\n    def testcase_parameter(self,case):\n        try:\n            case_id = case['case_id']\n            api_name = case['api_name']\n            case_name = case['case_name']\n            level = case['level']\n            premise_caseid = case['premise_caseid']\n            premise_key = case['premise_key']\n            relevance_field = case['relevance_field']\n            api_url = case['url']\n            method = case['method']\n            data = case['data']\n            headers = case['headers']\n            mime_type = case['mime_type']\n            files = case['files']\n            cookies = case['cookies']\n            timeout = case['timeout']\n            validate = case['validate']\n            host = p.get_url_parameter()\n            url = host + api_url\n    \n    \n    \n    \n        except Exception as e:\n            log.error(traceback.format_exc())\n            raise KeyError('获取用例基本信息失败：{}'.format(e))\n    \n        log.info(\"*\" * 200)\n        log.info(\"用例id：%s\" % str(case_id))\n        log.info(\"接口名称：%s\" % str(api_name))\n        log.info(\"用例名称：%s\" % str(case_name))\n        log.info(\"前置用例：%s\" % str(premise_caseid))\n        log.info(\"前置用例响应数据：%s\" % str(premise_key))\n        log.info(\"数据依赖字段：%s\" % str(relevance_field))\n        log.info(\"api_url：%s\" % str(api_url))\n        log.info(\"请求地址：%s\" % str(url))\n        log.info(\"请求方式：%s\" % str(method))\n        log.info(\"请求数据：%s\" % str(data))\n        log.info(\"请求头信息：%s\" % str(headers))\n        log.info(\"参数媒体类型：%s\" % str(mime_type))\n        log.info(\"上传文件：%s\" % str(files))\n        log.info(\"cookies：%s\" % str(cookies))\n        log.info(\"超时时长：%s\" % str(timeout))\n        log.info(\"待核验信息：%s\" % str(validate))\n    \n    \n    \n        if premise_caseid:\n            with allure.step(\"前置条件：\"):\n                allure.attach(name=\"前置条件--依赖caseid\", body=str(premise_caseid))\n                allure.attach(name=\"前置条件--依赖字段key\", body=str(premise_key))\n                allure.attach(name=\"前置条件--关联字段key\", body=str(relevance_field))\n                allure.dynamic.description(case_name)\n                allure.dynamic.severity(level)\n                allure.dynamic.title(api_name)\n                allure.dynamic.description(case_name)\n                allure.dynamic.link(name='百度首页地址', url='https://www.baidu.com/')\n    \n            response = de.get_dependent_case(case_id)\n    \n            with allure.step(\"请求数据信息：\"):\n                allure.attach(name=\"请求地址\", body=url)\n                allure.attach(name=\"请求头信息\", body=str(headers))\n                allure.attach(name=\"请求数据\", body=str(data))\n                allure.attach(name=\"上传文件信息\", body=str(files))\n                allure.attach(name=\"请求数据响应信息\", body=str( response if response==None else json.loads(response)))\n    \n    \n            log.info('用例参数化--附带前置用例,请求响应信息:{0}'.format(response if response==None else json.loads(response)))\n    \n>           cr.test_check_result(validate,response)\n\ncomm\\testcase_parameter.py:106: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <comm.check_result.Check_Result object at 0x000001B389B34100>\nvalidate = {'check_mode': 'check_code', 'expected_code': 401, 'expected_desc': {'$..msg': '门店车型代码重复！'}, 'expected_format': {'code': 101058, 'data': {}, 'msg': '门店车型代码重复！', 'success': False}}\nresponse = [400, '{\"error\":\"invalid_grant\",\"error_description\":\"Bad credentials\"}']\n\n    def test_check_result(self,validate,response):\n        \"\"\"\n        校验预期结果与实际结果是否一致\n        \"\"\"\n    \n        if response ==None:\n            with allure.step(\"验证信息\"):\n                allure.attach(name=\"待核验信息\", body=str(validate))\n                allure.attach(name=\"检查模式\", body=str(validate['check_mode']))\n                allure.attach(name=\"预期响应码\", body=str(validate['expected_code']))\n                allure.attach(name=\"待核验字段信息\", body=str(validate['expected_desc']))\n                allure.attach(name=\"预期数据--数据格式\", body=str(validate['expected_format']))\n                allure.attach(name=\"实际数据\", body=str(response))\n                allure.attach(name=\"验证结果\", body=str('通过' if validate == response else '失败'))\n    \n    \n            assert validate == response\n            log.info('\\n待核验信息：{0} \\n实际数据：{1} \\n校验结果：'.format(validate,  response,('通过' if validate == response else '失败')))\n    \n    \n        else:\n            response = json.loads(response)\n    \n            if validate['check_mode'] == 'no_check':\n                with allure.step(\"验证信息--不校验接口结果\"):\n                    pass\n    \n    \n            elif validate['check_mode'] == 'check_code':\n                expected_code = validate['expected_code']\n                actual_code = response[0]\n    \n                with allure.step(\"验证信息--校验响应码\"):\n                    allure.attach(name=\"待核验信息\", body=str(validate))\n                    allure.attach(name=\"检查模式\", body=str(validate['check_mode']))\n                    allure.attach(name=\"预期响应码\", body=str(validate['expected_code']))\n                    allure.attach(name=\"实际响应码\", body=str(response[0]))\n                try:\n                    assert str(expected_code) == str(actual_code)\n                except AssertionError as e:\n                    log.error('\\n预期响应码:{0} \\n实际响应码:{1} \\n错误信息:{2}'.format(expected_code, actual_code,\n                                                                                        traceback.format_exc()))\n>                   raise AssertionError('错误信息：{}'.format(traceback.format_exc()))\nE                   AssertionError: 错误信息：Traceback (most recent call last):\nE                     File \"D:\\Pytest_API\\comm\\check_result.py\", line 53, in test_check_result\nE                       assert str(expected_code) == str(actual_code)\nE                   AssertionError\n\ncomm\\check_result.py:57: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1692546682558,
+      "stop" : 1692546682597,
+      "duration" : 39
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "新增车型信息",
+    "status" : "failed",
+    "statusMessage" : "AssertionError: 错误信息：Traceback (most recent call last):\n  File \"D:\\Pytest_API\\comm\\check_result.py\", line 53, in test_check_result\n    assert str(expected_code) == str(actual_code)\nAssertionError",
+    "statusTrace" : "self = <comm.check_result.Check_Result object at 0x000001B389B34100>\nvalidate = {'check_mode': 'check_code', 'expected_code': 401, 'expected_desc': {'$..msg': '门店车型代码重复！'}, 'expected_format': {'code': 101058, 'data': {}, 'msg': '门店车型代码重复！', 'success': False}}\nresponse = [400, '{\"error\":\"invalid_grant\",\"error_description\":\"Bad credentials\"}']\n\n    def test_check_result(self,validate,response):\n        \"\"\"\n        校验预期结果与实际结果是否一致\n        \"\"\"\n    \n        if response ==None:\n            with allure.step(\"验证信息\"):\n                allure.attach(name=\"待核验信息\", body=str(validate))\n                allure.attach(name=\"检查模式\", body=str(validate['check_mode']))\n                allure.attach(name=\"预期响应码\", body=str(validate['expected_code']))\n                allure.attach(name=\"待核验字段信息\", body=str(validate['expected_desc']))\n                allure.attach(name=\"预期数据--数据格式\", body=str(validate['expected_format']))\n                allure.attach(name=\"实际数据\", body=str(response))\n                allure.attach(name=\"验证结果\", body=str('通过' if validate == response else '失败'))\n    \n    \n            assert validate == response\n            log.info('\\n待核验信息：{0} \\n实际数据：{1} \\n校验结果：'.format(validate,  response,('通过' if validate == response else '失败')))\n    \n    \n        else:\n            response = json.loads(response)\n    \n            if validate['check_mode'] == 'no_check':\n                with allure.step(\"验证信息--不校验接口结果\"):\n                    pass\n    \n    \n            elif validate['check_mode'] == 'check_code':\n                expected_code = validate['expected_code']\n                actual_code = response[0]\n    \n                with allure.step(\"验证信息--校验响应码\"):\n                    allure.attach(name=\"待核验信息\", body=str(validate))\n                    allure.attach(name=\"检查模式\", body=str(validate['check_mode']))\n                    allure.attach(name=\"预期响应码\", body=str(validate['expected_code']))\n                    allure.attach(name=\"实际响应码\", body=str(response[0]))\n                try:\n>                   assert str(expected_code) == str(actual_code)\nE                   AssertionError\n\ncomm\\check_result.py:53: AssertionError\n\nDuring handling of the above exception, another exception occurred:\n\nself = <comm.testcase_parameter.Testcase_Suite object at 0x000001B389B34E80>\ncase = {'api_name': '车型信息', 'case_id': 4, 'case_name': '新增车型信息', 'cookies': False, ...}\n\n    @pytest.mark.parametrize('case', cases)\n    def testcase_parameter(self,case):\n        try:\n            case_id = case['case_id']\n            api_name = case['api_name']\n            case_name = case['case_name']\n            level = case['level']\n            premise_caseid = case['premise_caseid']\n            premise_key = case['premise_key']\n            relevance_field = case['relevance_field']\n            api_url = case['url']\n            method = case['method']\n            data = case['data']\n            headers = case['headers']\n            mime_type = case['mime_type']\n            files = case['files']\n            cookies = case['cookies']\n            timeout = case['timeout']\n            validate = case['validate']\n            host = p.get_url_parameter()\n            url = host + api_url\n    \n    \n    \n    \n        except Exception as e:\n            log.error(traceback.format_exc())\n            raise KeyError('获取用例基本信息失败：{}'.format(e))\n    \n        log.info(\"*\" * 200)\n        log.info(\"用例id：%s\" % str(case_id))\n        log.info(\"接口名称：%s\" % str(api_name))\n        log.info(\"用例名称：%s\" % str(case_name))\n        log.info(\"前置用例：%s\" % str(premise_caseid))\n        log.info(\"前置用例响应数据：%s\" % str(premise_key))\n        log.info(\"数据依赖字段：%s\" % str(relevance_field))\n        log.info(\"api_url：%s\" % str(api_url))\n        log.info(\"请求地址：%s\" % str(url))\n        log.info(\"请求方式：%s\" % str(method))\n        log.info(\"请求数据：%s\" % str(data))\n        log.info(\"请求头信息：%s\" % str(headers))\n        log.info(\"参数媒体类型：%s\" % str(mime_type))\n        log.info(\"上传文件：%s\" % str(files))\n        log.info(\"cookies：%s\" % str(cookies))\n        log.info(\"超时时长：%s\" % str(timeout))\n        log.info(\"待核验信息：%s\" % str(validate))\n    \n    \n    \n        if premise_caseid:\n            with allure.step(\"前置条件：\"):\n                allure.attach(name=\"前置条件--依赖caseid\", body=str(premise_caseid))\n                allure.attach(name=\"前置条件--依赖字段key\", body=str(premise_key))\n                allure.attach(name=\"前置条件--关联字段key\", body=str(relevance_field))\n                allure.dynamic.description(case_name)\n                allure.dynamic.severity(level)\n                allure.dynamic.title(api_name)\n                allure.dynamic.description(case_name)\n                allure.dynamic.link(name='百度首页地址', url='https://www.baidu.com/')\n    \n            response = de.get_dependent_case(case_id)\n    \n            with allure.step(\"请求数据信息：\"):\n                allure.attach(name=\"请求地址\", body=url)\n                allure.attach(name=\"请求头信息\", body=str(headers))\n                allure.attach(name=\"请求数据\", body=str(data))\n                allure.attach(name=\"上传文件信息\", body=str(files))\n                allure.attach(name=\"请求数据响应信息\", body=str( response if response==None else json.loads(response)))\n    \n    \n            log.info('用例参数化--附带前置用例,请求响应信息:{0}'.format(response if response==None else json.loads(response)))\n    \n>           cr.test_check_result(validate,response)\n\ncomm\\testcase_parameter.py:106: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <comm.check_result.Check_Result object at 0x000001B389B34100>\nvalidate = {'check_mode': 'check_code', 'expected_code': 401, 'expected_desc': {'$..msg': '门店车型代码重复！'}, 'expected_format': {'code': 101058, 'data': {}, 'msg': '门店车型代码重复！', 'success': False}}\nresponse = [400, '{\"error\":\"invalid_grant\",\"error_description\":\"Bad credentials\"}']\n\n    def test_check_result(self,validate,response):\n        \"\"\"\n        校验预期结果与实际结果是否一致\n        \"\"\"\n    \n        if response ==None:\n            with allure.step(\"验证信息\"):\n                allure.attach(name=\"待核验信息\", body=str(validate))\n                allure.attach(name=\"检查模式\", body=str(validate['check_mode']))\n                allure.attach(name=\"预期响应码\", body=str(validate['expected_code']))\n                allure.attach(name=\"待核验字段信息\", body=str(validate['expected_desc']))\n                allure.attach(name=\"预期数据--数据格式\", body=str(validate['expected_format']))\n                allure.attach(name=\"实际数据\", body=str(response))\n                allure.attach(name=\"验证结果\", body=str('通过' if validate == response else '失败'))\n    \n    \n            assert validate == response\n            log.info('\\n待核验信息：{0} \\n实际数据：{1} \\n校验结果：'.format(validate,  response,('通过' if validate == response else '失败')))\n    \n    \n        else:\n            response = json.loads(response)\n    \n            if validate['check_mode'] == 'no_check':\n                with allure.step(\"验证信息--不校验接口结果\"):\n                    pass\n    \n    \n            elif validate['check_mode'] == 'check_code':\n                expected_code = validate['expected_code']\n                actual_code = response[0]\n    \n                with allure.step(\"验证信息--校验响应码\"):\n                    allure.attach(name=\"待核验信息\", body=str(validate))\n                    allure.attach(name=\"检查模式\", body=str(validate['check_mode']))\n                    allure.attach(name=\"预期响应码\", body=str(validate['expected_code']))\n                    allure.attach(name=\"实际响应码\", body=str(response[0]))\n                try:\n                    assert str(expected_code) == str(actual_code)\n                except AssertionError as e:\n                    log.error('\\n预期响应码:{0} \\n实际响应码:{1} \\n错误信息:{2}'.format(expected_code, actual_code,\n                                                                                        traceback.format_exc()))\n>                   raise AssertionError('错误信息：{}'.format(traceback.format_exc()))\nE                   AssertionError: 错误信息：Traceback (most recent call last):\nE                     File \"D:\\Pytest_API\\comm\\check_result.py\", line 53, in test_check_result\nE                       assert str(expected_code) == str(actual_code)\nE                   AssertionError\n\ncomm\\check_result.py:57: AssertionError",
+    "steps" : [ {
+      "name" : "前置条件：",
+      "time" : {
+        "start" : 1692546683770,
+        "stop" : 1692546683772,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7e3d7d2666c89bde",
+        "name" : "前置条件--依赖caseid",
+        "source" : "7e3d7d2666c89bde.attach",
+        "type" : "text/plain",
+        "size" : 1
+      }, {
+        "uid" : "64ac6d8625c33e10",
+        "name" : "前置条件--依赖字段key",
+        "source" : "64ac6d8625c33e10.attach",
+        "type" : "text/plain",
+        "size" : 11
+      }, {
+        "uid" : "27d61228a28b56e9",
+        "name" : "前置条件--关联字段key",
+        "source" : "27d61228a28b56e9.attach",
+        "type" : "text/plain",
+        "size" : 12
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 3,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "请求数据信息：",
+      "time" : {
+        "start" : 1692546685047,
+        "stop" : 1692546685051,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f3a8bd9ad46ae51f",
+        "name" : "请求地址",
+        "source" : "f3a8bd9ad46ae51f.attach",
+        "type" : "text/plain",
+        "size" : 56
+      }, {
+        "uid" : "277fefe286e8f1c2",
+        "name" : "请求头信息",
+        "source" : "277fefe286e8f1c2.attach",
+        "type" : "text/plain",
+        "size" : 2057
+      }, {
+        "uid" : "9fb5990d22c9f0c8",
+        "name" : "请求数据",
+        "source" : "9fb5990d22c9f0c8.attach",
+        "type" : "text/plain",
+        "size" : 609
+      }, {
+        "uid" : "545ce33dd0a469ff",
+        "name" : "上传文件信息",
+        "source" : "545ce33dd0a469ff.attach",
+        "type" : "text/plain",
+        "size" : 4
+      }, {
+        "uid" : "ec41272d7511ecae",
+        "name" : "请求数据响应信息",
+        "source" : "ec41272d7511ecae.attach",
+        "type" : "text/plain",
+        "size" : 72
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 5,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "验证信息--校验响应码",
+      "time" : {
+        "start" : 1692546685052,
+        "stop" : 1692546685055,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "38b6a5fd5d913329",
+        "name" : "待核验信息",
+        "source" : "38b6a5fd5d913329.attach",
+        "type" : "text/plain",
+        "size" : 215
+      }, {
+        "uid" : "314c57deffdcc9fb",
+        "name" : "检查模式",
+        "source" : "314c57deffdcc9fb.attach",
+        "type" : "text/plain",
+        "size" : 10
+      }, {
+        "uid" : "e43652b438c378bd",
+        "name" : "预期响应码",
+        "source" : "e43652b438c378bd.attach",
+        "type" : "text/plain",
+        "size" : 3
+      }, {
+        "uid" : "21eeecb9fb33552a",
+        "name" : "实际响应码",
+        "source" : "21eeecb9fb33552a.attach",
+        "type" : "text/plain",
+        "size" : 3
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 4,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "cdc7fa83bab3e37a",
+      "name" : "log",
+      "source" : "cdc7fa83bab3e37a.txt",
+      "type" : "text/plain",
+      "size" : 15053
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 13,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "trivial"
+  }, {
+    "name" : "epic",
+    "value" : "测试用例汇总"
+  }, {
+    "name" : "story",
+    "value" : "参数化--测试用例"
+  }, {
+    "name" : "feature",
+    "value" : "测试用例集合"
+  }, {
+    "name" : "parentSuite",
+    "value" : "comm"
+  }, {
+    "name" : "suite",
+    "value" : "testcase_parameter"
+  }, {
+    "name" : "subSuite",
+    "value" : "Testcase_Suite"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-T1AV2QHS"
+  }, {
+    "name" : "thread",
+    "value" : "17020-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "comm.testcase_parameter"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "{'case_id': 4, 'api_name': '车型信息', 'case_name': '新增车型信息', 'is_run': True, 'level': 'trivial', 'premise_caseid': 1, 'premise_key': 'detail.type', 'relevance_field': 'deptSeriesId', 'url': 'api/ld-erps/deptcartype/submit', 'method': 'post', 'data': {'brandName': '1500010931297513473', 'deptBrandId': '1500010931297513473', 'deptFirmId': '1500010984066052098', 'deptSeriesId': '1500011053616001025', 'typeName': 'a1', 'typeCode': 'a23', 'ageStyleType': 1, 'ageStyleTypeName': '1', 'gearBoxType': 1, 'gearBoxTypeName': '1', 'engineCapacity': 'a4', 'emissionStandard': 1, 'emissionStandardName': '1', 'versionNo': 'a5', 'powerType': 1, 'powerTypeName': '1', 'guidePrice': '6', 'costPrice': '7', 'referenceRebate': '7', 'status': 1, 'furl': '', 'imgsUrl': 'upload/20230718/b817487e07842052d575d9d2935a29fd.jpg', 'remark': '<p>豪车</p>', 'appliedScope': '1,2'}, 'headers': {'Content-Type': 'application/json;charset=UTF-8', 'Authorization': 'Basic c2FiZXI6bGRAMTIzNDU2', 'Blade-Auth': 'bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZW5hbnRfaWQiOiI2ODMyNTIiLCJ0ZW5hbnRfbmFtZSI6Iua8lOekuuenn-aItyjmlbDmja7lvILluLjmmoLlgZzkvb_nlKgpIiwidXNlcl9uYW1lIjoiYWRtaW4iLCJkZXB0X25hbWUiOiLmvJTnpLrnp5_miLciLCJyZWFsX25hbWUiOiJhZG1pbiIsImF2YXRhciI6InVwbG9hZC8yMDIyMDExMi8zZTg3ZDI2YzZhMzUxOWM5YmM5N2YwM2I2Y2E0N2E3OS5wbmciLCJhdXRob3JpdGllcyI6WyJhZG1pbiJdLCJjbGllbnRfaWQiOiJzYWJlciIsInJvbGVfbmFtZSI6ImFkbWluIiwicG9zdF9pZCI6IjE0ODEyMDc0NTI2NzU5NDQ0NDkiLCJ1c2VyX2lkIjoiMTQ3MzQ4MjMxOTgxNzk2OTY2NSIsInJvbGVfaWQiOiIxNDczNDgyMzEwNTQwNjU2NjQxIiwicG9zdF9uYW1lIjoiY2VvIiwic2NvcGUiOlsiYWxsIl0sIm5pY2tfbmFtZSI6ImFkbWluIiwib2F1dGhfaWQiOiIiLCJkZXRhaWwiOnsidHlwZSI6IndlYiJ9LCJleHAiOjE2ODk2ODAxMzEsImRlcHRfaWQiOiIxNDczNDgyMzE0MzcwMDU2MTk0IiwicG93ZXJlZCBieSBsZCI6InBvd2VyZWQgYnkgYmxhZGV4IiwianRpIjoiNjY4NDAwOGEtYWUwMi00YzQ0LWE2OWItY2FiYzdkZjY3ZWUzIiwiYWNjb3VudCI6ImFkbWluIn0.u01NTOYLZSSCyoUsKowvKEWyTW_1qDeBXqdszhQkbxw', 'Cookie': 'saber-refresh-token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZW5hbnRfaWQiOiI2ODMyNTIiLCJ0ZW5hbnRfbmFtZSI6Iua8lOekuuenn-aItyjmlbDmja7lvILluLjmmoLlgZzkvb_nlKgpIiwidXNlcl9uYW1lIjoiYWRtaW4iLCJkZXB0X25hbWUiOiLmvJTnpLrnp5_miLciLCJyZWFsX25hbWUiOiJhZG1pbiIsImF2YXRhciI6InVwbG9hZC8yMDIyMDExMi8zZTg3ZDI2YzZhMzUxOWM5YmM5N2YwM2I2Y2E0N2E3OS5wbmciLCJhdXRob3JpdGllcyI6WyJhZG1pbiJdLCJjbGllbnRfaWQiOiJzYWJlciIsInJvbGVfbmFtZSI6ImFkbWluIiwicG9zdF9pZCI6IjE0ODEyMDc0NTI2NzU5NDQ0NDkiLCJ1c2VyX2lkIjoiMTQ3MzQ4MjMxOTgxNzk2OTY2NSIsInJvbGVfaWQiOiIxNDczNDgyMzEwNTQwNjU2NjQxIiwicG9zdF9uYW1lIjoiY2VvIiwic2NvcGUiOlsiYWxsIl0sIm5pY2tfbmFtZSI6ImFkbWluIiwiYXRpIjoiNjY4NDAwOGEtYWUwMi00YzQ0LWE2OWItY2FiYzdkZjY3ZWUzIiwib2F1dGhfaWQiOiIiLCJkZXRhaWwiOnsidHlwZSI6IndlYiJ9LCJleHAiOjE2OTAyODEzMzEsImRlcHRfaWQiOiIxNDczNDgyMzE0MzcwMDU2MTk0IiwicG93ZXJlZCBieSBsZCI6InBvd2VyZWQgYnkgYmxhZGV4IiwianRpIjoiZTg1NDE0NGQtZTY5Zi00MGY3LWJjM2MtNTZjOTU1ZjEzNDFiIiwiYWNjb3VudCI6ImFkbWluIn0.J8qEnQvTnFrl-WQrJRmIuOq468SeHwenrHrph6J-U20', 'dept_id': '1473482314370056194', 'Tenant-Id': '683252'}, 'mime_type': 'application/json', 'files': None, 'cookies': False, 'timeout': 10, 'validate': {'check_mode': 'check_code', 'expected_code': 401, 'expected_desc': {'$..msg': '门店车型代码重复！'}, 'expected_format': {'code': 101058, 'success': False, 'data': {}, 'msg': '门店车型代码重复！'}}}"
+  } ],
+  "links" : [ {
+    "name" : "百度首页地址",
+    "url" : "https://www.baidu.com/",
+    "type" : "link"
+  } ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "384ceab430a9948d.json",
+  "parameterValues" : [ "{'case_id': 4, 'api_name': '车型信息', 'case_name': '新增车型信息', 'is_run': True, 'level': 'trivial', 'premise_caseid': 1, 'premise_key': 'detail.type', 'relevance_field': 'deptSeriesId', 'url': 'api/ld-erps/deptcartype/submit', 'method': 'post', 'data': {'brandName': '1500010931297513473', 'deptBrandId': '1500010931297513473', 'deptFirmId': '1500010984066052098', 'deptSeriesId': '1500011053616001025', 'typeName': 'a1', 'typeCode': 'a23', 'ageStyleType': 1, 'ageStyleTypeName': '1', 'gearBoxType': 1, 'gearBoxTypeName': '1', 'engineCapacity': 'a4', 'emissionStandard': 1, 'emissionStandardName': '1', 'versionNo': 'a5', 'powerType': 1, 'powerTypeName': '1', 'guidePrice': '6', 'costPrice': '7', 'referenceRebate': '7', 'status': 1, 'furl': '', 'imgsUrl': 'upload/20230718/b817487e07842052d575d9d2935a29fd.jpg', 'remark': '<p>豪车</p>', 'appliedScope': '1,2'}, 'headers': {'Content-Type': 'application/json;charset=UTF-8', 'Authorization': 'Basic c2FiZXI6bGRAMTIzNDU2', 'Blade-Auth': 'bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZW5hbnRfaWQiOiI2ODMyNTIiLCJ0ZW5hbnRfbmFtZSI6Iua8lOekuuenn-aItyjmlbDmja7lvILluLjmmoLlgZzkvb_nlKgpIiwidXNlcl9uYW1lIjoiYWRtaW4iLCJkZXB0X25hbWUiOiLmvJTnpLrnp5_miLciLCJyZWFsX25hbWUiOiJhZG1pbiIsImF2YXRhciI6InVwbG9hZC8yMDIyMDExMi8zZTg3ZDI2YzZhMzUxOWM5YmM5N2YwM2I2Y2E0N2E3OS5wbmciLCJhdXRob3JpdGllcyI6WyJhZG1pbiJdLCJjbGllbnRfaWQiOiJzYWJlciIsInJvbGVfbmFtZSI6ImFkbWluIiwicG9zdF9pZCI6IjE0ODEyMDc0NTI2NzU5NDQ0NDkiLCJ1c2VyX2lkIjoiMTQ3MzQ4MjMxOTgxNzk2OTY2NSIsInJvbGVfaWQiOiIxNDczNDgyMzEwNTQwNjU2NjQxIiwicG9zdF9uYW1lIjoiY2VvIiwic2NvcGUiOlsiYWxsIl0sIm5pY2tfbmFtZSI6ImFkbWluIiwib2F1dGhfaWQiOiIiLCJkZXRhaWwiOnsidHlwZSI6IndlYiJ9LCJleHAiOjE2ODk2ODAxMzEsImRlcHRfaWQiOiIxNDczNDgyMzE0MzcwMDU2MTk0IiwicG93ZXJlZCBieSBsZCI6InBvd2VyZWQgYnkgYmxhZGV4IiwianRpIjoiNjY4NDAwOGEtYWUwMi00YzQ0LWE2OWItY2FiYzdkZjY3ZWUzIiwiYWNjb3VudCI6ImFkbWluIn0.u01NTOYLZSSCyoUsKowvKEWyTW_1qDeBXqdszhQkbxw', 'Cookie': 'saber-refresh-token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZW5hbnRfaWQiOiI2ODMyNTIiLCJ0ZW5hbnRfbmFtZSI6Iua8lOekuuenn-aItyjmlbDmja7lvILluLjmmoLlgZzkvb_nlKgpIiwidXNlcl9uYW1lIjoiYWRtaW4iLCJkZXB0X25hbWUiOiLmvJTnpLrnp5_miLciLCJyZWFsX25hbWUiOiJhZG1pbiIsImF2YXRhciI6InVwbG9hZC8yMDIyMDExMi8zZTg3ZDI2YzZhMzUxOWM5YmM5N2YwM2I2Y2E0N2E3OS5wbmciLCJhdXRob3JpdGllcyI6WyJhZG1pbiJdLCJjbGllbnRfaWQiOiJzYWJlciIsInJvbGVfbmFtZSI6ImFkbWluIiwicG9zdF9pZCI6IjE0ODEyMDc0NTI2NzU5NDQ0NDkiLCJ1c2VyX2lkIjoiMTQ3MzQ4MjMxOTgxNzk2OTY2NSIsInJvbGVfaWQiOiIxNDczNDgyMzEwNTQwNjU2NjQxIiwicG9zdF9uYW1lIjoiY2VvIiwic2NvcGUiOlsiYWxsIl0sIm5pY2tfbmFtZSI6ImFkbWluIiwiYXRpIjoiNjY4NDAwOGEtYWUwMi00YzQ0LWE2OWItY2FiYzdkZjY3ZWUzIiwib2F1dGhfaWQiOiIiLCJkZXRhaWwiOnsidHlwZSI6IndlYiJ9LCJleHAiOjE2OTAyODEzMzEsImRlcHRfaWQiOiIxNDczNDgyMzE0MzcwMDU2MTk0IiwicG93ZXJlZCBieSBsZCI6InBvd2VyZWQgYnkgYmxhZGV4IiwianRpIjoiZTg1NDE0NGQtZTY5Zi00MGY3LWJjM2MtNTZjOTU1ZjEzNDFiIiwiYWNjb3VudCI6ImFkbWluIn0.J8qEnQvTnFrl-WQrJRmIuOq468SeHwenrHrph6J-U20', 'dept_id': '1473482314370056194', 'Tenant-Id': '683252'}, 'mime_type': 'application/json', 'files': None, 'cookies': False, 'timeout': 10, 'validate': {'check_mode': 'check_code', 'expected_code': 401, 'expected_desc': {'$..msg': '门店车型代码重复！'}, 'expected_format': {'code': 101058, 'success': False, 'data': {}, 'msg': '门店车型代码重复！'}}}" ]
+}

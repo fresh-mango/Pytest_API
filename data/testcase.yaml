@@ -1,0 +1,229 @@
+
+pay:
+  - case_id: 1
+    #接口名称
+    api_name: 登录
+    #测试用例名称
+    case_name: 登录成功
+    #是否运行
+    is_run: yes
+    #优先级
+    level : blocker
+    #是否存在前置接口，如果存在，则填写前置接口用例 case_id
+    premise_caseid:
+    #前置接口依赖字段
+    premise_key: msg
+    #数据关联字段
+    relevance_field: 测试
+    #请求地址
+    url: api/blade-auth/oauth/token?
+    #请求类型
+    method: post
+    #请求数据      
+    data: {
+      "tenantId": "683252",
+      "username": "admin",
+      "password": "670b14728ad9902aecba32e22fa4f6bd",
+      "grant_type": "password",
+      "scope": "all",
+      "type": "account"
+    }
+    #请求头，默认读取公共关联值，可修改
+    headers: ${login}
+    #参数媒体类型
+    mime_type: application/x-www-form-urlencoded
+    #是否需要上传文件
+    files: {
+      "图片1": "C:\\Users\\asus\\Desktop\\1.jpg",
+      "图片2": "C:\\Users\\asus\\Desktop\\2.jpg"
+    }
+    #cookie
+    cookies: false
+    #超时时长(s)
+    timeout: 10
+    #预期检查信息
+    validate:
+      #检查类型，目前支持4种(no_check,check_code,check_desc,check_formt)，可自行修改，默认check_formt，即仅检查实际与期望结果数据格式是否一致
+      check_mode: check_code
+      #期望接口返回码
+      expected_code: 400
+      #期望接口返回消息体
+      expected_desc:
+        {"$..msg":"门店车型代码重复！"}
+      #期望返回消息体数据格式
+      expected_format:
+        {"code":101058,"success":false,"data":{}}
+
+
+  - case_id: 2
+    #接口名称
+    api_name: 登录
+    #测试用例名称
+    case_name: 登录失败
+    #是否运行
+    is_run: yes
+    #优先级
+    level: critical
+    #是否存在前置接口，如果存在，则填写前置接口用例 case_id
+    premise_caseid:
+    #前置接口依赖字段
+    premise_key: detail.type
+    #数据关联字段
+    relevance_field: remark
+    #请求地址
+    url: api/ld-erps/deptoptionalpackage/submit
+    #请求类型
+    method: post
+    #请求数据
+    data: {
+      "deptBrandId": "1500010931297513473",
+      "deptFirmId": "1500010984066052098",
+      "deptSeriesId": "1500011053616001025",
+      "packageName": "国庆节",
+      "packageCode": "大礼包",
+      "remark": "十月",
+    }
+
+    #请求头，默认读取公共关联值，可修改
+    headers: ${Content_Type_json}
+    #参数媒体类型
+    mime_type: application/json
+    #是否需要上传文件
+    files: {
+      "图片1": "C:\\Users\\asus\\Desktop\\1.jpg",
+      "图片2": "C:\\Users\\asus\\Desktop\\2.jpg"
+    }
+
+    #cookie
+    cookies: false
+    #超时时长(s)
+    timeout: 10
+    #预期检查数据信息
+    validate:
+      #检查类型，目前支持4种(no_check,check_code,check_desc,check_formt)，可自行修改，默认check_formt，即仅检查实际与期望结果数据格式是否一致
+      check_mode: check_code
+      #期望接口返回码
+      expected_code: 206
+      #期望接口返回消息体
+      expected_desc:
+        {"$..msg":"请求未授权"}
+      #期望返回消息体数据格式
+      expected_format:
+        {"code":101058,"success":false,"data":{}}
+      
+  - case_id: 3
+    #接口名称
+    api_name: 金融机构逻辑删除
+    #用例名称
+    case_name: 删除金融机构
+    #是否运行
+    is_run: yes
+    #优先级
+    level: normal
+    #是否存在前置接口，如果存在，则填写前置接口用例 case_id
+    premise_caseid:
+    #前置接口依赖字段
+    premise_key: error
+    #数据关联字段
+    relevance_field: ids
+    #请求地址
+    url: api/ld-erps/finance/remove
+    #请求类型
+    method: post
+    #请求数据
+    data: {
+      "ids":"1455772183081054209"
+    }
+    #请求头，默认读取公共关联值，可修改
+    headers: ${Content_Type_form}
+    #参数媒体类型
+    mime_type: www-form-urlencoded
+    #是否需要上传文件
+    files:
+    #cookie
+    cookies: false
+    #超时时长(s)
+    timeout: 10
+    #预期检查数据信息
+    validate:
+      #检查类型，目前支持4种(no_check,check_code,check_desc,check_formt)，可自行修改，默认check_formt，即仅检查实际与期望结果数据格式是否一致
+      check_mode: check_code
+      #期望接口返回码
+      expected_code: 401
+      #期望接口返回消息体
+      expected_desc:
+        {"$..msg":"门店车型代码重复！"}
+      #期望返回消息体数据格式
+      expected_format:
+        {"code":101058,"success":false,"data":{}}
+      
+shop:
+  - case_id: 4
+    #接口名称
+    api_name: 车型信息
+    #用例名称
+    case_name: 新增车型信息
+    #是否运行
+    is_run: yes
+    #优先级
+    level: trivial
+    #是否存在前置接口，如果存在，则填写前置接口用例 case_id
+    premise_caseid: 1
+    #前置接口依赖字段
+    premise_key: detail.type
+    #数据关联字段
+    relevance_field: deptSeriesId
+    #请求地址
+    url: api/ld-erps/deptcartype/submit
+    #请求类型
+    method: post
+    #请求数据
+    data: {
+      "brandName": "1500010931297513473",
+      "deptBrandId": "1500010931297513473",
+      "deptFirmId": "1500010984066052098",
+      "deptSeriesId": "1500011053616001025",
+      "typeName": "a1",
+      "typeCode": "a23",
+      "ageStyleType": 1,
+      "ageStyleTypeName": "1",
+      "gearBoxType": 1,
+      "gearBoxTypeName": "1",
+      "engineCapacity": "a4",
+      "emissionStandard": 1,
+      "emissionStandardName": "1",
+      "versionNo": "a5",
+      "powerType": 1,
+      "powerTypeName": "1",
+      "guidePrice": "6",
+      "costPrice": "7",
+      "referenceRebate": "7",
+      "status": 1,
+      "furl": "",
+      "imgsUrl": "upload/20230718/b817487e07842052d575d9d2935a29fd.jpg",
+      "remark": "<p>豪车</p>",
+      "appliedScope": "1,2"
+    }
+    #请求头，默认读取公共关联值，可修改
+    headers: ${Content_Type_json}
+    #参数媒体类型
+    mime_type: application/json
+    #是否需要上传文件
+    files:
+    #cookie
+    cookies: false
+    #超时时长(s)
+    timeout: 10
+    #预期检查数据信息
+    validate:
+      #检查类型，目前支持4种(no_check,check_code,check_desc,check_formt)，可自行修改，默认check_formt，即仅检查实际与期望结果数据格式是否一致
+      check_mode: check_code
+      #期望接口返回码
+      expected_code: 401
+      #期望接口返回消息体
+      expected_desc:
+        {"$..msg":"门店车型代码重复！"}
+      #期望返回消息体数据格式
+      expected_format:
+        {'code': 101058, 'success': False, 'data': {}, 'msg': '门店车型代码重复！'}
+

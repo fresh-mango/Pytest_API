@@ -1,0 +1,208 @@
+2023-08-20 00:01:25,481 - check_result - check_result.py  - [line:55] - ERROR: 
+预期响应码:206 
+实际响应码:401 
+错误信息:Traceback (most recent call last):
+  File "D:\Pytest_API\comm\check_result.py", line 53, in test_check_result
+    assert str(expected_code) == str(actual_code)
+AssertionError
+
+2023-08-20 00:01:26,937 - check_result - check_result.py  - [line:55] - ERROR: 
+预期响应码:401 
+实际响应码:400 
+错误信息:Traceback (most recent call last):
+  File "D:\Pytest_API\comm\check_result.py", line 53, in test_check_result
+    assert str(expected_code) == str(actual_code)
+AssertionError
+
+2023-08-20 00:02:20,860 - check_result - check_result.py  - [line:55] - ERROR: 
+预期响应码:206 
+实际响应码:401 
+错误信息:Traceback (most recent call last):
+  File "D:\Pytest_API\comm\check_result.py", line 53, in test_check_result
+    assert str(expected_code) == str(actual_code)
+AssertionError
+
+2023-08-20 00:02:22,357 - check_result - check_result.py  - [line:55] - ERROR: 
+预期响应码:401 
+实际响应码:400 
+错误信息:Traceback (most recent call last):
+  File "D:\Pytest_API\comm\check_result.py", line 53, in test_check_result
+    assert str(expected_code) == str(actual_code)
+AssertionError
+
+2023-08-20 00:04:26,394 - check_result - check_result.py  - [line:55] - ERROR: 
+预期响应码:206 
+实际响应码:401 
+错误信息:Traceback (most recent call last):
+  File "D:\Pytest_API\comm\check_result.py", line 53, in test_check_result
+    assert str(expected_code) == str(actual_code)
+AssertionError
+
+2023-08-20 00:04:27,846 - check_result - check_result.py  - [line:55] - ERROR: 
+预期响应码:401 
+实际响应码:400 
+错误信息:Traceback (most recent call last):
+  File "D:\Pytest_API\comm\check_result.py", line 53, in test_check_result
+    assert str(expected_code) == str(actual_code)
+AssertionError
+
+2023-08-20 00:05:05,398 - check_result - check_result.py  - [line:55] - ERROR: 
+预期响应码:206 
+实际响应码:401 
+错误信息:Traceback (most recent call last):
+  File "D:\Pytest_API\comm\check_result.py", line 53, in test_check_result
+    assert str(expected_code) == str(actual_code)
+AssertionError
+
+2023-08-20 00:05:06,743 - check_result - check_result.py  - [line:55] - ERROR: 
+预期响应码:401 
+实际响应码:400 
+错误信息:Traceback (most recent call last):
+  File "D:\Pytest_API\comm\check_result.py", line 53, in test_check_result
+    assert str(expected_code) == str(actual_code)
+AssertionError
+
+2023-08-20 00:07:09,285 - check_result - check_result.py  - [line:55] - ERROR: 
+预期响应码:206 
+实际响应码:401 
+错误信息:Traceback (most recent call last):
+  File "D:\Pytest_API\comm\check_result.py", line 53, in test_check_result
+    assert str(expected_code) == str(actual_code)
+AssertionError
+
+2023-08-20 00:07:10,751 - check_result - check_result.py  - [line:55] - ERROR: 
+预期响应码:401 
+实际响应码:400 
+错误信息:Traceback (most recent call last):
+  File "D:\Pytest_API\comm\check_result.py", line 53, in test_check_result
+    assert str(expected_code) == str(actual_code)
+AssertionError
+
+2023-08-20 00:08:25,731 - check_result - check_result.py  - [line:55] - ERROR: 
+预期响应码:206 
+实际响应码:401 
+错误信息:Traceback (most recent call last):
+  File "D:\Pytest_API\comm\check_result.py", line 53, in test_check_result
+    assert str(expected_code) == str(actual_code)
+AssertionError
+
+2023-08-20 00:08:27,212 - check_result - check_result.py  - [line:55] - ERROR: 
+预期响应码:401 
+实际响应码:400 
+错误信息:Traceback (most recent call last):
+  File "D:\Pytest_API\comm\check_result.py", line 53, in test_check_result
+    assert str(expected_code) == str(actual_code)
+AssertionError
+
+2023-08-20 00:08:58,548 - check_result - check_result.py  - [line:55] - ERROR: 
+预期响应码:206 
+实际响应码:401 
+错误信息:Traceback (most recent call last):
+  File "D:\Pytest_API\comm\check_result.py", line 53, in test_check_result
+    assert str(expected_code) == str(actual_code)
+AssertionError
+
+2023-08-20 00:08:59,822 - check_result - check_result.py  - [line:55] - ERROR: 
+预期响应码:401 
+实际响应码:400 
+错误信息:Traceback (most recent call last):
+  File "D:\Pytest_API\comm\check_result.py", line 53, in test_check_result
+    assert str(expected_code) == str(actual_code)
+AssertionError
+
+2023-08-20 00:10:59,956 - check_result - check_result.py  - [line:55] - ERROR: 
+预期响应码:206 
+实际响应码:401 
+错误信息:Traceback (most recent call last):
+  File "D:\Pytest_API\comm\check_result.py", line 53, in test_check_result
+    assert str(expected_code) == str(actual_code)
+AssertionError
+
+2023-08-20 00:11:01,381 - check_result - check_result.py  - [line:55] - ERROR: 
+预期响应码:401 
+实际响应码:400 
+错误信息:Traceback (most recent call last):
+  File "D:\Pytest_API\comm\check_result.py", line 53, in test_check_result
+    assert str(expected_code) == str(actual_code)
+AssertionError
+
+2023-08-20 00:17:07,263 - check_result - check_result.py  - [line:55] - ERROR: 
+预期响应码:206 
+实际响应码:401 
+错误信息:Traceback (most recent call last):
+  File "D:\Pytest_API\comm\check_result.py", line 53, in test_check_result
+    assert str(expected_code) == str(actual_code)
+AssertionError
+
+2023-08-20 00:17:08,732 - check_result - check_result.py  - [line:55] - ERROR: 
+预期响应码:401 
+实际响应码:400 
+错误信息:Traceback (most recent call last):
+  File "D:\Pytest_API\comm\check_result.py", line 53, in test_check_result
+    assert str(expected_code) == str(actual_code)
+AssertionError
+
+2023-08-20 00:17:58,544 - check_result - check_result.py  - [line:55] - ERROR: 
+预期响应码:206 
+实际响应码:401 
+错误信息:Traceback (most recent call last):
+  File "D:\Pytest_API\comm\check_result.py", line 53, in test_check_result
+    assert str(expected_code) == str(actual_code)
+AssertionError
+
+2023-08-20 00:17:59,910 - check_result - check_result.py  - [line:55] - ERROR: 
+预期响应码:401 
+实际响应码:400 
+错误信息:Traceback (most recent call last):
+  File "D:\Pytest_API\comm\check_result.py", line 53, in test_check_result
+    assert str(expected_code) == str(actual_code)
+AssertionError
+
+2023-08-20 00:19:10,943 - check_result - check_result.py  - [line:55] - ERROR: 
+预期响应码:206 
+实际响应码:401 
+错误信息:Traceback (most recent call last):
+  File "D:\Pytest_API\comm\check_result.py", line 53, in test_check_result
+    assert str(expected_code) == str(actual_code)
+AssertionError
+
+2023-08-20 00:19:12,376 - check_result - check_result.py  - [line:55] - ERROR: 
+预期响应码:401 
+实际响应码:400 
+错误信息:Traceback (most recent call last):
+  File "D:\Pytest_API\comm\check_result.py", line 53, in test_check_result
+    assert str(expected_code) == str(actual_code)
+AssertionError
+
+2023-08-20 23:51:23,750 - check_result - check_result.py  - [line:55] - ERROR: 
+预期响应码:206 
+实际响应码:401 
+错误信息:Traceback (most recent call last):
+  File "D:\Pytest_API\comm\check_result.py", line 53, in test_check_result
+    assert str(expected_code) == str(actual_code)
+AssertionError
+
+2023-08-20 23:51:25,055 - check_result - check_result.py  - [line:55] - ERROR: 
+预期响应码:401 
+实际响应码:400 
+错误信息:Traceback (most recent call last):
+  File "D:\Pytest_API\comm\check_result.py", line 53, in test_check_result
+    assert str(expected_code) == str(actual_code)
+AssertionError
+
+2023-08-20 23:55:51,938 - check_result - check_result.py  - [line:55] - ERROR: 
+预期响应码:206 
+实际响应码:401 
+错误信息:Traceback (most recent call last):
+  File "D:\Pytest_API\comm\check_result.py", line 53, in test_check_result
+    assert str(expected_code) == str(actual_code)
+AssertionError
+
+2023-08-20 23:55:53,207 - check_result - check_result.py  - [line:55] - ERROR: 
+预期响应码:401 
+实际响应码:400 
+错误信息:Traceback (most recent call last):
+  File "D:\Pytest_API\comm\check_result.py", line 53, in test_check_result
+    assert str(expected_code) == str(actual_code)
+AssertionError
+

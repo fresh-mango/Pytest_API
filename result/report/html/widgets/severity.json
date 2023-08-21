@@ -1,0 +1,51 @@
+[ {
+  "uid" : "3b16dd76c66dbeec",
+  "name" : "金融机构逻辑删除",
+  "time" : {
+    "start" : 1692607344222,
+    "stop" : 1692607345278,
+    "duration" : 1056
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d7eb991b39dd49c",
+  "name" : "车型信息",
+  "time" : {
+    "start" : 1692607345286,
+    "stop" : 1692607346543,
+    "duration" : 1257
+  },
+  "status" : "failed",
+  "severity" : "trivial"
+}, {
+  "uid" : "b8ded886d0b2162e",
+  "name" : "test_o1",
+  "time" : {
+    "start" : 1692547332143,
+    "stop" : 1692547332143,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "668871d5009388e5",
+  "name" : "登录",
+  "time" : {
+    "start" : 1692607341709,
+    "stop" : 1692607342966,
+    "duration" : 1257
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "72360d5c09a4f143",
+  "name" : "登录",
+  "time" : {
+    "start" : 1692607342970,
+    "stop" : 1692607344054,
+    "duration" : 1084
+  },
+  "status" : "failed",
+  "severity" : "critical"
+} ]

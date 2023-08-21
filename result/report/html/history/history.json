@@ -1,0 +1,100 @@
+{
+  "0dcc9231409c3caa377dcfa586d78a5c" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d7eb991b39dd49c",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 错误信息：Traceback (most recent call last):\n  File \"D:\\Pytest_API\\comm\\check_result.py\", line 53, in test_check_result\n    assert str(expected_code) == str(actual_code)\nAssertionError",
+      "time" : {
+        "start" : 1692607345286,
+        "stop" : 1692607346543,
+        "duration" : 1257
+      }
+    } ]
+  },
+  "49ccb18a938bc5637986ce89a2dadda1" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "72360d5c09a4f143",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 错误信息：Traceback (most recent call last):\n  File \"D:\\Pytest_API\\comm\\check_result.py\", line 53, in test_check_result\n    assert str(expected_code) == str(actual_code)\nAssertionError",
+      "time" : {
+        "start" : 1692607342970,
+        "stop" : 1692607344054,
+        "duration" : 1084
+      }
+    } ]
+  },
+  "8e9a4b74436a3daa54a0dec9f91ae0f9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3b16dd76c66dbeec",
+      "status" : "passed",
+      "time" : {
+        "start" : 1692607344222,
+        "stop" : 1692607345278,
+        "duration" : 1056
+      }
+    } ]
+  },
+  "29a71dd64a500011f2b28cd2ebb36e64" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b8ded886d0b2162e",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 1 == 5",
+      "time" : {
+        "start" : 1692547332143,
+        "stop" : 1692547332143,
+        "duration" : 0
+      }
+    } ]
+  },
+  "ab95e2351e086cdbee5aa0ef9ee9edd9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "668871d5009388e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1692607341709,
+        "stop" : 1692607342966,
+        "duration" : 1257
+      }
+    } ]
+  }
+}

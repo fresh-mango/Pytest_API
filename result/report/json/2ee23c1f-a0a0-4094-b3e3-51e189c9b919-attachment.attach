@@ -1,0 +1,1 @@
+{'check_mode': 'check_code', 'expected_code': 400, 'expected_desc': {'$..msg': '门店车型代码重复！'}, 'expected_format': {'code': 101058, 'success': False, 'data': {}}}

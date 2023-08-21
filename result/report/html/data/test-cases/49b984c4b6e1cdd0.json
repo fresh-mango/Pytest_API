@@ -1,0 +1,187 @@
+{
+  "uid" : "49b984c4b6e1cdd0",
+  "name" : "登录",
+  "fullName" : "comm.testcase_parameter.Testcase_Suite#testcase_parameter",
+  "historyId" : "ab95e2351e086cdbee5aa0ef9ee9edd9",
+  "time" : {
+    "start" : 1692461952409,
+    "stop" : 1692461953545,
+    "duration" : 1136
+  },
+  "description" : "登录成功",
+  "descriptionHtml" : "<p>登录成功</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1692461949794,
+      "stop" : 1692461949849,
+      "duration" : 55
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "登录成功",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "请求数据信息：",
+      "time" : {
+        "start" : 1692461953534,
+        "stop" : 1692461953540,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5ea4add60cb04c40",
+        "name" : "请求地址",
+        "source" : "5ea4add60cb04c40.attach",
+        "type" : "text/plain",
+        "size" : 53
+      }, {
+        "uid" : "8fe2f4cd1e8e9144",
+        "name" : "请求头信息",
+        "source" : "8fe2f4cd1e8e9144.attach",
+        "type" : "text/plain",
+        "size" : 70
+      }, {
+        "uid" : "c091ddf69c513cc",
+        "name" : "请求数据",
+        "source" : "c091ddf69c513cc.attach",
+        "type" : "text/plain",
+        "size" : 152
+      }, {
+        "uid" : "9d987fc8a24732da",
+        "name" : "上传文件信息",
+        "source" : "9d987fc8a24732da.attach",
+        "type" : "text/plain",
+        "size" : 92
+      }, {
+        "uid" : "acd7457e6d71c0c6",
+        "name" : "请求响应信息",
+        "source" : "acd7457e6d71c0c6.attach",
+        "type" : "text/plain",
+        "size" : 72
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 5,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "验证信息--校验响应码",
+      "time" : {
+        "start" : 1692461953540,
+        "stop" : 1692461953544,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ca5c473f51b9dc80",
+        "name" : "待核验信息",
+        "source" : "ca5c473f51b9dc80.attach",
+        "type" : "text/plain",
+        "size" : 177
+      }, {
+        "uid" : "a894c0bf1a9547dc",
+        "name" : "检查模式",
+        "source" : "a894c0bf1a9547dc.attach",
+        "type" : "text/plain",
+        "size" : 10
+      }, {
+        "uid" : "ab10fc816c7dd82e",
+        "name" : "预期响应码",
+        "source" : "ab10fc816c7dd82e.attach",
+        "type" : "text/plain",
+        "size" : 3
+      }, {
+        "uid" : "fb60904e5fae7cdb",
+        "name" : "实际响应码",
+        "source" : "fb60904e5fae7cdb.attach",
+        "type" : "text/plain",
+        "size" : 3
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 4,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "64643ce30d1b2f89",
+      "name" : "log",
+      "source" : "64643ce30d1b2f89.txt",
+      "type" : "text/plain",
+      "size" : 2629
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 10,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "story",
+    "value" : "参数化--测试用例"
+  }, {
+    "name" : "epic",
+    "value" : "测试用例汇总"
+  }, {
+    "name" : "feature",
+    "value" : "测试用例集合"
+  }, {
+    "name" : "parentSuite",
+    "value" : "comm"
+  }, {
+    "name" : "suite",
+    "value" : "testcase_parameter"
+  }, {
+    "name" : "subSuite",
+    "value" : "Testcase_Suite"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-T1AV2QHS"
+  }, {
+    "name" : "thread",
+    "value" : "4936-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "comm.testcase_parameter"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "{'case_id': 1, 'api_name': '登录', 'case_name': '登录成功', 'is_run': True, 'level': 'blocker', 'premise_caseid': None, 'premise_key': 'msg', 'relevance_field': '测试', 'url': 'api/blade-auth/oauth/token?', 'method': 'post', 'data': {'tenantId': '683252', 'username': 'admin', 'password': '670b14728ad9902aecba32e22fa4f6bd', 'grant_type': 'password', 'scope': 'all', 'type': 'account'}, 'headers': {'Authorization': 'Basic c2FiZXI6bGRAMTIzNDU2', 'Tenant-Id': '683252'}, 'mime_type': 'application/x-www-form-urlencoded', 'files': {'图片1': 'C:\\\\Users\\\\asus\\\\Desktop\\\\1.jpg', '图片2': 'C:\\\\Users\\\\asus\\\\Desktop\\\\2.jpg'}, 'cookies': False, 'timeout': 10, 'validate': {'check_mode': 'check_code', 'expected_code': 400, 'expected_desc': {'$..msg': '门店车型代码重复！'}, 'expected_format': {'code': 101058, 'success': False, 'data': {}}}}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "49b984c4b6e1cdd0.json",
+  "parameterValues" : [ "{'case_id': 1, 'api_name': '登录', 'case_name': '登录成功', 'is_run': True, 'level': 'blocker', 'premise_caseid': None, 'premise_key': 'msg', 'relevance_field': '测试', 'url': 'api/blade-auth/oauth/token?', 'method': 'post', 'data': {'tenantId': '683252', 'username': 'admin', 'password': '670b14728ad9902aecba32e22fa4f6bd', 'grant_type': 'password', 'scope': 'all', 'type': 'account'}, 'headers': {'Authorization': 'Basic c2FiZXI6bGRAMTIzNDU2', 'Tenant-Id': '683252'}, 'mime_type': 'application/x-www-form-urlencoded', 'files': {'图片1': 'C:\\\\Users\\\\asus\\\\Desktop\\\\1.jpg', '图片2': 'C:\\\\Users\\\\asus\\\\Desktop\\\\2.jpg'}, 'cookies': False, 'timeout': 10, 'validate': {'check_mode': 'check_code', 'expected_code': 400, 'expected_desc': {'$..msg': '门店车型代码重复！'}, 'expected_format': {'code': 101058, 'success': False, 'data': {}}}}" ]
+}

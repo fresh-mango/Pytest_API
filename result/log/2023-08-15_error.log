@@ -1,0 +1,192 @@
+2023-08-15 08:47:39,016 - check_result - check_result.py  - [line:35] - ERROR: 
+预期响应码:400 
+实际响应码:401 
+错误信息:Traceback (most recent call last):
+  File "D:\Pytest_API\comm\check_result.py", line 33, in test_check_result
+    assert str(expected_code) == str(actual_code)
+AssertionError
+
+2023-08-15 08:47:41,476 - check_result - check_result.py  - [line:70] - ERROR: 
+预期文本信息:请求未授权 
+实际文本信息:deptSeriesId:must not be null 
+错误信息:Traceback (most recent call last):
+  File "D:\Pytest_API\comm\check_result.py", line 68, in test_check_result
+    assert expected_value == actual_value[0]
+AssertionError
+
+2023-08-15 08:47:43,865 - check_result - check_result.py  - [line:35] - ERROR: 
+预期响应码:401 
+实际响应码:400 
+错误信息:Traceback (most recent call last):
+  File "D:\Pytest_API\comm\check_result.py", line 33, in test_check_result
+    assert str(expected_code) == str(actual_code)
+AssertionError
+
+2023-08-15 08:47:46,265 - check_result - check_result.py  - [line:97] - ERROR: 
+预期数据:{'code': 101058, 'success': False, 'data': {}, 'msg': '门店车型代码重复！'} 
+实际数据:{'msg': '请求未授权', 'code': 401, 'data': None} 
+数据格式校验结果：[root['success']] 
+错误信息:Traceback (most recent call last):
+  File "D:\Pytest_API\comm\check_result.py", line 92, in test_check_result
+    assert expected_format == actual_format
+AssertionError
+
+2023-08-15 08:50:40,385 - check_result - check_result.py  - [line:97] - ERROR: 
+预期数据:{'code': 101058, 'success': False, 'data': {}, 'msg': '门店车型代码重复！'} 
+实际数据:{'msg': '请求未授权', 'code': 401, 'data': None} 
+数据格式校验结果：[root['success']] 
+错误信息:Traceback (most recent call last):
+  File "D:\Pytest_API\comm\check_result.py", line 92, in test_check_result
+    assert expected_format == actual_format
+AssertionError
+
+2023-08-15 08:51:56,837 - check_result - check_result.py  - [line:97] - ERROR: 
+预期数据:{'code': 101058, 'success': False, 'data': {}, 'msg': '门店车型代码重复！'} 
+实际数据:{'msg': '请求未授权', 'code': 401, 'data': None} 
+数据格式校验结果：[root['success']] 
+错误信息:Traceback (most recent call last):
+  File "D:\Pytest_API\comm\check_result.py", line 92, in test_check_result
+    assert expected_format == actual_format
+AssertionError
+
+2023-08-15 08:53:21,072 - check_result - check_result.py  - [line:35] - ERROR: 
+预期响应码:401 
+实际响应码:400 
+错误信息:Traceback (most recent call last):
+  File "D:\Pytest_API\comm\check_result.py", line 33, in test_check_result
+    assert str(expected_code) == str(actual_code)
+AssertionError
+
+2023-08-15 08:53:22,514 - check_result - check_result.py  - [line:97] - ERROR: 
+预期数据:{'code': 101058, 'success': False, 'data': {}, 'msg': '门店车型代码重复！'} 
+实际数据:{'error': 'invalid_grant', 'error_description': 'Bad credentials'} 
+数据格式校验结果：[root['error'], root['error_description']] 
+错误信息:Traceback (most recent call last):
+  File "D:\Pytest_API\comm\check_result.py", line 92, in test_check_result
+    assert expected_format == actual_format
+AssertionError
+
+2023-08-15 08:55:06,517 - check_result - check_result.py  - [line:35] - ERROR: 
+预期响应码:400 
+实际响应码:401 
+错误信息:Traceback (most recent call last):
+  File "D:\Pytest_API\comm\check_result.py", line 33, in test_check_result
+    assert str(expected_code) == str(actual_code)
+AssertionError
+
+2023-08-15 08:55:10,272 - check_result - check_result.py  - [line:97] - ERROR: 
+预期数据:{'code': 101058, 'success': False, 'data': {}, 'msg': '门店车型代码重复！'} 
+实际数据:{'msg': '请求未授权', 'code': 401, 'data': None} 
+数据格式校验结果：[root['success']] 
+错误信息:Traceback (most recent call last):
+  File "D:\Pytest_API\comm\check_result.py", line 92, in test_check_result
+    assert expected_format == actual_format
+AssertionError
+
+2023-08-15 08:58:46,173 - check_result - check_result.py  - [line:70] - ERROR: 
+预期文本信息:门店车型代码重复！ 
+实际文本信息:请求未授权 
+错误信息:Traceback (most recent call last):
+  File "D:\Pytest_API\comm\check_result.py", line 68, in test_check_result
+    assert expected_value == actual_value[0]
+AssertionError
+
+2023-08-15 08:58:49,938 - check_result - check_result.py  - [line:97] - ERROR: 
+预期数据:{'code': 101058, 'success': False, 'data': {}, 'msg': '门店车型代码重复！'} 
+实际数据:{'msg': '请求未授权', 'code': 401, 'data': None} 
+数据格式校验结果：[root['success']] 
+错误信息:Traceback (most recent call last):
+  File "D:\Pytest_API\comm\check_result.py", line 92, in test_check_result
+    assert expected_format == actual_format
+AssertionError
+
+2023-08-15 08:59:32,811 - check_result - check_result.py  - [line:97] - ERROR: 
+预期数据:{'code': 101058, 'success': False, 'data': {}, 'msg': '门店车型代码重复！'} 
+实际数据:{'msg': '请求未授权', 'code': 401, 'data': None} 
+数据格式校验结果：[root['success']] 
+错误信息:Traceback (most recent call last):
+  File "D:\Pytest_API\comm\check_result.py", line 92, in test_check_result
+    assert expected_format == actual_format
+AssertionError
+
+2023-08-15 09:01:05,120 - check_result - check_result.py  - [line:97] - ERROR: 
+预期数据:{'code': 101058, 'success': False, 'data': {}, 'msg': '门店车型代码重复！'} 
+实际数据:{'msg': '请求未授权', 'code': 401, 'data': None} 
+数据格式校验结果：[root['success']] 
+错误信息:Traceback (most recent call last):
+  File "D:\Pytest_API\comm\check_result.py", line 92, in test_check_result
+    assert expected_format == actual_format
+AssertionError
+
+2023-08-15 09:05:31,641 - check_result - check_result.py  - [line:97] - ERROR: 
+预期数据:{'code': 101058, 'success': False, 'data': {}} 
+实际数据:{'msg': '请求未授权', 'code': 401, 'data': None} 
+数据格式校验结果：[root['msg']] 
+错误信息:Traceback (most recent call last):
+  File "D:\Pytest_API\comm\check_result.py", line 92, in test_check_result
+    assert expected_format == actual_format
+AssertionError
+
+2023-08-15 09:05:36,016 - check_result - check_result.py  - [line:97] - ERROR: 
+预期数据:{'code': 101058, 'success': False, 'data': {}, 'msg': '门店车型代码重复！'} 
+实际数据:{'msg': '请求未授权', 'code': 401, 'data': None} 
+数据格式校验结果：[root['success']] 
+错误信息:Traceback (most recent call last):
+  File "D:\Pytest_API\comm\check_result.py", line 92, in test_check_result
+    assert expected_format == actual_format
+AssertionError
+
+2023-08-15 09:07:43,422 - check_result - check_result.py  - [line:97] - ERROR: 
+预期数据:{'code': 101058, 'success': False, 'data': {}} 
+实际数据:{'error': 'invalid_grant', 'error_description': 'Bad credentials'} 
+数据格式校验结果：[root['error'], root['error_description']] 
+错误信息:Traceback (most recent call last):
+  File "D:\Pytest_API\comm\check_result.py", line 92, in test_check_result
+    assert expected_format == actual_format
+AssertionError
+
+2023-08-15 09:07:50,841 - check_result - check_result.py  - [line:97] - ERROR: 
+预期数据:{'code': 101058, 'success': False, 'data': {}, 'msg': '门店车型代码重复！'} 
+实际数据:{'msg': '请求未授权', 'code': 401, 'data': None} 
+数据格式校验结果：[root['success']] 
+错误信息:Traceback (most recent call last):
+  File "D:\Pytest_API\comm\check_result.py", line 92, in test_check_result
+    assert expected_format == actual_format
+AssertionError
+
+2023-08-15 12:25:26,487 - check_result - check_result.py  - [line:97] - ERROR: 
+预期数据:{'code': 101058, 'success': False, 'data': {}} 
+实际数据:{'error': 'invalid_grant', 'error_description': 'Bad credentials'} 
+数据格式校验结果：[root['error'], root['error_description']] 
+错误信息:Traceback (most recent call last):
+  File "D:\Pytest_API\comm\check_result.py", line 92, in test_check_result
+    assert expected_format == actual_format
+AssertionError
+
+2023-08-15 12:25:35,096 - check_result - check_result.py  - [line:97] - ERROR: 
+预期数据:{'code': 101058, 'success': False, 'data': {}, 'msg': '门店车型代码重复！'} 
+实际数据:{'msg': '请求未授权', 'code': 401, 'data': None} 
+数据格式校验结果：[root['success']] 
+错误信息:Traceback (most recent call last):
+  File "D:\Pytest_API\comm\check_result.py", line 92, in test_check_result
+    assert expected_format == actual_format
+AssertionError
+
+2023-08-15 12:40:25,254 - check_result - check_result.py  - [line:97] - ERROR: 
+预期数据:{'code': 101058, 'success': False, 'data': {}} 
+实际数据:{'error': 'invalid_grant', 'error_description': 'Bad credentials'} 
+数据格式校验结果：[root['error'], root['error_description']] 
+错误信息:Traceback (most recent call last):
+  File "D:\Pytest_API\comm\check_result.py", line 92, in test_check_result
+    assert expected_format == actual_format
+AssertionError
+
+2023-08-15 12:40:52,261 - check_result - check_result.py  - [line:97] - ERROR: 
+预期数据:{'code': 101058, 'success': False, 'data': {}} 
+实际数据:{'error': 'invalid_grant', 'error_description': 'Bad credentials'} 
+数据格式校验结果：[root['error'], root['error_description']] 
+错误信息:Traceback (most recent call last):
+  File "D:\Pytest_API\comm\check_result.py", line 92, in test_check_result
+    assert expected_format == actual_format
+AssertionError
+

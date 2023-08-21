@@ -1,0 +1,1848 @@
+{
+	"login1": {
+		"tenantId": "683252",
+		"username": "admin",
+		"password": "670b14728ad9902aecba32e22fa4f6bd",
+		"grant_type": "password",
+		"scope": "all",
+		"type": "account"
+	},
+	"dept_info":{
+	},
+	"init_brand":"delete from uas_car_brand where brand_code='YS';",
+	"add_brand": {
+		"brandName": "永生",
+		"firstLetter": "Y",
+		"brandCode": "YS",
+		"countryName": 1,
+		"technologyTypeName": 1,
+		"logoUrl": "upload/20211112/363d77d9d25927a26d972a1b2165cd24.png",
+		"country": 1,
+		"technologyType": 1
+	},
+	"add_brand_same": {
+		"brandName": "永生2",
+		"firstLetter": "Y2",
+		"brandCode": "YS2",
+		"countryName": 1,
+		"technologyTypeName": 1,
+		"logoUrl": "upload/20211112/363d77d9d25927a26d972a1b2165cd24.png",
+		"country": 1,
+		"technologyType": 1
+	},
+	"modify_brand": {
+		"id": "1459561657317011458",
+		"brandName": "永久",
+		"firstLetter": "Y",
+		"brandCode": "YJ",
+		"countryName": 1,
+		"technologyTypeName": 1,
+		"logoUrl": "upload/20211103/9e9ab953655b55e5618b129ef098b752.png",
+		"country": 1,
+		"technologyType": 1
+	},
+	"brand_country":{
+		"code":"country"
+	},
+	"brand_technology":{
+		"code":"technology"
+	},
+	"detail_brand":{
+		"id":"1459561657317011458"
+	},
+	"page_brand": {
+		"brandCode":"YJ",
+		"brandName":"",
+		"firstLetter":"",
+		"current": "1",
+		"size": "20"
+	},
+	"carlist_info":{
+		"carBrands":"66",
+		"carFirms":"",
+		"carSeries":""
+	},
+	"query_brand":{
+		"brandCode":"YJ",
+		"brandName":"永久",
+		"firstLetter":"Y"
+	},
+	"query_common":{
+		"carBrandId":"",
+		"carFirmId":"",
+		"carSeriesId":""
+	},	
+	"delete_brand":{
+		"ids":"1455754841319616514"
+	},
+	"init_firm":"delete from uas_car_firm where firm_code='YSQC'",
+	"add_firm": {
+		"brandId": "1459561657317011458",
+		"firmCode": "YSQC",
+		"firmName": "永生汽车厂"
+	},
+	"add_firm_same": {
+		"brandId": "1459561657317011458",
+		"firmCode": "YSQC",
+		"firmName": "永生汽车厂"
+	},
+	"modify_firm": {
+		"id": "1459586954372395010",
+		"brandId": "1459561657317011458",
+		"brandName": "永久",
+		"firmCode": "YJQC",
+		"firmName": "永久汽车"
+	},
+	"detail_firm":{
+		"id":"1459586954372395010"
+	},
+	"page_firm": {
+		"brandId":"1459561657317011458",
+		"current": "1",
+		"firmCode": "",
+		"firmName":"",
+		"size":"20"
+	},
+	"query_firm":{
+		"firmCode":"YJQC",
+		"firmName":"永久汽车"
+	},
+	"delete_firm":{
+		"ids":"1455721724554850305"
+	},
+	"init_series":"delete from uas_car_series where series_code='SDX';",
+	"add_car_series": {
+		"brandId": "1459561657317011458",
+		"firmId": "1459562288081612801",
+		"carSizeType": 1,
+		"imgUrl": "upload/20211112/363d77d9d25927a26d972a1b2165cd24.png",
+		"seriesCode": "SDX",
+		"seriesName": "闪电系"
+	},
+	"add_car_series_same": {
+		"brandId": "1459561657317011458",
+		"firmId": "1459586954372395010",
+		"carSizeType": 1,
+		"imgUrl": "upload/20211112/363d77d9d25927a26d972a1b2165cd24.png",
+		"seriesCode": "SDX",
+		"seriesName": "闪电系"
+	},
+	"modify_car_series": {
+		"id": "1459590280652599297",
+		"brandId": "1459561657317011458",
+		"imgUrl": "upload/20211112/363d77d9d25927a26d972a1b2165cd24.png",
+		"firmId": "1459586954372395010",
+		"seriesCode": "CJX",
+		"seriesName": "长久系",
+		"brandName": "永久",
+		"firmName": "永久汽车",
+		"carSizeTypeName": "小型车",
+		"carSizeType": 1,
+		"imgUrlName": "http://037969-ldx-test.oss-cn-shenzhen.aliyuncs.com/upload/20211112/363d77d9d25927a26d972a1b2165cd24.png?Expires=1636833450&OSSAccessKeyId=LTAI4GAeif9PYPgDV8AE8KpV&Signature=yMVeo4VvT5%2BaqdZILgaAk0UVKDk%3D"
+	},
+	"detail_car_series":{
+		"id":"1459590280652599297"
+	},
+	"page_car_series": {
+		"brandId":"1459561657317011458",
+		"firmId":"1459586954372395010",
+		"seriesCode":"",
+		"seriesName": "",
+		"current": "1",
+		"size":"10"
+	},
+	"grade_car_series":{
+		"code":"car_grade"
+	},
+	"query_car_series":{
+		"seriesCode":"CJX",
+		"seriesName":"长久系"
+	},
+	"delete_car_series":{
+		"ids":"1455005159073067010"
+	},
+	"dept_car_series":{
+		
+	},
+	"init__shop_brand":"delete from erps_dept_car_brand where brand_id='1459806824443752449'",
+	"add_shop_brand":{
+		"id":"",
+		"brandId": "1459806824443752449"
+	},
+	"add_shop_brand_same":{
+		"id":"",
+		"brandId": "1459806824443752449"
+		
+	},
+	"detail_shop_brand":{
+		"id":"1459802234688696322"
+	},
+	"page_shop_brand":{
+		"deptBrandId":"1459802234688696322",
+		"firmCode":"YJ",
+		"firmName":"永久汽车",
+		"tenantId":"",
+		"current":"1",
+		"size":"20"
+	},
+	"delete_shop_brand":{
+		"ids":"1455733354106253314"
+	},
+	"init_shop_firm":"delete from erps_dept_car_firm where firm_id='1459806924394016770';",
+	"add_shop_firm":{
+		"Id": "",
+		"firmId": "1459806924394016770",
+		"deptBrandId": "1459802234688696322"
+	},
+	"add_shop_firm_same":{
+		"id": "",
+		"firmId": "1459806924394016770",
+		"deptBrandId": "1459802234688696322"
+	},
+	"detail_shop_firm":{
+		"id":"1459812503787728897"
+	},
+	"page_shop_firm":{
+		"deptBrandId":"1459802234688696322",
+		"firmCode":"YJQC",
+		"firmName":"永久汽车",
+		"tenantId":"",
+		"current":"1",
+		"size":"20"
+	},
+	"delete_shop_firm":{
+		"ids":"1455736598568169473"
+	},
+	"init_shop_car_series":"delete from erps_dept_car_series where series_id ='1459807050902614017';",
+	"add_shop_car_series":{
+		"Id": "",
+		"deptBrandId": "1459807138610212866",
+		"deptFirmId": "1459807917366636546",
+		"seriesId": "1459807050902614017",
+		"status": "1"
+	},
+	"add_shop_car_series_same":{
+		"brandId": "1459802234688696322",
+		"firmId": "1459811719574007809",
+		"deptBrandId": "1459802234688696322",
+		"deptFirmId": "1459812528886444033",
+		"seriesId": "1459811719838248962",
+		"status": 1
+	},
+
+	"modify_shop_car_series":{
+		"id": "1459814679163498497",
+		"seriesId": "1459590280652599297",
+		"status": 1,
+		"firmName": "永久汽车",
+		"deptFirmId": "1459812503787728897",
+		"seriesCode": "CJX",
+		"brandName": "永久",
+		"seriesName": "长久系",
+		"deptBrandId": "1459802234688696322",
+		"imgsUrl": "upload/20211112/363d77d9d25927a26d972a1b2165cd24.png"
+	},
+
+	"detail_shop_car_series":{
+		"id":"1459814679163498497"
+	},
+	"page_shop_car_series":{
+		"brandId":"1459561657317011458",
+		"firmId":"1459586954372395010",
+		"seriesCode":"XJX",
+		"seriesName":"长久系",
+		"current":"1",
+		"size":"20"
+	},
+	"status_shop_car_series":{
+		"ids":"1458333214139543553",
+		"status":"1"
+	},
+	"delete_shop_car_series":{
+		"ids":"1455737351500263426"
+	},
+	"init_shop_model":"delete from erps_dept_car_type where type_code ='';",
+	"add_shop_model":{
+		"brandId": "",
+		"brandName": "1458318638291415042",
+		"deptBrandId": "1458318638291415042",
+		"firmId": "",
+		"deptFirmId": "1458324917537796097",
+		"seriesId": "",
+		"deptSeriesId": "1458333214139543553",
+		"typeName": "SUV",
+		"typeCode": "SUV001",
+		"ageStyleType": 1,
+		"ageStyleTypeName": 1,
+		"gearBoxType": 1,
+		"gearBoxTypeName": 1,
+		"engineCapacity": "100",
+		"emissionStandard": 1,
+		"emissionStandardName": 1,
+		"versionNo": "200",
+		"powerType": 1,
+		"powerTypeName": 1,
+		"guidePrice": "180000",
+		"costPrice": "80000",
+		"status": 1,
+		"furl": "",
+		"imgsUrl": "upload/20211110/3aec02f7b0f82b3df4ba643f39dc4d69.jpg",
+		"remark": "<p>8万成本</p>"
+	},
+	"add_shop_model_same":{
+		"brandId": "",
+		"brandName": "1458318638291415042",
+		"deptBrandId": "1458318638291415042",
+		"firmId": "",
+		"deptFirmId": "1458324917537796097",
+		"seriesId": "",
+		"deptSeriesId": "1458333214139543553",
+		"typeName": "SUV",
+		"typeCode": "SUV001",
+		"ageStyleType": 1,
+		"ageStyleTypeName": 1,
+		"gearBoxType": 1,
+		"gearBoxTypeName": 1,
+		"engineCapacity": "100",
+		"emissionStandard": 1,
+		"emissionStandardName": 1,
+		"versionNo": "200",
+		"powerType": 1,
+		"powerTypeName": 1,
+		"guidePrice": "180000",
+		"costPrice": "80000",
+		"status": 1,
+		"furl": "",
+		"imgsUrl": "upload/20211110/3aec02f7b0f82b3df4ba643f39dc4d69.jpg",
+		"remark": "<p>8万成本</p>"
+	},
+	"modify_shop_model":{
+		"id": "1458339541008052225",
+		"deptBrandId": "1458318638291415042",
+		"brandName": "迪拉克",
+		"firmName": "迪拉克汽车一厂",
+		"deptFirmId": "1458324917537796097",
+		"seriesName": "1458333214139543553",
+		"deptSeriesId": "1458333214139543553",
+		"typeName": "SUV",
+		"typeCode": "SUV001",
+		"ageStyleType": 1,
+		"ageStyleTypeName": "2022款",
+		"gearBoxType": 1,
+		"gearBoxTypeName": "手动",
+		"engineCapacity": "100",
+		"emissionStandard": 1,
+		"emissionStandardName": "国Ⅵ",
+		"versionNo": "200",
+		"powerType": 1,
+		"powerTypeName": "汽油",
+		"guidePrice": "180000.00",
+		"costPrice": "80000.00",
+		"status": 1,
+		"imgsUrl": "upload/20211110/3aec02f7b0f82b3df4ba643f39dc4d69.jpg",
+		"remark": "<p>8万成本,18万售价</p>",
+		"imgUrlList": ["http://037969-ldx-test.oss-cn-shenzhen.aliyuncs.com/upload/20211110/3aec02f7b0f82b3df4ba643f39dc4d69.jpg?Expires=1636533816&OSSAccessKeyId=LTAI4GAeif9PYPgDV8AE8KpV&Signature=JoY0fA0uHrtztR4%2BDzyYJB72Vjo%3D"]
+	},
+	"detail_shop_model":{
+		"id":"1458339541008052225"
+	},
+	"page_shop_model":{
+		"carTypeId":"",
+		"deptBrandId":"",
+		"deptFirmId":"",
+		"deptSeriesId":"",
+		"typeCode":"",
+		"typeName":"",
+		"tenantId":"",
+		"current":"1",
+		"size":"20"
+		
+	},
+	"status_shop_model":{
+		"ids":"1458339541008052225",
+		"status":"1"
+	},
+	"delete_shop_model":{
+		"ids":"1452468976309301249"
+	},
+	"init_shop_car_colour":"delete from erps_dept_car_color where color_code ='';",
+	"add_shop_car_colour_inside":{
+		"deptBrandId": "1458318638291415042",
+		"deptFirmId": "1458324917537796097",
+		"deptSeriesId": "1458333214139543553",
+		"colorType": 1,
+		"colorName": "粉色-内",
+		"firmColorCode": "FS"
+	},
+	"add_shop_car_colour_outside":{
+		"id": "1458346587585572866",
+		"deptBrandId": "1458318638291415042",
+		"deptFirmId": "1458324917537796097",
+		"deptSeriesId": "1458333214139543553",
+		"colorType": 2,
+		"colorName": "绿色-外",
+		"firmColorCode": "LS"
+	},
+	"add_shop_car_colour_same":{
+		"deptBrandId": "1458318638291415042",
+		"deptFirmId": "1458324917537796097",
+		"deptSeriesId": "1458333214139543553",
+		"colorType": 1,
+		"colorName": "粉色-内",
+		"firmColorCode": "FS"
+	},
+	"modify_shop_car_colour":{
+		"id": "1458346587585572866",
+		"deptBrandId": "1458318638291415042",
+		"deptFirmId": "1458324917537796097",
+		"deptSeriesId": "1458333214139543553",
+		"colorType": 2,
+		"colorName": "绿色-外",
+		"firmColorCode": "LS"
+	},
+	"detail_shop_car_colour":{
+		"id":"1458345224906534914"
+	},
+	"page_shop_car_colour":{
+		"deptBrandId":"",
+		"deptFirmId":"",
+		"deptSeriesId":"",
+		"colorName":"",
+		"colorType":"",
+		"firmColorCode":"",
+		"tenantId":"",
+		"current":"1",
+		"size":"20"		
+	},
+	"delete_shop_car_colour":{
+		"ids":"1455771285747462146"
+	},
+	"init_shop_package":"delete from erps_dept_optional_package where package_code ='';",
+	"add_shop_package":{
+		"deptBrandId": "1458318638291415042",
+		"deptFirmId": "1458324917537796097",
+		"deptSeriesId": "1458333214139543553",
+		"packageName": "一生一世",
+		"packageCode": "YSYS",
+		"remark": "共天涯",
+		"status": 1
+	},
+	"detail_shop_package":{
+		"id":"1458342759280734210"
+	},
+	"page_shop_package":{
+		"deptBrandId":"",
+		"deptFirmId":"",
+		"deptSeriesId":"",
+		"packageCode":"",
+		"packageName":"",
+		"tenantId":"",
+		"current":"1",
+		"size":"20"
+	},
+	"delete_shop_package":{
+		"ids":"1455744126404325378"
+	},
+	"carpricerecord":{
+		"carTypeId":"",
+		"current":"1",
+		"size":"20"
+	},
+	"init_finance":"delete from erps_finance where finance_code ='HQYH';",
+	"add_finance_rebate":{
+		"address": "东风街11号",
+		"bankName": "黑龙江银行广州支行",
+		"financeCode": "HLJYH",
+		"financeName": "黑龙江银行",
+		"financeType": "1",
+		"phone": "15011114444",
+		"remark": "你好,黑龙江",
+		"taxpayerIdentify": "HLJ999",
+		"basicsDetailVOS": "",
+		"highInterestDetailVOS": "",
+		"percentRebate": "0.01",
+		"quarterRebate": "0.02",
+		"rebateType": 1
+	},
+	"add_finance_gear":{
+		"address": "北京路22号",
+		"bankName": "佳木斯银行大梁支行",
+		"financeCode": "JMSYH",
+		"financeName": "佳木斯银行",
+		"financeType": "1",
+		"phone": "15011117777",
+		"remark": "你好,佳木斯",
+		"taxpayerIdentify": "JMS8888",
+		"basicsDetailVOS": "",
+		"highInterestDetailVOS": "",
+		"detailDTOS": [{
+			"id": "",
+			"operateType": 1,
+			"type": 1,
+			"loanAmount": "0",
+			"loanMaxAmount": "10000",
+			"periods12": "100",
+			"periods18": "200",
+			"periods24": "300",
+			"periods36": "400",
+			"periods48": "500",
+			"periods60": "600",
+			"forbid": false,
+			"positionType": 0,
+			"isFromEdit1": false,
+			"isFromEdit2": false,
+			"isFromEdit3": false,
+			"isFromEdit4": false,
+			"isFromEdit5": false,
+			"isFromEdit6": false,
+			"isFromEdit7": false
+		}, {
+			"id": "",
+			"operateType": 1,
+			"type": 1,
+			"loanAmount": "",
+			"loanMaxAmount": "0",
+			"periods12": "",
+			"periods18": "",
+			"periods24": "",
+			"periods36": "",
+			"periods48": "",
+			"periods60": "",
+			"forbid": true,
+			"positionType": 2,
+			"isFromEdit1": false,
+			"isFromEdit2": false,
+			"isFromEdit3": false,
+			"isFromEdit4": false,
+			"isFromEdit5": false,
+			"isFromEdit6": false,
+			"isFromEdit7": false
+		}, {
+			"id": "",
+			"operateType": 1,
+			"type": 2,
+			"loanAmount": "0",
+			"loanMaxAmount": "30000",
+			"periods36": "111",
+			"periods48": "222",
+			"periods60": "333",
+			"forbid": false,
+			"positionType": 0,
+			"isFromEdit1": false,
+			"isFromEdit2": false,
+			"isFromEdit3": false,
+			"isFromEdit4": false,
+			"isFromEdit5": false,
+			"isFromEdit6": false,
+			"isFromEdit7": false
+		}, {
+			"id": "",
+			"operateType": 1,
+			"type": 2,
+			"loanAmount": "",
+			"loanMaxAmount": "0",
+			"periods36": "",
+			"periods48": "",
+			"periods60": "",
+			"forbid": true,
+			"positionType": 2,
+			"isFromEdit1": false,
+			"isFromEdit2": false,
+			"isFromEdit3": false,
+			"isFromEdit4": false,
+			"isFromEdit5": false,
+			"isFromEdit6": false,
+			"isFromEdit7": false
+		}],
+		"rebateType": 2
+	},
+	"add_finance_same":{
+		"address": "东风街11号",
+		"bankName": "黑龙江银行广州支行",
+		"financeCode": "HLJYH",
+		"financeName": "黑龙江银行",
+		"financeType": "1",
+		"phone": "15011114444",
+		"remark": "你好,黑龙江",
+		"taxpayerIdentify": "HLJ999",
+		"basicsDetailVOS": "",
+		"highInterestDetailVOS": "",
+		"percentRebate": "0.01",
+		"quarterRebate": "0.02",
+		"rebateType": 1
+	},
+	"modify_finance_rebate":{
+		"address": "南宁街坊1号",
+		"bankName": "南宁银行支行",
+		"financeCode": "ADLYYH",
+		"financeName": "南宁银行解放路银行",
+		"financeType": "1",
+		"phone": "18055556666",
+		"remark": "你好,南宁",
+		"taxpayerIdentify": "sz12345",
+		"percentRebate": "0.01",
+		"quarterRebate": "0.02",
+		"rebateType": 1,
+		"id": "1459080772805783553"
+	},
+	"modify_finance_gear":{
+		"address": "北京路22号",
+		"bankName": "加拿大银行美国支行",
+		"financeCode": "JNDYH",
+		"financeName": "加拿大银行",
+		"financeType": "1",
+		"phone": "1302222333",
+		"remark": "你好,加拿大,改了电话好为13022223333",
+		"taxpayerIdentify": "jnd123456",
+		"basicsDetailVOS": [{
+			"id": "1459081809474154497",
+			"positionType": 0,
+			"financeId": "1459081809448988673",
+			"loanAmount": "0.00",
+			"loanMaxAmount": "10000.00",
+			"periods12": "100.00",
+			"periods18": "200.00",
+			"periods24": "300.00",
+			"periods36": "400.00",
+			"periods48": "500.00",
+			"periods60": "600.00",
+			"forbid": false,
+			"isFromEdit1": false,
+			"isFromEdit2": false,
+			"isFromEdit3": false,
+			"isFromEdit4": false,
+			"isFromEdit5": false,
+			"isFromEdit6": false,
+			"isFromEdit7": false,
+			"operateType": 2
+		}, {
+			"id": "1459081809482543105",
+			"positionType": 2,
+			"financeId": "1459081809448988673",
+			"loanAmount": "0",
+			"loanMaxAmount": "0.00",
+			"periods12": "",
+			"periods18": "",
+			"periods24": "",
+			"periods36": "",
+			"periods48": "",
+			"periods60": "",
+			"forbid": true,
+			"isFromEdit1": false,
+			"isFromEdit2": false,
+			"isFromEdit3": false,
+			"isFromEdit4": false,
+			"isFromEdit5": false,
+			"isFromEdit6": false,
+			"isFromEdit7": false,
+			"operateType": 2
+		}],
+		"highInterestDetailVOS": [{
+			"id": "1459081809486737410",
+			"positionType": 0,
+			"financeId": "1459081809448988673",
+			"loanAmount": "0.00",
+			"loanMaxAmount": "30000.00",
+			"periods12": "",
+			"periods18": "",
+			"periods24": "",
+			"periods36": "111.00",
+			"periods48": "222.00",
+			"periods60": "333.00",
+			"forbid": false,
+			"isFromEdit1": false,
+			"isFromEdit2": false,
+			"isFromEdit3": false,
+			"isFromEdit4": false,
+			"isFromEdit5": false,
+			"isFromEdit6": false,
+			"isFromEdit7": false,
+			"operateType": 2
+		}, {
+			"id": "1459081809490931713",
+			"positionType": 2,
+			"financeId": "1459081809448988673",
+			"loanAmount": "0",
+			"loanMaxAmount": "0.00",
+			"periods12": "",
+			"periods18": "",
+			"periods24": "",
+			"periods36": "",
+			"periods48": "",
+			"periods60": "",
+			"forbid": true,
+			"isFromEdit1": false,
+			"isFromEdit2": false,
+			"isFromEdit3": false,
+			"isFromEdit4": false,
+			"isFromEdit5": false,
+			"isFromEdit6": false,
+			"isFromEdit7": false,
+			"operateType": 2
+		}],
+		"detailDTOS": [{
+			"id": "1459081809474154497",
+			"positionType": 0,
+			"financeId": "1459081809448988673",
+			"loanAmount": "0.00",
+			"loanMaxAmount": "10000.00",
+			"periods12": "100.00",
+			"periods18": "200.00",
+			"periods24": "300.00",
+			"periods36": "400.00",
+			"periods48": "500.00",
+			"periods60": "600.00",
+			"forbid": false,
+			"isFromEdit1": false,
+			"isFromEdit2": false,
+			"isFromEdit3": false,
+			"isFromEdit4": false,
+			"isFromEdit5": false,
+			"isFromEdit6": false,
+			"isFromEdit7": false,
+			"operateType": 2
+		}, {
+			"id": "1459081809482543105",
+			"positionType": 2,
+			"financeId": "1459081809448988673",
+			"loanAmount": "0",
+			"loanMaxAmount": "0.00",
+			"periods12": "",
+			"periods18": "",
+			"periods24": "",
+			"periods36": "",
+			"periods48": "",
+			"periods60": "",
+			"forbid": true,
+			"isFromEdit1": false,
+			"isFromEdit2": false,
+			"isFromEdit3": false,
+			"isFromEdit4": false,
+			"isFromEdit5": false,
+			"isFromEdit6": false,
+			"isFromEdit7": false,
+			"operateType": 2
+		}, {
+			"id": "1459081809486737410",
+			"positionType": 0,
+			"financeId": "1459081809448988673",
+			"loanAmount": "0.00",
+			"loanMaxAmount": "30000.00",
+			"periods12": "",
+			"periods18": "",
+			"periods24": "",
+			"periods36": "111.00",
+			"periods48": "222.00",
+			"periods60": "333.00",
+			"forbid": false,
+			"isFromEdit1": false,
+			"isFromEdit2": false,
+			"isFromEdit3": false,
+			"isFromEdit4": false,
+			"isFromEdit5": false,
+			"isFromEdit6": false,
+			"isFromEdit7": false,
+			"operateType": 2
+		}, {
+			"id": "1459081809490931713",
+			"positionType": 2,
+			"financeId": "1459081809448988673",
+			"loanAmount": "0",
+			"loanMaxAmount": "0.00",
+			"periods12": "",
+			"periods18": "",
+			"periods24": "",
+			"periods36": "",
+			"periods48": "",
+			"periods60": "",
+			"forbid": true,
+			"isFromEdit1": false,
+			"isFromEdit2": false,
+			"isFromEdit3": false,
+			"isFromEdit4": false,
+			"isFromEdit5": false,
+			"isFromEdit6": false,
+			"isFromEdit7": false,
+			"operateType": 2
+		}],
+		"rebateType": 2,
+		"id": "1459081809448988673"
+	},
+	"detail_finance":{
+		"id":"1459080261297827842"
+	},
+	"page_finance":{
+		"financeName":"",
+		"financeType":"",
+		"current": "1",
+		"size": "20"
+	},
+	"delete_finance":{
+		"ids":"1455772183081054209"
+	},
+	"init_supplier":"delete from erps_supplier where code='XMY';",
+	"add_supplier":{
+		"id": "",
+		"name": "广东小蛮腰供应商",
+		"code": "XMY",
+		"liaison": "牛大胆",
+		"phone": "15011119999",
+		"detailAddress": "颐和园解放路100号",
+		"remark": "你好,小蛮腰,广州塔",
+		"province": "440103",
+		"city": "4401",
+		"area": "44"
+		},
+	"add_supplier_same":{
+		"id": "",
+		"name": "广东小蛮腰供应商",
+		"code": "XMY",
+		"liaison": "牛大胆",
+		"phone": "15011119999",
+		"detailAddress": "颐和园解放路100号",
+		"remark": "你好,小蛮腰,广州塔",
+		"province": "440103",
+		"city": "4401",
+		"area": "44"
+		},
+	"modify_supplier":{
+		"id": "1459047134068273153",
+		"name": "广东动物园供应商",
+		"code": "DWY",
+		"liaison": "罗小牛",
+		"phone": "15011116666",
+		"detailAddress": "解放路100号",
+		"remark": "动物园",
+		"province": 440103,
+		"city": 4401,
+		"area": 44,
+		"selectOmit": "广东省广州市荔湾区"
+	},
+	"detail_supplier":{
+		"ids":"1459047134068273153"
+	},
+	"page_supplier":{
+		"current":"1",
+		"liaison":"",
+		"name":"",
+		"size":"20"
+	},
+	"delete_supplier":{
+		"ids":"1455779319429263361"
+	},
+	"init_contract_template":"delete from erps_contract_template where template_type ='2';",
+	"add_contract_template":{
+		"contractType": 5,
+		"filePath": "upload/20211112/5d69b3133ad27a3c34768a85f5e81080.",
+		"name": "upload/20211112/5d69b3133ad27a3c34768a85f5e81080.",
+		"link": "http://037969-ldx-test.oss-cn-shenzhen.aliyuncs.com/upload/20211112/5d69b3133ad27a3c34768a85f5e81080.",
+		"templateType": "2",
+		"tenantId": ""
+	},
+	"add_contract_template_same":{
+		"contractType": 5,
+		"filePath": "upload/20211112/5d69b3133ad27a3c34768a85f5e81080.",
+		"name": "upload/20211112/5d69b3133ad27a3c34768a85f5e81080.",
+		"link": "http://037969-ldx-test.oss-cn-shenzhen.aliyuncs.com/upload/20211112/5d69b3133ad27a3c34768a85f5e81080.",
+		"templateType": "2",
+		"tenantId": ""
+	},
+	"modify_contract_template":{
+	"contractType": 2,
+	"filePath": "upload/20211112/c5aaeb72cde17ed825709146798aeaa1.",
+	"name": "upload/20211112/c5aaeb72cde17ed825709146798aeaa1.",
+	"link": "http://037969-ldx-test.oss-cn-shenzhen.aliyuncs.com/upload/20211112/c5aaeb72cde17ed825709146798aeaa1.",
+	"templateType": "3",
+	"tenantId": ""
+},
+	"detail_contract_template":{
+		"id":"1459060184989102082"
+	},
+	"page_contract_template":{
+		"contractType":"5",
+		"current":"1",
+		"size":"10"
+	},
+	"delete_contract_template":{
+		"ids":"1459047134068273153"
+	},
+	"init_aftermarket":"delete from erps_after_project_preset where after_project_type ='';",
+	"add_aftermarket":{
+		"id":"",
+		"afterProjectType": "2",
+		"afterProjectName": "终身延保",
+		"seriesId": "1459007615633780737",
+		"costPrice": "666",
+		"saleSinglePrice": "999",
+		"status": "1",
+		"remark": "终于一身"
+	},
+	"add_aftermarket_same":{
+		"id":"",
+		"afterProjectType": "2",
+		"afterProjectName": "终身延保",
+		"seriesId": "1459007615633780737",
+		"costPrice": "666",
+		"saleSinglePrice": "999",
+		"status": "1",
+		"remark": "终于一身"
+	},
+	"modify_aftermarket":{
+		"id":"1459071113562746881",
+		"afterProjectType": 3,
+		"afterProjectName": "发动机保养",
+		"seriesId": "1459007615633780737",
+		"costPrice": "5555",
+		"saleSinglePrice": "8888",
+		"status": "1",
+		"remark": "来吧,来我家"
+	},
+	"detail_aftermarket":{
+		"id":"1459071113562746881"
+	},
+	"page_aftermarket":{
+		"contractType":"",
+		"current":"1",
+		"size":"20"
+	},
+	"status_aftermarket_enable":{
+		"ids":"1459071113562746881",
+		"status":"1"
+	},
+	"status_aftermarket_disable":{
+		"ids":"1459071113562746881",
+		"status":"0"
+	},
+	"delete_aftermarket":{
+		"ids":"1455783110559985665"
+	},
+	"init_otherbusiness":"delete from erps_other_business where business_code ='';",
+	"add_otherbusiness":{
+		"businessType": 2,
+		"businessName": "代缴保险",
+		"businessCode": "djbx",
+		"costPrice": "50",
+		"salePrice": "100",
+		"remark": "50成本,100销售",
+		"status": 1
+	},
+	"add_otherbusiness_same":{
+		"businessType": 2,
+		"businessName": "代缴保险",
+		"businessCode": "djbx",
+		"costPrice": "50",
+		"salePrice": "100",
+		"remark": "50成本,100销售",
+		"status": 1
+	},
+	"modify_otherbusiness":{
+		"businessType": 2,
+		"businessName": "代缴保险",
+		"businessCode": "djbx",
+		"costPrice": "300",
+		"salePrice": "200",
+		"remark": "50成本变200,100销售变300",
+		"id": "1455118011805528066",
+		"status": 1
+},
+	"detail_otherbusiness":{
+		"id":"1455341536621424641"
+	},
+	"page_otherbusiness":{
+		"businessCode":"",
+		"businessName":"",
+		"businessType":"",
+		"current":"1",
+		"size":"20"
+	},
+	"delete_otherbusiness":{
+		"ids":"1455118011805528066"
+	},
+	"init_license":"delete from erps_card_cost where city_id ='6502';",
+	"add_license":{
+		"cityId": "6502",
+		"localCost": "6666",
+		"nonlocalCost": "8888",
+		"mortgageMoney": "9999",
+		"remark": "交100"
+	},
+	"modify_license":{
+		"id": "1455810503676850178",
+		"cityId": "1404",
+		"localCost": "16666.00",
+		"mortgageMoney": "28888.00",
+		"nonlocalCost": "39999.00",
+		"remark": "交押金"
+	},
+	"detail_license":{
+		"id":"1455810503676850178"
+	},
+	"page_license":{
+		"cityName":"",
+		"current":"1",
+		"regionLevel":"",
+		"size":"20"
+	},
+	"status_license_enable":{
+		"ids":"1455810503676850178",
+		"status":"1"	
+	},
+	"status_license_disable":{
+		"ids":"1455018082118463489",
+		"status":"0"
+	},
+	"init_lnsurance_type":"delete from erps_kind_insurance_type where kind_type_code='XFX';",
+	"add_lnsurance_type":[{
+		"kindTypeName": "体验险",
+		"kindTypeCode": "TYX",
+		"status": 1,
+		"id": ""
+	}],
+	"add_lnsurance_type_same":[{
+		"kindTypeName": "幸福险",
+		"kindTypeCode": "XFX",
+		"status": 1,
+		"id": ""
+	}],
+	"modify_lnsurance_type":[{
+		"kindTypeName": "失业险",
+		"kindTypeCode": "SYX",
+		"status": "0",
+		"id": "1459416444779425793"
+	}],
+	"detail_lnsurance_type":{
+		"id":"1459421741556232194"
+	},
+	"page_lnsurance_type":{
+		"current":"1",
+		"size":"20",
+		"tenantId":""
+	},
+	"status_lnsurance_type_enable":{
+		"ids":"1459421741556232194",
+		"status":"1"
+	},
+	"status_lnsurance_type_disable":{
+		"ids":"1459416444779425793",
+		"status":"0"
+	},
+	"delete_lnsurance_type":{
+		"ids":"1456089863478636546"
+	},
+	"init_lnsurance":"delete from erps_kind_insurance where kind_insurance_code='PABX';",
+	"add_lnsurance":{
+		"id": "",
+		"typeId": "1459410879726546946",
+		"kindInsuranceName": "平安保险",
+		"kindInsuranceCode": "PABX",
+		"remark": "平安保险保幸福"
+	},
+	"add_lnsurance_same":{
+		"id": "",
+		"typeId": "1459416444779425793",
+		"kindInsuranceName": "平安保险",
+		"kindInsuranceCode": "SYBX",
+		"remark": "失业保险保失业"
+	},
+	"modify_lnsurance":{
+		"id": "1459428894941704193",
+		"typeId": "1459416444779425793",
+		"kindInsuranceName": "失业保险",
+		"kindInsuranceCode": "SYBX",
+		"remark": "失业保险不不能保失业"
+	},
+	"detail_lnsurance":{
+		"id":"1459428441596162050"
+	},
+	"page_lnsurance":{
+		"current":"1",
+		"kindInsuranceCode":"",
+		"kindInsuranceName":"",
+		"size":"10",
+		"tenantId":"",
+		"typeId":""
+	},
+	"delete_lnsurance":{
+		"ids":"1456163201878126593"
+	},
+	"init_insurance_company":"delete from erps_insurance where insurance_code ='LABXGS';",
+	"add_insurance_company":{
+		"insuranceDTO": {
+			"insuranceCode": "LABXGS",
+			"insuranceName": "恋爱保险公司",
+			"remark": "恋爱保险公司保恋爱"
+		},
+		"insuranceRelKindDTO": [{
+			"insuranceId": "",
+			"operateType": 1,
+			"kindTypeId": "1459421741556232194",
+			"kindInsuranceId": "1459428441596162050",
+			"rebate": 0.06,
+			"remark": "返利0.06"
+		}, {}]
+	},
+	"add_insurance_company":{
+		"insuranceDTO": {
+			"insuranceCode": "LABXGS",
+			"insuranceName": "恋爱保险公司",
+			"remark": "恋爱保险公司保恋爱"
+		},
+		"insuranceRelKindDTO": [{
+			"insuranceId": "",
+			"operateType": 1,
+			"kindTypeId": "1459421741556232194",
+			"kindInsuranceId": "1459428441596162050",
+			"rebate": 0.06,
+			"remark": "返利0.06"
+		}, {}]
+	},
+	"modify_insurance_company":{
+		"insuranceDTO": {
+			"insuranceCode": "SYBXGS",
+			"insuranceName": "失业保险公司",
+			"remark": "失业保险公司保就业"
+		},
+		"insuranceRelKindDTO": [{
+			"insuranceId": "",
+			"operateType": 1,
+			"kindTypeId": "1459416444779425793",
+			"kindInsuranceId": "1459428894941704193",
+			"rebate": 0.08,
+			"remark": "返利0.8"
+		}, {}]
+	},
+	"detail_insurance_company":{
+		"id":"1459433383614541825"
+	},
+	"page_insurance_company":{
+		"current":"1",
+		"insuranceCode":"",
+		"insuranceName":"",
+		"size":"10",
+		"tenantId":""
+	},
+	"add_warehouse":{
+		"warehouseName": "南京仓",
+		"warehouseCode": "N001",
+		"areaId": "0",
+		"detailAddress": "深圳1路",
+		"liaison": "黄生",
+		"phone": "15011112222"
+},
+	"modify_warehouse":{
+		"warehouseName": "深圳华为仓",
+		"warehouseCode": "H2",
+		"areaId": "430321",
+		"detailAddress": "深圳22路",
+		"liaison": "核桃仁",
+		"phone": "15022225666",
+		"id": "1455850935475564546"
+},
+	"detail_warehouse":{
+		"id":"1455850935475564546"
+	},
+	"page_warehouse":{
+		"current":"1",
+		"liaison":"",
+		"size":"10",
+		"warehouseCode":"",
+		"warehouseName":""
+		
+	},
+	"delete_warehouse":{
+		"ids":"1454066095113695233"
+	},
+	"init_distributor":"delete from erps_distributor where distributor_name ='华北路虎总经销';",
+	"add_distributor":{
+		"id": "",
+		"imgsUrl": "undefined,",
+		"imgResources": ["http://037969-ldx-test.oss-cn-shenzhen.aliyuncs.com/upload/20211027/ca37a5eeb126f768550859739bfeb565.jpg?Expires=1636011821&OSSAccessKeyId=LTAI4GAeif9PYPgDV8AE8KpV&Signature=cNyYX0BApLHlx7gY1mr%2Bd1E2GH0%3D"],
+		"distributorName": "华北路虎总经销",
+		"address": "深圳罗湖区解放1路",
+		"postCode": "531501",
+		"phone": "15811112222",
+		"societyCreditCode": "SZ456666",
+		"bankName": "招商银行深圳南山分行",
+		"bankAccount": "6226093755076938",
+		"legalPersonName": "黄细花",
+		"agentPersonName": "黄晓明",
+		"longitudeLatitude": "1566.25839",
+		"imgResource": "upload/20211104/01f5eee094499327c90c66cc06730f5a.png"
+	},
+	"modify_distributor":{
+		"id": "1459450157772894209",
+		"imgsUrl": "undefined,",
+		"imgResources": ["http://037969-ldx-test.oss-cn-shenzhen.aliyuncs.com/upload/20211027/ca37a5eeb126f768550859739bfeb565.jpg?Expires=1636011821&OSSAccessKeyId=LTAI4GAeif9PYPgDV8AE8KpV&Signature=cNyYX0BApLHlx7gY1mr%2Bd1E2GH0%3D"],
+		"distributorName": "南方本田总经销",
+		"address": "广州解放1路",
+		"postCode": "531501",
+		"phone": "15811112222",
+		"societyCreditCode": "SZ456899",
+		"bankName": "广州银行",
+		"bankAccount": "6226093755079999",
+		"legalPersonName": "陆小凤",
+		"agentPersonName": "牛大胆",
+		"longitudeLatitude": "1566.25839",
+		"imgResource": "upload/20211104/01f5eee094499327c90c66cc06730f5a.png"
+	},
+	"detail_distributor":{
+		"id":"1450775993084080130"
+	},
+	"page_distributor":{
+		"current":"1",
+		"distributorName":"",
+		"size":"10"
+	},
+	"add_dcc_clue":{
+		"createDept": "1446315795123077121",
+		"clientName": "刘明",
+		"clientPhone": "15011112222",
+		"sparePhone": "15811113333",
+		"levelKey": 1,
+		"seriesId": "1455740808772775938",
+		"clientSource": 1,
+		"remark": "微信推荐",
+		"businessStatus": 31
+	},
+	"modify_dcc_clue":{
+		"id": "1456178514568998913",
+		"createDept": "1446315795123077121",
+		"clientName": "刘明",
+		"clientPhone": "15011112222",
+		"sexKeyName": "2",
+		"levelKeyName": "2",
+		"levelKey": "2",
+		"seriesName": "1455740808772775938",
+		"seriesId": "1455740808772775938",
+		"carTypeName": "1455741387733528577",
+		"intentionColorName": "1456179731504361474",
+		"buyCarNatureName": "1",
+		"clientSourceName": "微信",
+		"clientSource": "1",
+		"dccAttacheName": "1446391565366956033",
+		"dccAttache": "1446391565366956033",
+		"areaId": "320102",
+		"detailAddress": "解放2路",
+		"followDescribeName": "6",
+		"followDescribe": "6",
+		"nextFollowTime": "2021-11-07 16:39:58",
+		"competingGoodsSeries": "路虎揽胜",
+		"predictArrivalTime": "2021-11-30 0:0:0",
+		"elseReplenish": "欢迎,欢迎",
+		"sexKey": "2",
+		"carTypeId": "1455741387733528577",
+		"buyCarNature": "1",
+		"intentionColor": "1456179731504361474",
+		"businessStatus": "32"
+	},
+	"detail_dcc_clue":{
+		"id":"1456189844004859906"
+	},
+	"pagel_dcc_clue":{
+		"bigAllocationTime":"",
+		"bigCreateTime":"",
+		"businessStatus":"",
+		"clientName":"",
+		"clientPhone":"",
+		"clientSource":"",
+		"current":"1",
+		"endAllocationTime":"",
+		"endCreateTime":"",
+		"seriesIds":"",
+		"size":"10"		
+	},
+	"no_intention_dcc_clue":{
+		"ids":"1456181835451133954"
+	},
+	"transfer_dcc_clue":{
+		"dccAttache":"1446391565366956033",
+		"ids":"1456189844004859906"
+	},
+	"add_dcc_follow":{
+		"carTypeId": "",
+		"competingCarType": "雷豹",
+		"followDescribe": 1,
+		"followWay": 1,
+		"intentionColor": "",
+		"levelKey": 1,
+		"nextFollowTime": "2021-11-05 17:40:3",
+		"predictArrivalTime": "2021-11-12 00:00:00",
+		"priceType": 2,
+		"remark": "微信朋友",
+		"resultStatus": 1,
+		"series1Id": "1455740808772775938",
+		"series2Id": "",
+		"threadCode": "XS00220211104009",
+		"type": 2
+	},
+	"modify_dcc_follow":{
+		"id": "1456189844004859906",
+		"createDept": "1446315795123077121",
+		"clientName": "陆笑",
+		"clientPhone": "150111112222",
+		"sparePhone": "15022225588",
+		"sexKeyName": "男",
+		"levelKeyName": "H",
+		"levelKey": 1,
+		"seriesName": "天麓自由风",
+		"seriesId": "1455740808772775938",
+		"carTypeName": "重型大卡",
+		"buyCarNatureName": "首次",
+		"clientSourceName": "微信",
+		"clientSource": 1,
+		"dccAttacheName": "测试",
+		"dccAttache": "1446391565366956033",
+		"areaId": 1303,
+		"detailAddress": "解放1路"
+},
+	"detail_dcc_follow":{
+		"id":"1456189844004859906"
+	},
+	"page_dcc_follow":{
+		"type":"",
+		"bigCreateTime":"",
+		"bigNextVisitTime":"",
+		"businessStatus":"",
+		"clientName":"",
+		"clientPhone":"",
+		"clientSource":"",
+		"current":"1",
+		"endCreateTime":"",
+		"endNextVisitTime":"",
+		"resultStatus":"",
+		"seriesId":"",
+		"size":"10"
+	},
+	"delete_dcc_follow":{
+		"ids":"1456184709056884738"
+	},
+	"dccrecord_dcc_follow":{
+		"carTypeId": "",
+		"competingCarType": "路虎",
+		"followDescribe": 1,
+		"followWay": 2,
+		"intentionColor": "1456179942503018498",
+		"levelKey": 2,
+		"nextFollowTime": "2021-11-07 18:10:22",
+		"predictArrivalTime": "2021-11-30 00:00:00",
+		"priceType": 3,
+		"remark": "朋友推荐",
+		"resultStatus": 2,
+		"series1Id": "1455739911636316162",
+		"series2Id": "1455739911636316162",
+		"threadCode": "XS00220211104006",
+		"type": 2
+	},
+	"page_dccrecord_dcc_follow":{
+		"current":"1",
+		"size":"10",
+		"threadCode":""
+	},
+	"add_customer_flow":{
+		"customerFlowNo": "",
+		"passengerFlowNo": "",
+		"salesConsultant": "",
+		"customerName": "黄丹麦",
+		"phone": "15011113338",
+		"arrivalTime": "2021-11-07 11:35:43",
+		"receptionWay": 1,
+		"purposeGrade": "",
+		"salesConsultantId": "1446391565366956033",
+		"passengerFlowSource": "",
+		"arrivalType": 1,
+		"sex": 1,
+		"peopleNum": "2",
+		"channel": 1,
+		"area": "深圳南山",
+		"buyCount": "0",
+		"isDrive": "",
+		"remark": "欢迎深圳朋友",
+		"intentionCarTypeDTOList": [{
+			"carTypeId": "1455741387733528577",
+			"operateType": 1,
+			"customerFlowId": "",
+			"id": "",
+			"intentionType": 0,
+			"potentialCustomerId": ""
+		}],
+		"sourceFrom": 1,
+		"isPush": 0
+	},
+	"modify_customer_flow":{
+		"area": "深圳南山",
+		"arrivalTime": "2021-11-05 13:42:17",
+		"arrivalType": 1,
+		"buyCount": "2",
+		"channel": 2,
+		"id": "1456497473566601217",
+		"customerFlowNo": "KL00220211105005",
+		"customerName": "杜晓东",
+		"intentionCarTypeDTOList": [{
+			"carTypeId": "1456180697406435330",
+			"potentialCustomerId": "",
+			"customerFlowId": "",
+			"id": "",
+			"intentionType": 0,
+			"operateType": 1
+		}],
+		"isPush": "",
+		"operate": "",
+		"peopleNum": "4",
+		"phone": "18011112666",
+		"pushSalesConsultantId": "1450297842330550274",
+		"receptionWay": 2,
+		"remark": "你好,中国",
+		"salesConsultantId": "1450297842330550274",
+		"sex": 2,
+		"sourceFrom": 2
+	},
+	"customer_flow_detail":{
+		"id":"1456497473566601217"
+	},
+	"page_customer_flow":{
+		"arrivalBeginTime":"",
+		"arrivalEndTime":"",
+		"current":"1",
+		"customerName":"",
+		"id":"",
+		"isPush":"",
+		"phone":"",
+		"salesConsultantId":"",
+		"size":"10",
+		"sourceFrom":"",
+		"tenantId":""
+	},
+	"repeat_customer_flow":{
+		"deptId":"",
+		"phone":"15911110000"
+	},
+	"merge_customer_flow":{
+		"id":"1456507128502087681"
+	},
+	"push_customer_flow":{
+		"salesConsultant": "1446391565366956033",
+		"customerFlowId": "1456507128502087681",
+		"isCustomerName": false,
+		"isSalesConsultant": false,
+		"isSex": false,
+		"isSourceFrom": false
+	},
+	"merge_potential_flow":{
+		"phone":"15911110000"
+	},
+	"detail_track_customer":{
+		"createDept":"",
+		"createTime":"",
+		"createUser":"",
+		"deptId":"",
+		"filingOperate":"",
+		"flowStatus":"",
+		"followResult":"",
+		"followTime":"",
+		"followWay":"",
+		"follower":"",
+		"id":"",
+		"intentionLevel":"",
+		"isDeleted":"",
+		"isDrive":"",
+		"labelIds":"",
+		"nextTime":"",
+		"potentialId":"1456507128502087681",
+		"receptionWay":"",
+		"recordType":"",
+		"remark":"",
+		"salesConsultantId":"",
+		"sourceFrom":"",
+		"status":"",
+		"subject":"",
+		"tenantId":"",
+		"updateTime":"",
+		"updateUser":""
+	},
+	"page_track_customer":{
+		"current":"1",
+		"potentialId":"",
+		"size":"10",
+		"subject":""	
+	},
+	"query_sale_consultant":{
+	
+	},
+	"perfect_potential_customer":{
+		"address": "解放1路",
+		"age": "100",
+		"areaId": 120101,
+		"budget": "0",
+		"id": "1456507658305597442",
+		"identificationNo": "452624198307090458",
+		"identificationType": 0,
+		"intentionCarTypeDTOList": [{
+			"carTypeId": "1456180697406435330",
+			"operateType": 1,
+			"customerFlowId": "",
+			"id": "",
+			"intentionType": 1,
+			"potentialCustomerId": ""
+		}],
+		"intentionLevel": 1,
+		"isDrive": 1,
+		"nextFollowTime": "2021-11-06 03:51:31",
+		"remark": "中国你好",
+		"sex": 1,
+		"type": 0
+	},
+	"detail_potential_customer":{
+		"id":"1456507658305597442"
+	},
+	"page_potential_customer":{
+		"current":"",
+		"customerName":"",
+		"filingBeginTime":"",
+		"filingEndTime":"",
+		"intentionLevel":"",
+		"phone":"",
+		"potentialCustomerNo":"1456507658305597442",
+		"potentialStatus":"",
+		"salesConsultantId":"",
+		"sex":"",
+		"simple":"",
+		"size":"10",
+		"tenantId":"",
+		"type":""
+
+	},
+	"follow_up_potential_customer":{
+		"followTime": "2021-11-05 16:09:43",
+		"followWay": "3",
+		"followResult": "0",
+		"isDrive": "1",
+		"intentionLevel": "2",
+		"nextFollowTime": "2021-11-08 04:09:43",
+		"remark": "胡娜月",
+		"id": "1456502126039592962"
+	},
+	"activation_potential_customer":{
+		"activationTime": "",
+		"followResult": "1",
+		"followTime": "2021-11-05 16:35:50",
+		"followWay": "3",
+		"id": "1456502126039592962",
+		"intentionLevel": "5",
+		"isDrive": "1",
+		"labelIds": "",
+		"nextFollowTime": "2021-11-30 00:00:00",
+		"remark": "中国风"
+	},
+	"transfer_customer_flow":{
+		"id":"1456507658305597442",
+		"salesConsultantId":"1450297842330550274"
+	},
+	"add_car_info":{
+		"putStorageType": 1,
+		"carStorageStatus": 1,
+		"inTransitDate": "2021-11-05 12:00:00",
+		"supplierId": "1455784783130980354",
+		"supplierName": "",
+		"brandId": "1455734917302382594",
+		"seriesId": "1455739911636316162",
+		"carTypeId": "1456180697406435330",
+		"outColorId": "1456179942503018498",
+		"inColorId": "1456179842166878210",
+		"packageInfo": "1455745718457266178",
+		"ageStyleName": "2022款",
+		"ageStyleType": 1,
+		"versionNo": "200",
+		"vinNo": "12345789012345679",
+		"engineNo": "123456",
+		"costPrice": "100000",
+		"retailPrice": "180000",
+		"producedDate": "2021-11-01 12:00:00",
+		"subscriberName": "黄潇",
+		"takeCarType": "到店自提",
+		"takeCarNo": "A001",
+		"putDate": "2021-11-06 12:00:00",
+		"outOrder": "c123456",
+		"freightMoney": "100",
+		"remark1": "100大洋"
+	},
+	"detail_car_info":{
+		"id":"1456555054699966466"
+	},
+	"page_car_info":{
+		"carStorageStatus":"",
+		"bigDeliveryDate":"",
+		"bigInventoryDay":"",
+		"bigRetreatDate":"",
+		"brandId":"",
+		"carTypeIds":"",
+		"carUser":"",
+		"current":"1",
+		"endDeliveryDate":"",
+		"endInventoryDay":"",
+		"endRetreatDate":"",
+		"engineNo":"",
+		"inColorId":"",
+		"isSubscribe":"",
+		"outColorId":"",
+		"salesConsultant":"",
+		"seriesIds":"",
+		"size":"",
+		"vinNo":""
+
+	},
+	"bath_warehouse_car":[{
+		"id": "1456555054699966466",
+		"carStorageStatus": 2,
+		"keyCode": "a1111",
+		"subscriberName": "杜先生",
+		"putStorageDate": "2021-11-05 12:00:00",
+		"warehouseId": "1455850458709028866"}, 
+		{
+		"id": "1456548132580028418",
+		"carStorageStatus": 2,
+		"keyCode": "b2222",
+		"subscriberName": "黄潇",
+		"putStorageDate": "2021-11-05 12:00:00",
+		"warehouseId": "1455850458709028866"
+	}],
+	"mark_cash_car":[{
+		"id": "1456555054699966466",
+		"isCashCar": 1,
+		"subscriberName": "杜先生"
+	}],
+	"unmark_cash_car":[{
+		"id": "1456548132580028418",
+		"isCashCar": 0,
+		"subscriberName": "黄潇"
+	}],
+	"number_model_proportion":{
+		"brandId":"",
+		"carStorageStatus":"1",
+		"seriesIds":""
+	},
+	"list_number_car":{
+		"deptSeriesId":"",
+		"deptSeriesName":"",
+		"deptTypeId":"",
+		"deptTypeName":"",
+		"type":""
+	},
+	"number_car_series_proportion":{
+		"brandId":"",
+		"carStorageStatus":"1"
+	},
+	"delete_car_info":{
+		"ids":"1456548132580028418"
+	},
+	"add_partstype":{
+		"partsTypeName": "后视镜",
+		"partsTypeCode": "HSJ",
+		"remark": "进口货"
+	},
+	"modify_partstype":{
+		"id": "1458386277508886529",
+		"createUser": "1446292876069801986",
+		"createDept": "1446292862010982402",
+		"createTime": "2021-11-10 18:49:18",
+		"updateUser": "1446292876069801986",
+		"updateTime": "2021-11-10 18:49:18",
+		"status": "1",
+		"isDeleted": "0",
+		"tenantId": "037969",
+		"partsTypeName": "后视镜",
+		"partsTypeCode": "HSJ",
+		"remark": "进口货,后视镜"
+	},
+	"detail_partstype":{
+		"id":"1458386277508886529"
+	},
+	"page_partstype":{
+		"partsTypeCode":"",
+		"partsTypeName":"",
+		"current":"1",
+		"size":"20"
+	},
+	"delete_partstype":{
+		"ids":"1458358717001543681"
+	},
+	"init_partslabel":"delete from erpa_parts_label where label_code='FLB'",
+	"add_partslabel":{
+		"id": "",
+		"labelName": "菲律宾",
+		"labelCode": "FLB",
+		"remark": "精密产品,请珍惜"
+
+	},
+	"modify_partslabel":{
+		"id": "1458405725527650305",
+		"labelName": "精密品",
+		"labelCode": "FLB",
+		"remark": "我们请珍惜,精密产品"
+	},
+	"detail_partslabel":{
+		"id":"1458405725527650305"
+	},
+	"page_partslabel":{
+		"labelCode":"",
+		"labelName":"",
+		"current":"1",
+		"size":"20"
+	},
+	"delete_partslabel":{
+		"ids":"1458362300312891393"
+	},
+	"add_partssupplier":{
+		"id": "",
+		"remark": "北京人来了",
+		"isDeleted": "",
+		"supplierAddress": "解放22路",
+		"supplierAreaId": "440303",
+		"supplierCode": "HNYE",
+		"supplierName": "海南椰岛",
+		"supplierRelationPerson": "海大人",
+		"supplierRelationWay": "18022228888"
+	},
+	"modify_partssupplier":{
+		"id": "1458391444673310721",
+		"remark": "南京人",
+		"isDeleted": "",
+		"supplierAddress": "解放22路",
+		"supplierAreaId": "440303",
+		"supplierCode": "QP",
+		"supplierName": "深圳壳牌润滑油",
+		"supplierRelationPerson": "牛大胆",
+		"supplierRelationWay": "1302222233333"
+	},
+	"detail_partssupplier":{
+		"id":"1458391444673310721"
+	},
+	"page_partssupplier":{
+		"supplierName":"",
+		"supplierRelationPerson":"",
+		"current":"",
+		"size":""
+	},
+	"delete_partssupplier":{
+		"ids":"1458366225745227777"
+	},
+	"add_partsmeter":{
+		"meterName": "桶",
+		"meterCode": "T",
+		"remark": "单位数量,桶",
+		"id": ""
+
+	},
+	"modify_partsmeter":{
+		"id": "1458388938803163138",
+		"meterName": "桶",
+		"meterCode": "T",
+		"remark": "单位数量,桶,好桶"
+	},
+	"detail_partsmeter":{
+		"id":"1458388938803163138"
+	},
+	"page_partsmeter":{
+		"meterCode":"",
+		"meterName":"",
+		"current":"1",
+		"size":"20"
+	},
+	"delete_partsmeter":{
+		"ids":"1458369305450688514"
+	},
+	"add_repairtype":{
+		"repairName": "车厢保养",
+		"repairCode": "CXBY",
+		"repairType": "1",
+		"remark": "一周一次保养",
+		"id": ""
+	},
+	"modify_repairtype":{
+		"id": "1458395356012785666",
+		"repairName": "车厢保养",
+		"repairCode": "CXBY",
+		"repairType": "1",
+		"remark": "我们这里一周一次保养"
+
+	},
+	"detail_repairtype":{
+		"id":"1458395356012785666"
+	},
+	"page_repairtype":{
+		"repairCode":"",
+		"repairName":"",
+		"repairType":"",
+		"current":"1",
+		"size":"20"
+	},
+	"delete_repairtype":{
+		"ids":"1458373174637408257"
+	},
+	"add_partsinfo":{	
+		"deptAfterCarSeriesId": "",
+		"deptAfterCarTypeId": "",
+		"id": "",
+		"isBoutique": 1,
+		"noTaxCostPrice": "100.00",
+		"partsCode": "HBX",
+		"partsLabelId": "1458362300312891393",
+		"partsMeterId": "1458369305450688514",
+		"partsName": "后备箱",
+		"partsSpellCode": "HBX",
+		"partsTypeId": "1458358717001543681",
+		"referenceClaimPrice": "500.00",
+		"referenceInsurancePrice": "300.00",
+		"saleUnitPrice": "200.00",
+		"status": "1",
+		"taxCostPrice": "150.00"
+	},
+	"modify_partsinfo":{
+		"deptAfterCarSeriesId": "",
+		"deptAfterCarTypeId": "",
+		"id": "1458398569772396546",
+		"isBoutique": 1,
+		"noTaxCostPrice": "100.00",
+		"partsCode": "HBX",
+		"partsLabelId": "1458362300312891393",
+		"partsMeterId": "1458369305450688514",
+		"partsName": "后备箱",
+		"partsSpellCode": "HBX",
+		"partsTypeId": "1458358717001543681",
+		"referenceClaimPrice": "500.00",
+		"referenceInsurancePrice": "300.00",
+		"saleUnitPrice": "200.00",
+		"status": "1",
+		"taxCostPrice": "800.00"
+	},
+	"detail_partsinfo":{
+		"id":"1458398569772396546"
+	},
+	"page_partsinfo":{
+		"partsCode":"",
+		"partsLabelId":"",
+		"partsName":"",
+		"partsSpellCode":"",
+		"current":"1",
+		"size":"20"
+	},
+	"status_partsinfo":{
+		"ids":"1458398569772396546",
+		"status":"0"
+	},
+	"delete_partsinfo":{
+		"ids":"1458376195580669954"
+	}
+		
+	
+
+
+	
+	
+	
+		
+	
+	
+
+
+
+}

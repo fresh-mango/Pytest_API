@@ -1,0 +1,187 @@
+{
+  "uid" : "dee3804c42faf13b",
+  "name" : "金融机构逻辑删除",
+  "fullName" : "comm.testcase_parameter.Testcase_Suite#testcase_parameter",
+  "historyId" : "8e9a4b74436a3daa54a0dec9f91ae0f9",
+  "time" : {
+    "start" : 1692546686189,
+    "stop" : 1692546687268,
+    "duration" : 1079
+  },
+  "description" : "删除金融机构",
+  "descriptionHtml" : "<p>删除金融机构</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1692546682558,
+      "stop" : 1692546682597,
+      "duration" : 39
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "删除金融机构",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "请求数据信息：",
+      "time" : {
+        "start" : 1692546687256,
+        "stop" : 1692546687263,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "359c03a8910cd0ac",
+        "name" : "请求地址",
+        "source" : "359c03a8910cd0ac.attach",
+        "type" : "text/plain",
+        "size" : 52
+      }, {
+        "uid" : "9cd144e58a91bb7f",
+        "name" : "请求头信息",
+        "source" : "9cd144e58a91bb7f.attach",
+        "type" : "text/plain",
+        "size" : 2060
+      }, {
+        "uid" : "567df0957b85b74",
+        "name" : "请求数据",
+        "source" : "567df0957b85b74.attach",
+        "type" : "text/plain",
+        "size" : 30
+      }, {
+        "uid" : "93c0023eb5a2d2be",
+        "name" : "上传文件信息",
+        "source" : "93c0023eb5a2d2be.attach",
+        "type" : "text/plain",
+        "size" : 4
+      }, {
+        "uid" : "1af0e59b78dcc22e",
+        "name" : "请求响应信息",
+        "source" : "1af0e59b78dcc22e.attach",
+        "type" : "text/plain",
+        "size" : 57
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 5,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "验证信息--校验响应码",
+      "time" : {
+        "start" : 1692546687264,
+        "stop" : 1692546687267,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "da6a67aadced3b94",
+        "name" : "待核验信息",
+        "source" : "da6a67aadced3b94.attach",
+        "type" : "text/plain",
+        "size" : 177
+      }, {
+        "uid" : "f8d4637d46e919a6",
+        "name" : "检查模式",
+        "source" : "f8d4637d46e919a6.attach",
+        "type" : "text/plain",
+        "size" : 10
+      }, {
+        "uid" : "83cc181274e45fc4",
+        "name" : "预期响应码",
+        "source" : "83cc181274e45fc4.attach",
+        "type" : "text/plain",
+        "size" : 3
+      }, {
+        "uid" : "5c23b723e201d212",
+        "name" : "实际响应码",
+        "source" : "5c23b723e201d212.attach",
+        "type" : "text/plain",
+        "size" : 3
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 4,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "bb13644bd9180b87",
+      "name" : "log",
+      "source" : "bb13644bd9180b87.txt",
+      "type" : "text/plain",
+      "size" : 4373
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 10,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "epic",
+    "value" : "测试用例汇总"
+  }, {
+    "name" : "story",
+    "value" : "参数化--测试用例"
+  }, {
+    "name" : "feature",
+    "value" : "测试用例集合"
+  }, {
+    "name" : "parentSuite",
+    "value" : "comm"
+  }, {
+    "name" : "suite",
+    "value" : "testcase_parameter"
+  }, {
+    "name" : "subSuite",
+    "value" : "Testcase_Suite"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-T1AV2QHS"
+  }, {
+    "name" : "thread",
+    "value" : "17020-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "comm.testcase_parameter"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "{'case_id': 3, 'api_name': '金融机构逻辑删除', 'case_name': '删除金融机构', 'is_run': True, 'level': 'normal', 'premise_caseid': None, 'premise_key': 'error', 'relevance_field': 'ids', 'url': 'api/ld-erps/finance/remove', 'method': 'post', 'data': {'ids': '1455772183081054209'}, 'headers': {'Content-Type': 'application/x-www-form-urlencoded', 'Authorization': 'Basic c2FiZXI6bGRAMTIzNDU2', 'Blade-Auth': 'bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZW5hbnRfaWQiOiI2ODMyNTIiLCJ0ZW5hbnRfbmFtZSI6Iua8lOekuuenn-aItyjmlbDmja7lvILluLjmmoLlgZzkvb_nlKgpIiwidXNlcl9uYW1lIjoiYWRtaW4iLCJkZXB0X25hbWUiOiLmvJTnpLrnp5_miLciLCJyZWFsX25hbWUiOiJhZG1pbiIsImF2YXRhciI6InVwbG9hZC8yMDIyMDExMi8zZTg3ZDI2YzZhMzUxOWM5YmM5N2YwM2I2Y2E0N2E3OS5wbmciLCJhdXRob3JpdGllcyI6WyJhZG1pbiJdLCJjbGllbnRfaWQiOiJzYWJlciIsInJvbGVfbmFtZSI6ImFkbWluIiwicG9zdF9pZCI6IjE0ODEyMDc0NTI2NzU5NDQ0NDkiLCJ1c2VyX2lkIjoiMTQ3MzQ4MjMxOTgxNzk2OTY2NSIsInJvbGVfaWQiOiIxNDczNDgyMzEwNTQwNjU2NjQxIiwicG9zdF9uYW1lIjoiY2VvIiwic2NvcGUiOlsiYWxsIl0sIm5pY2tfbmFtZSI6ImFkbWluIiwib2F1dGhfaWQiOiIiLCJkZXRhaWwiOnsidHlwZSI6IndlYiJ9LCJleHAiOjE2ODk2ODAxMzEsImRlcHRfaWQiOiIxNDczNDgyMzE0MzcwMDU2MTk0IiwicG93ZXJlZCBieSBsZCI6InBvd2VyZWQgYnkgYmxhZGV4IiwianRpIjoiNjY4NDAwOGEtYWUwMi00YzQ0LWE2OWItY2FiYzdkZjY3ZWUzIiwiYWNjb3VudCI6ImFkbWluIn0.u01NTOYLZSSCyoUsKowvKEWyTW_1qDeBXqdszhQkbxw', 'Cookie': 'saber-refresh-token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZW5hbnRfaWQiOiI2ODMyNTIiLCJ0ZW5hbnRfbmFtZSI6Iua8lOekuuenn-aItyjmlbDmja7lvILluLjmmoLlgZzkvb_nlKgpIiwidXNlcl9uYW1lIjoiYWRtaW4iLCJkZXB0X25hbWUiOiLmvJTnpLrnp5_miLciLCJyZWFsX25hbWUiOiJhZG1pbiIsImF2YXRhciI6InVwbG9hZC8yMDIyMDExMi8zZTg3ZDI2YzZhMzUxOWM5YmM5N2YwM2I2Y2E0N2E3OS5wbmciLCJhdXRob3JpdGllcyI6WyJhZG1pbiJdLCJjbGllbnRfaWQiOiJzYWJlciIsInJvbGVfbmFtZSI6ImFkbWluIiwicG9zdF9pZCI6IjE0ODEyMDc0NTI2NzU5NDQ0NDkiLCJ1c2VyX2lkIjoiMTQ3MzQ4MjMxOTgxNzk2OTY2NSIsInJvbGVfaWQiOiIxNDczNDgyMzEwNTQwNjU2NjQxIiwicG9zdF9uYW1lIjoiY2VvIiwic2NvcGUiOlsiYWxsIl0sIm5pY2tfbmFtZSI6ImFkbWluIiwiYXRpIjoiNjY4NDAwOGEtYWUwMi00YzQ0LWE2OWItY2FiYzdkZjY3ZWUzIiwib2F1dGhfaWQiOiIiLCJkZXRhaWwiOnsidHlwZSI6IndlYiJ9LCJleHAiOjE2OTAyODEzMzEsImRlcHRfaWQiOiIxNDczNDgyMzE0MzcwMDU2MTk0IiwicG93ZXJlZCBieSBsZCI6InBvd2VyZWQgYnkgYmxhZGV4IiwianRpIjoiZTg1NDE0NGQtZTY5Zi00MGY3LWJjM2MtNTZjOTU1ZjEzNDFiIiwiYWNjb3VudCI6ImFkbWluIn0.J8qEnQvTnFrl-WQrJRmIuOq468SeHwenrHrph6J-U20', 'dept_id': '1473482314370056194', 'Tenant-Id': '683252'}, 'mime_type': 'www-form-urlencoded', 'files': None, 'cookies': False, 'timeout': 10, 'validate': {'check_mode': 'check_code', 'expected_code': 401, 'expected_desc': {'$..msg': '门店车型代码重复！'}, 'expected_format': {'code': 101058, 'success': False, 'data': {}}}}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "dee3804c42faf13b.json",
+  "parameterValues" : [ "{'case_id': 3, 'api_name': '金融机构逻辑删除', 'case_name': '删除金融机构', 'is_run': True, 'level': 'normal', 'premise_caseid': None, 'premise_key': 'error', 'relevance_field': 'ids', 'url': 'api/ld-erps/finance/remove', 'method': 'post', 'data': {'ids': '1455772183081054209'}, 'headers': {'Content-Type': 'application/x-www-form-urlencoded', 'Authorization': 'Basic c2FiZXI6bGRAMTIzNDU2', 'Blade-Auth': 'bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZW5hbnRfaWQiOiI2ODMyNTIiLCJ0ZW5hbnRfbmFtZSI6Iua8lOekuuenn-aItyjmlbDmja7lvILluLjmmoLlgZzkvb_nlKgpIiwidXNlcl9uYW1lIjoiYWRtaW4iLCJkZXB0X25hbWUiOiLmvJTnpLrnp5_miLciLCJyZWFsX25hbWUiOiJhZG1pbiIsImF2YXRhciI6InVwbG9hZC8yMDIyMDExMi8zZTg3ZDI2YzZhMzUxOWM5YmM5N2YwM2I2Y2E0N2E3OS5wbmciLCJhdXRob3JpdGllcyI6WyJhZG1pbiJdLCJjbGllbnRfaWQiOiJzYWJlciIsInJvbGVfbmFtZSI6ImFkbWluIiwicG9zdF9pZCI6IjE0ODEyMDc0NTI2NzU5NDQ0NDkiLCJ1c2VyX2lkIjoiMTQ3MzQ4MjMxOTgxNzk2OTY2NSIsInJvbGVfaWQiOiIxNDczNDgyMzEwNTQwNjU2NjQxIiwicG9zdF9uYW1lIjoiY2VvIiwic2NvcGUiOlsiYWxsIl0sIm5pY2tfbmFtZSI6ImFkbWluIiwib2F1dGhfaWQiOiIiLCJkZXRhaWwiOnsidHlwZSI6IndlYiJ9LCJleHAiOjE2ODk2ODAxMzEsImRlcHRfaWQiOiIxNDczNDgyMzE0MzcwMDU2MTk0IiwicG93ZXJlZCBieSBsZCI6InBvd2VyZWQgYnkgYmxhZGV4IiwianRpIjoiNjY4NDAwOGEtYWUwMi00YzQ0LWE2OWItY2FiYzdkZjY3ZWUzIiwiYWNjb3VudCI6ImFkbWluIn0.u01NTOYLZSSCyoUsKowvKEWyTW_1qDeBXqdszhQkbxw', 'Cookie': 'saber-refresh-token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZW5hbnRfaWQiOiI2ODMyNTIiLCJ0ZW5hbnRfbmFtZSI6Iua8lOekuuenn-aItyjmlbDmja7lvILluLjmmoLlgZzkvb_nlKgpIiwidXNlcl9uYW1lIjoiYWRtaW4iLCJkZXB0X25hbWUiOiLmvJTnpLrnp5_miLciLCJyZWFsX25hbWUiOiJhZG1pbiIsImF2YXRhciI6InVwbG9hZC8yMDIyMDExMi8zZTg3ZDI2YzZhMzUxOWM5YmM5N2YwM2I2Y2E0N2E3OS5wbmciLCJhdXRob3JpdGllcyI6WyJhZG1pbiJdLCJjbGllbnRfaWQiOiJzYWJlciIsInJvbGVfbmFtZSI6ImFkbWluIiwicG9zdF9pZCI6IjE0ODEyMDc0NTI2NzU5NDQ0NDkiLCJ1c2VyX2lkIjoiMTQ3MzQ4MjMxOTgxNzk2OTY2NSIsInJvbGVfaWQiOiIxNDczNDgyMzEwNTQwNjU2NjQxIiwicG9zdF9uYW1lIjoiY2VvIiwic2NvcGUiOlsiYWxsIl0sIm5pY2tfbmFtZSI6ImFkbWluIiwiYXRpIjoiNjY4NDAwOGEtYWUwMi00YzQ0LWE2OWItY2FiYzdkZjY3ZWUzIiwib2F1dGhfaWQiOiIiLCJkZXRhaWwiOnsidHlwZSI6IndlYiJ9LCJleHAiOjE2OTAyODEzMzEsImRlcHRfaWQiOiIxNDczNDgyMzE0MzcwMDU2MTk0IiwicG93ZXJlZCBieSBsZCI6InBvd2VyZWQgYnkgYmxhZGV4IiwianRpIjoiZTg1NDE0NGQtZTY5Zi00MGY3LWJjM2MtNTZjOTU1ZjEzNDFiIiwiYWNjb3VudCI6ImFkbWluIn0.J8qEnQvTnFrl-WQrJRmIuOq468SeHwenrHrph6J-U20', 'dept_id': '1473482314370056194', 'Tenant-Id': '683252'}, 'mime_type': 'www-form-urlencoded', 'files': None, 'cookies': False, 'timeout': 10, 'validate': {'check_mode': 'check_code', 'expected_code': 401, 'expected_desc': {'$..msg': '门店车型代码重复！'}, 'expected_format': {'code': 101058, 'success': False, 'data': {}}}}" ]
+}

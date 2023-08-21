@@ -1,0 +1,448 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "LAPTOP-T1AV2QHS",
+    "children" : [ {
+      "name" : "11680-MainThread",
+      "children" : [ {
+        "name" : "金融机构逻辑删除",
+        "uid" : "60c516b7945c32f7",
+        "parentUid" : "23eeb82976c5bf1b54450d79a948341b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1692547253217,
+          "stop" : 1692547254298,
+          "duration" : 1081
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'case_id': 3, 'api_name': '金融机构逻辑删除', 'case_name': '删除金融机构', 'is_run': True, 'level': 'normal', 'premise_caseid': None, 'premise_key': 'error', 'relevance_field': 'ids', 'url': 'api/ld-erps/finance/remove', 'method': 'post', 'data': {'ids': '1455772183081054209'}, 'headers': {'Content-Type': 'application/x-www-form-urlencoded', 'Authorization': 'Basic c2FiZXI6bGRAMTIzNDU2', 'Blade-Auth': 'bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZW5hbnRfaWQiOiI2ODMyNTIiLCJ0ZW5hbnRfbmFtZSI6Iua8lOekuuenn-aItyjmlbDmja7lvILluLjmmoLlgZzkvb_nlKgpIiwidXNlcl9uYW1lIjoiYWRtaW4iLCJkZXB0X25hbWUiOiLmvJTnpLrnp5_miLciLCJyZWFsX25hbWUiOiJhZG1pbiIsImF2YXRhciI6InVwbG9hZC8yMDIyMDExMi8zZTg3ZDI2YzZhMzUxOWM5YmM5N2YwM2I2Y2E0N2E3OS5wbmciLCJhdXRob3JpdGllcyI6WyJhZG1pbiJdLCJjbGllbnRfaWQiOiJzYWJlciIsInJvbGVfbmFtZSI6ImFkbWluIiwicG9zdF9pZCI6IjE0ODEyMDc0NTI2NzU5NDQ0NDkiLCJ1c2VyX2lkIjoiMTQ3MzQ4MjMxOTgxNzk2OTY2NSIsInJvbGVfaWQiOiIxNDczNDgyMzEwNTQwNjU2NjQxIiwicG9zdF9uYW1lIjoiY2VvIiwic2NvcGUiOlsiYWxsIl0sIm5pY2tfbmFtZSI6ImFkbWluIiwib2F1dGhfaWQiOiIiLCJkZXRhaWwiOnsidHlwZSI6IndlYiJ9LCJleHAiOjE2ODk2ODAxMzEsImRlcHRfaWQiOiIxNDczNDgyMzE0MzcwMDU2MTk0IiwicG93ZXJlZCBieSBsZCI6InBvd2VyZWQgYnkgYmxhZGV4IiwianRpIjoiNjY4NDAwOGEtYWUwMi00YzQ0LWE2OWItY2FiYzdkZjY3ZWUzIiwiYWNjb3VudCI6ImFkbWluIn0.u01NTOYLZSSCyoUsKowvKEWyTW_1qDeBXqdszhQkbxw', 'Cookie': 'saber-refresh-token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZW5hbnRfaWQiOiI2ODMyNTIiLCJ0ZW5hbnRfbmFtZSI6Iua8lOekuuenn-aItyjmlbDmja7lvILluLjmmoLlgZzkvb_nlKgpIiwidXNlcl9uYW1lIjoiYWRtaW4iLCJkZXB0X25hbWUiOiLmvJTnpLrnp5_miLciLCJyZWFsX25hbWUiOiJhZG1pbiIsImF2YXRhciI6InVwbG9hZC8yMDIyMDExMi8zZTg3ZDI2YzZhMzUxOWM5YmM5N2YwM2I2Y2E0N2E3OS5wbmciLCJhdXRob3JpdGllcyI6WyJhZG1pbiJdLCJjbGllbnRfaWQiOiJzYWJlciIsInJvbGVfbmFtZSI6ImFkbWluIiwicG9zdF9pZCI6IjE0ODEyMDc0NTI2NzU5NDQ0NDkiLCJ1c2VyX2lkIjoiMTQ3MzQ4MjMxOTgxNzk2OTY2NSIsInJvbGVfaWQiOiIxNDczNDgyMzEwNTQwNjU2NjQxIiwicG9zdF9uYW1lIjoiY2VvIiwic2NvcGUiOlsiYWxsIl0sIm5pY2tfbmFtZSI6ImFkbWluIiwiYXRpIjoiNjY4NDAwOGEtYWUwMi00YzQ0LWE2OWItY2FiYzdkZjY3ZWUzIiwib2F1dGhfaWQiOiIiLCJkZXRhaWwiOnsidHlwZSI6IndlYiJ9LCJleHAiOjE2OTAyODEzMzEsImRlcHRfaWQiOiIxNDczNDgyMzE0MzcwMDU2MTk0IiwicG93ZXJlZCBieSBsZCI6InBvd2VyZWQgYnkgYmxhZGV4IiwianRpIjoiZTg1NDE0NGQtZTY5Zi00MGY3LWJjM2MtNTZjOTU1ZjEzNDFiIiwiYWNjb3VudCI6ImFkbWluIn0.J8qEnQvTnFrl-WQrJRmIuOq468SeHwenrHrph6J-U20', 'dept_id': '1473482314370056194', 'Tenant-Id': '683252'}, 'mime_type': 'www-form-urlencoded', 'files': None, 'cookies': False, 'timeout': 10, 'validate': {'check_mode': 'check_code', 'expected_code': 401, 'expected_desc': {'$..msg': '门店车型代码重复！'}, 'expected_format': {'code': 101058, 'success': False, 'data': {}}}}" ]
+      }, {
+        "name" : "登录",
+        "uid" : "1708eba02905b0a",
+        "parentUid" : "23eeb82976c5bf1b54450d79a948341b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1692547252105,
+          "stop" : 1692547253214,
+          "duration" : 1109
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'case_id': 1, 'api_name': '登录', 'case_name': '登录成功', 'is_run': True, 'level': 'blocker', 'premise_caseid': None, 'premise_key': 'msg', 'relevance_field': '测试', 'url': 'api/blade-auth/oauth/token?', 'method': 'post', 'data': {'tenantId': '683252', 'username': 'admin', 'password': '670b14728ad9902aecba32e22fa4f6bd', 'grant_type': 'password', 'scope': 'all', 'type': 'account'}, 'headers': {'Authorization': 'Basic c2FiZXI6bGRAMTIzNDU2', 'Tenant-Id': '683252'}, 'mime_type': 'application/x-www-form-urlencoded', 'files': {'图片1': 'C:\\\\Users\\\\asus\\\\Desktop\\\\1.jpg', '图片2': 'C:\\\\Users\\\\asus\\\\Desktop\\\\2.jpg'}, 'cookies': False, 'timeout': 10, 'validate': {'check_mode': 'check_code', 'expected_code': 400, 'expected_desc': {'$..msg': '门店车型代码重复！'}, 'expected_format': {'code': 101058, 'success': False, 'data': {}}}}" ]
+      }, {
+        "name" : "车型信息",
+        "uid" : "a1ad316a0d4161ca",
+        "parentUid" : "23eeb82976c5bf1b54450d79a948341b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1692547250832,
+          "stop" : 1692547252095,
+          "duration" : 1263
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'case_id': 4, 'api_name': '车型信息', 'case_name': '新增车型信息', 'is_run': True, 'level': 'trivial', 'premise_caseid': 1, 'premise_key': 'detail.type', 'relevance_field': 'deptSeriesId', 'url': 'api/ld-erps/deptcartype/submit', 'method': 'post', 'data': {'brandName': '1500010931297513473', 'deptBrandId': '1500010931297513473', 'deptFirmId': '1500010984066052098', 'deptSeriesId': '1500011053616001025', 'typeName': 'a1', 'typeCode': 'a23', 'ageStyleType': 1, 'ageStyleTypeName': '1', 'gearBoxType': 1, 'gearBoxTypeName': '1', 'engineCapacity': 'a4', 'emissionStandard': 1, 'emissionStandardName': '1', 'versionNo': 'a5', 'powerType': 1, 'powerTypeName': '1', 'guidePrice': '6', 'costPrice': '7', 'referenceRebate': '7', 'status': 1, 'furl': '', 'imgsUrl': 'upload/20230718/b817487e07842052d575d9d2935a29fd.jpg', 'remark': '<p>豪车</p>', 'appliedScope': '1,2'}, 'headers': {'Content-Type': 'application/json;charset=UTF-8', 'Authorization': 'Basic c2FiZXI6bGRAMTIzNDU2', 'Blade-Auth': 'bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZW5hbnRfaWQiOiI2ODMyNTIiLCJ0ZW5hbnRfbmFtZSI6Iua8lOekuuenn-aItyjmlbDmja7lvILluLjmmoLlgZzkvb_nlKgpIiwidXNlcl9uYW1lIjoiYWRtaW4iLCJkZXB0X25hbWUiOiLmvJTnpLrnp5_miLciLCJyZWFsX25hbWUiOiJhZG1pbiIsImF2YXRhciI6InVwbG9hZC8yMDIyMDExMi8zZTg3ZDI2YzZhMzUxOWM5YmM5N2YwM2I2Y2E0N2E3OS5wbmciLCJhdXRob3JpdGllcyI6WyJhZG1pbiJdLCJjbGllbnRfaWQiOiJzYWJlciIsInJvbGVfbmFtZSI6ImFkbWluIiwicG9zdF9pZCI6IjE0ODEyMDc0NTI2NzU5NDQ0NDkiLCJ1c2VyX2lkIjoiMTQ3MzQ4MjMxOTgxNzk2OTY2NSIsInJvbGVfaWQiOiIxNDczNDgyMzEwNTQwNjU2NjQxIiwicG9zdF9uYW1lIjoiY2VvIiwic2NvcGUiOlsiYWxsIl0sIm5pY2tfbmFtZSI6ImFkbWluIiwib2F1dGhfaWQiOiIiLCJkZXRhaWwiOnsidHlwZSI6IndlYiJ9LCJleHAiOjE2ODk2ODAxMzEsImRlcHRfaWQiOiIxNDczNDgyMzE0MzcwMDU2MTk0IiwicG93ZXJlZCBieSBsZCI6InBvd2VyZWQgYnkgYmxhZGV4IiwianRpIjoiNjY4NDAwOGEtYWUwMi00YzQ0LWE2OWItY2FiYzdkZjY3ZWUzIiwiYWNjb3VudCI6ImFkbWluIn0.u01NTOYLZSSCyoUsKowvKEWyTW_1qDeBXqdszhQkbxw', 'Cookie': 'saber-refresh-token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZW5hbnRfaWQiOiI2ODMyNTIiLCJ0ZW5hbnRfbmFtZSI6Iua8lOekuuenn-aItyjmlbDmja7lvILluLjmmoLlgZzkvb_nlKgpIiwidXNlcl9uYW1lIjoiYWRtaW4iLCJkZXB0X25hbWUiOiLmvJTnpLrnp5_miLciLCJyZWFsX25hbWUiOiJhZG1pbiIsImF2YXRhciI6InVwbG9hZC8yMDIyMDExMi8zZTg3ZDI2YzZhMzUxOWM5YmM5N2YwM2I2Y2E0N2E3OS5wbmciLCJhdXRob3JpdGllcyI6WyJhZG1pbiJdLCJjbGllbnRfaWQiOiJzYWJlciIsInJvbGVfbmFtZSI6ImFkbWluIiwicG9zdF9pZCI6IjE0ODEyMDc0NTI2NzU5NDQ0NDkiLCJ1c2VyX2lkIjoiMTQ3MzQ4MjMxOTgxNzk2OTY2NSIsInJvbGVfaWQiOiIxNDczNDgyMzEwNTQwNjU2NjQxIiwicG9zdF9uYW1lIjoiY2VvIiwic2NvcGUiOlsiYWxsIl0sIm5pY2tfbmFtZSI6ImFkbWluIiwiYXRpIjoiNjY4NDAwOGEtYWUwMi00YzQ0LWE2OWItY2FiYzdkZjY3ZWUzIiwib2F1dGhfaWQiOiIiLCJkZXRhaWwiOnsidHlwZSI6IndlYiJ9LCJleHAiOjE2OTAyODEzMzEsImRlcHRfaWQiOiIxNDczNDgyMzE0MzcwMDU2MTk0IiwicG93ZXJlZCBieSBsZCI6InBvd2VyZWQgYnkgYmxhZGV4IiwianRpIjoiZTg1NDE0NGQtZTY5Zi00MGY3LWJjM2MtNTZjOTU1ZjEzNDFiIiwiYWNjb3VudCI6ImFkbWluIn0.J8qEnQvTnFrl-WQrJRmIuOq468SeHwenrHrph6J-U20', 'dept_id': '1473482314370056194', 'Tenant-Id': '683252'}, 'mime_type': 'application/json', 'files': None, 'cookies': False, 'timeout': 10, 'validate': {'check_mode': 'check_code', 'expected_code': 401, 'expected_desc': {'$..msg': '门店车型代码重复！'}, 'expected_format': {'code': 101058, 'success': False, 'data': {}, 'msg': '门店车型代码重复！'}}}" ]
+      }, {
+        "name" : "登录",
+        "uid" : "5dce841a92240d30",
+        "parentUid" : "23eeb82976c5bf1b54450d79a948341b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1692547249742,
+          "stop" : 1692547250819,
+          "duration" : 1077
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'case_id': 2, 'api_name': '登录', 'case_name': '登录失败', 'is_run': True, 'level': 'critical', 'premise_caseid': None, 'premise_key': 'detail.type', 'relevance_field': 'remark', 'url': 'api/ld-erps/deptoptionalpackage/submit', 'method': 'post', 'data': {'deptBrandId': '1500010931297513473', 'deptFirmId': '1500010984066052098', 'deptSeriesId': '1500011053616001025', 'packageName': '国庆节', 'packageCode': '大礼包', 'remark': '十月'}, 'headers': {'Content-Type': 'application/json;charset=UTF-8', 'Authorization': 'Basic c2FiZXI6bGRAMTIzNDU2', 'Blade-Auth': 'bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZW5hbnRfaWQiOiI2ODMyNTIiLCJ0ZW5hbnRfbmFtZSI6Iua8lOekuuenn-aItyjmlbDmja7lvILluLjmmoLlgZzkvb_nlKgpIiwidXNlcl9uYW1lIjoiYWRtaW4iLCJkZXB0X25hbWUiOiLmvJTnpLrnp5_miLciLCJyZWFsX25hbWUiOiJhZG1pbiIsImF2YXRhciI6InVwbG9hZC8yMDIyMDExMi8zZTg3ZDI2YzZhMzUxOWM5YmM5N2YwM2I2Y2E0N2E3OS5wbmciLCJhdXRob3JpdGllcyI6WyJhZG1pbiJdLCJjbGllbnRfaWQiOiJzYWJlciIsInJvbGVfbmFtZSI6ImFkbWluIiwicG9zdF9pZCI6IjE0ODEyMDc0NTI2NzU5NDQ0NDkiLCJ1c2VyX2lkIjoiMTQ3MzQ4MjMxOTgxNzk2OTY2NSIsInJvbGVfaWQiOiIxNDczNDgyMzEwNTQwNjU2NjQxIiwicG9zdF9uYW1lIjoiY2VvIiwic2NvcGUiOlsiYWxsIl0sIm5pY2tfbmFtZSI6ImFkbWluIiwib2F1dGhfaWQiOiIiLCJkZXRhaWwiOnsidHlwZSI6IndlYiJ9LCJleHAiOjE2ODk2ODAxMzEsImRlcHRfaWQiOiIxNDczNDgyMzE0MzcwMDU2MTk0IiwicG93ZXJlZCBieSBsZCI6InBvd2VyZWQgYnkgYmxhZGV4IiwianRpIjoiNjY4NDAwOGEtYWUwMi00YzQ0LWE2OWItY2FiYzdkZjY3ZWUzIiwiYWNjb3VudCI6ImFkbWluIn0.u01NTOYLZSSCyoUsKowvKEWyTW_1qDeBXqdszhQkbxw', 'Cookie': 'saber-refresh-token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZW5hbnRfaWQiOiI2ODMyNTIiLCJ0ZW5hbnRfbmFtZSI6Iua8lOekuuenn-aItyjmlbDmja7lvILluLjmmoLlgZzkvb_nlKgpIiwidXNlcl9uYW1lIjoiYWRtaW4iLCJkZXB0X25hbWUiOiLmvJTnpLrnp5_miLciLCJyZWFsX25hbWUiOiJhZG1pbiIsImF2YXRhciI6InVwbG9hZC8yMDIyMDExMi8zZTg3ZDI2YzZhMzUxOWM5YmM5N2YwM2I2Y2E0N2E3OS5wbmciLCJhdXRob3JpdGllcyI6WyJhZG1pbiJdLCJjbGllbnRfaWQiOiJzYWJlciIsInJvbGVfbmFtZSI6ImFkbWluIiwicG9zdF9pZCI6IjE0ODEyMDc0NTI2NzU5NDQ0NDkiLCJ1c2VyX2lkIjoiMTQ3MzQ4MjMxOTgxNzk2OTY2NSIsInJvbGVfaWQiOiIxNDczNDgyMzEwNTQwNjU2NjQxIiwicG9zdF9uYW1lIjoiY2VvIiwic2NvcGUiOlsiYWxsIl0sIm5pY2tfbmFtZSI6ImFkbWluIiwiYXRpIjoiNjY4NDAwOGEtYWUwMi00YzQ0LWE2OWItY2FiYzdkZjY3ZWUzIiwib2F1dGhfaWQiOiIiLCJkZXRhaWwiOnsidHlwZSI6IndlYiJ9LCJleHAiOjE2OTAyODEzMzEsImRlcHRfaWQiOiIxNDczNDgyMzE0MzcwMDU2MTk0IiwicG93ZXJlZCBieSBsZCI6InBvd2VyZWQgYnkgYmxhZGV4IiwianRpIjoiZTg1NDE0NGQtZTY5Zi00MGY3LWJjM2MtNTZjOTU1ZjEzNDFiIiwiYWNjb3VudCI6ImFkbWluIn0.J8qEnQvTnFrl-WQrJRmIuOq468SeHwenrHrph6J-U20', 'dept_id': '1473482314370056194', 'Tenant-Id': '683252'}, 'mime_type': 'application/json', 'files': {'图片1': 'C:\\\\Users\\\\asus\\\\Desktop\\\\1.jpg', '图片2': 'C:\\\\Users\\\\asus\\\\Desktop\\\\2.jpg'}, 'cookies': False, 'timeout': 10, 'validate': {'check_mode': 'check_code', 'expected_code': 206, 'expected_desc': {'$..msg': '请求未授权'}, 'expected_format': {'code': 101058, 'success': False, 'data': {}}}}" ]
+      }, {
+        "name" : "test_o1",
+        "uid" : "df611a4569d39c20",
+        "parentUid" : "23eeb82976c5bf1b54450d79a948341b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1692547249688,
+          "stop" : 1692547249688,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "23eeb82976c5bf1b54450d79a948341b"
+    }, {
+      "name" : "17020-MainThread",
+      "children" : [ {
+        "name" : "test_o1",
+        "uid" : "bc8e22a3f739e114",
+        "parentUid" : "b876ccd15953ae123c45981f7af739e7",
+        "status" : "failed",
+        "time" : {
+          "start" : 1692546682598,
+          "stop" : 1692546682598,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "登录",
+        "uid" : "84a44dc0e59459a",
+        "parentUid" : "b876ccd15953ae123c45981f7af739e7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1692546685067,
+          "stop" : 1692546686185,
+          "duration" : 1118
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'case_id': 1, 'api_name': '登录', 'case_name': '登录成功', 'is_run': True, 'level': 'blocker', 'premise_caseid': None, 'premise_key': 'msg', 'relevance_field': '测试', 'url': 'api/blade-auth/oauth/token?', 'method': 'post', 'data': {'tenantId': '683252', 'username': 'admin', 'password': '670b14728ad9902aecba32e22fa4f6bd', 'grant_type': 'password', 'scope': 'all', 'type': 'account'}, 'headers': {'Authorization': 'Basic c2FiZXI6bGRAMTIzNDU2', 'Tenant-Id': '683252'}, 'mime_type': 'application/x-www-form-urlencoded', 'files': {'图片1': 'C:\\\\Users\\\\asus\\\\Desktop\\\\1.jpg', '图片2': 'C:\\\\Users\\\\asus\\\\Desktop\\\\2.jpg'}, 'cookies': False, 'timeout': 10, 'validate': {'check_mode': 'check_code', 'expected_code': 400, 'expected_desc': {'$..msg': '门店车型代码重复！'}, 'expected_format': {'code': 101058, 'success': False, 'data': {}}}}" ]
+      }, {
+        "name" : "金融机构逻辑删除",
+        "uid" : "dee3804c42faf13b",
+        "parentUid" : "b876ccd15953ae123c45981f7af739e7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1692546686189,
+          "stop" : 1692546687268,
+          "duration" : 1079
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'case_id': 3, 'api_name': '金融机构逻辑删除', 'case_name': '删除金融机构', 'is_run': True, 'level': 'normal', 'premise_caseid': None, 'premise_key': 'error', 'relevance_field': 'ids', 'url': 'api/ld-erps/finance/remove', 'method': 'post', 'data': {'ids': '1455772183081054209'}, 'headers': {'Content-Type': 'application/x-www-form-urlencoded', 'Authorization': 'Basic c2FiZXI6bGRAMTIzNDU2', 'Blade-Auth': 'bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZW5hbnRfaWQiOiI2ODMyNTIiLCJ0ZW5hbnRfbmFtZSI6Iua8lOekuuenn-aItyjmlbDmja7lvILluLjmmoLlgZzkvb_nlKgpIiwidXNlcl9uYW1lIjoiYWRtaW4iLCJkZXB0X25hbWUiOiLmvJTnpLrnp5_miLciLCJyZWFsX25hbWUiOiJhZG1pbiIsImF2YXRhciI6InVwbG9hZC8yMDIyMDExMi8zZTg3ZDI2YzZhMzUxOWM5YmM5N2YwM2I2Y2E0N2E3OS5wbmciLCJhdXRob3JpdGllcyI6WyJhZG1pbiJdLCJjbGllbnRfaWQiOiJzYWJlciIsInJvbGVfbmFtZSI6ImFkbWluIiwicG9zdF9pZCI6IjE0ODEyMDc0NTI2NzU5NDQ0NDkiLCJ1c2VyX2lkIjoiMTQ3MzQ4MjMxOTgxNzk2OTY2NSIsInJvbGVfaWQiOiIxNDczNDgyMzEwNTQwNjU2NjQxIiwicG9zdF9uYW1lIjoiY2VvIiwic2NvcGUiOlsiYWxsIl0sIm5pY2tfbmFtZSI6ImFkbWluIiwib2F1dGhfaWQiOiIiLCJkZXRhaWwiOnsidHlwZSI6IndlYiJ9LCJleHAiOjE2ODk2ODAxMzEsImRlcHRfaWQiOiIxNDczNDgyMzE0MzcwMDU2MTk0IiwicG93ZXJlZCBieSBsZCI6InBvd2VyZWQgYnkgYmxhZGV4IiwianRpIjoiNjY4NDAwOGEtYWUwMi00YzQ0LWE2OWItY2FiYzdkZjY3ZWUzIiwiYWNjb3VudCI6ImFkbWluIn0.u01NTOYLZSSCyoUsKowvKEWyTW_1qDeBXqdszhQkbxw', 'Cookie': 'saber-refresh-token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZW5hbnRfaWQiOiI2ODMyNTIiLCJ0ZW5hbnRfbmFtZSI6Iua8lOekuuenn-aItyjmlbDmja7lvILluLjmmoLlgZzkvb_nlKgpIiwidXNlcl9uYW1lIjoiYWRtaW4iLCJkZXB0X25hbWUiOiLmvJTnpLrnp5_miLciLCJyZWFsX25hbWUiOiJhZG1pbiIsImF2YXRhciI6InVwbG9hZC8yMDIyMDExMi8zZTg3ZDI2YzZhMzUxOWM5YmM5N2YwM2I2Y2E0N2E3OS5wbmciLCJhdXRob3JpdGllcyI6WyJhZG1pbiJdLCJjbGllbnRfaWQiOiJzYWJlciIsInJvbGVfbmFtZSI6ImFkbWluIiwicG9zdF9pZCI6IjE0ODEyMDc0NTI2NzU5NDQ0NDkiLCJ1c2VyX2lkIjoiMTQ3MzQ4MjMxOTgxNzk2OTY2NSIsInJvbGVfaWQiOiIxNDczNDgyMzEwNTQwNjU2NjQxIiwicG9zdF9uYW1lIjoiY2VvIiwic2NvcGUiOlsiYWxsIl0sIm5pY2tfbmFtZSI6ImFkbWluIiwiYXRpIjoiNjY4NDAwOGEtYWUwMi00YzQ0LWE2OWItY2FiYzdkZjY3ZWUzIiwib2F1dGhfaWQiOiIiLCJkZXRhaWwiOnsidHlwZSI6IndlYiJ9LCJleHAiOjE2OTAyODEzMzEsImRlcHRfaWQiOiIxNDczNDgyMzE0MzcwMDU2MTk0IiwicG93ZXJlZCBieSBsZCI6InBvd2VyZWQgYnkgYmxhZGV4IiwianRpIjoiZTg1NDE0NGQtZTY5Zi00MGY3LWJjM2MtNTZjOTU1ZjEzNDFiIiwiYWNjb3VudCI6ImFkbWluIn0.J8qEnQvTnFrl-WQrJRmIuOq468SeHwenrHrph6J-U20', 'dept_id': '1473482314370056194', 'Tenant-Id': '683252'}, 'mime_type': 'www-form-urlencoded', 'files': None, 'cookies': False, 'timeout': 10, 'validate': {'check_mode': 'check_code', 'expected_code': 401, 'expected_desc': {'$..msg': '门店车型代码重复！'}, 'expected_format': {'code': 101058, 'success': False, 'data': {}}}}" ]
+      }, {
+        "name" : "登录",
+        "uid" : "71dafcce62640e72",
+        "parentUid" : "b876ccd15953ae123c45981f7af739e7",
+        "status" : "failed",
+        "time" : {
+          "start" : 1692546682655,
+          "stop" : 1692546683754,
+          "duration" : 1099
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'case_id': 2, 'api_name': '登录', 'case_name': '登录失败', 'is_run': True, 'level': 'critical', 'premise_caseid': None, 'premise_key': 'detail.type', 'relevance_field': 'remark', 'url': 'api/ld-erps/deptoptionalpackage/submit', 'method': 'post', 'data': {'deptBrandId': '1500010931297513473', 'deptFirmId': '1500010984066052098', 'deptSeriesId': '1500011053616001025', 'packageName': '国庆节', 'packageCode': '大礼包', 'remark': '十月'}, 'headers': {'Content-Type': 'application/json;charset=UTF-8', 'Authorization': 'Basic c2FiZXI6bGRAMTIzNDU2', 'Blade-Auth': 'bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZW5hbnRfaWQiOiI2ODMyNTIiLCJ0ZW5hbnRfbmFtZSI6Iua8lOekuuenn-aItyjmlbDmja7lvILluLjmmoLlgZzkvb_nlKgpIiwidXNlcl9uYW1lIjoiYWRtaW4iLCJkZXB0X25hbWUiOiLmvJTnpLrnp5_miLciLCJyZWFsX25hbWUiOiJhZG1pbiIsImF2YXRhciI6InVwbG9hZC8yMDIyMDExMi8zZTg3ZDI2YzZhMzUxOWM5YmM5N2YwM2I2Y2E0N2E3OS5wbmciLCJhdXRob3JpdGllcyI6WyJhZG1pbiJdLCJjbGllbnRfaWQiOiJzYWJlciIsInJvbGVfbmFtZSI6ImFkbWluIiwicG9zdF9pZCI6IjE0ODEyMDc0NTI2NzU5NDQ0NDkiLCJ1c2VyX2lkIjoiMTQ3MzQ4MjMxOTgxNzk2OTY2NSIsInJvbGVfaWQiOiIxNDczNDgyMzEwNTQwNjU2NjQxIiwicG9zdF9uYW1lIjoiY2VvIiwic2NvcGUiOlsiYWxsIl0sIm5pY2tfbmFtZSI6ImFkbWluIiwib2F1dGhfaWQiOiIiLCJkZXRhaWwiOnsidHlwZSI6IndlYiJ9LCJleHAiOjE2ODk2ODAxMzEsImRlcHRfaWQiOiIxNDczNDgyMzE0MzcwMDU2MTk0IiwicG93ZXJlZCBieSBsZCI6InBvd2VyZWQgYnkgYmxhZGV4IiwianRpIjoiNjY4NDAwOGEtYWUwMi00YzQ0LWE2OWItY2FiYzdkZjY3ZWUzIiwiYWNjb3VudCI6ImFkbWluIn0.u01NTOYLZSSCyoUsKowvKEWyTW_1qDeBXqdszhQkbxw', 'Cookie': 'saber-refresh-token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZW5hbnRfaWQiOiI2ODMyNTIiLCJ0ZW5hbnRfbmFtZSI6Iua8lOekuuenn-aItyjmlbDmja7lvILluLjmmoLlgZzkvb_nlKgpIiwidXNlcl9uYW1lIjoiYWRtaW4iLCJkZXB0X25hbWUiOiLmvJTnpLrnp5_miLciLCJyZWFsX25hbWUiOiJhZG1pbiIsImF2YXRhciI6InVwbG9hZC8yMDIyMDExMi8zZTg3ZDI2YzZhMzUxOWM5YmM5N2YwM2I2Y2E0N2E3OS5wbmciLCJhdXRob3JpdGllcyI6WyJhZG1pbiJdLCJjbGllbnRfaWQiOiJzYWJlciIsInJvbGVfbmFtZSI6ImFkbWluIiwicG9zdF9pZCI6IjE0ODEyMDc0NTI2NzU5NDQ0NDkiLCJ1c2VyX2lkIjoiMTQ3MzQ4MjMxOTgxNzk2OTY2NSIsInJvbGVfaWQiOiIxNDczNDgyMzEwNTQwNjU2NjQxIiwicG9zdF9uYW1lIjoiY2VvIiwic2NvcGUiOlsiYWxsIl0sIm5pY2tfbmFtZSI6ImFkbWluIiwiYXRpIjoiNjY4NDAwOGEtYWUwMi00YzQ0LWE2OWItY2FiYzdkZjY3ZWUzIiwib2F1dGhfaWQiOiIiLCJkZXRhaWwiOnsidHlwZSI6IndlYiJ9LCJleHAiOjE2OTAyODEzMzEsImRlcHRfaWQiOiIxNDczNDgyMzE0MzcwMDU2MTk0IiwicG93ZXJlZCBieSBsZCI6InBvd2VyZWQgYnkgYmxhZGV4IiwianRpIjoiZTg1NDE0NGQtZTY5Zi00MGY3LWJjM2MtNTZjOTU1ZjEzNDFiIiwiYWNjb3VudCI6ImFkbWluIn0.J8qEnQvTnFrl-WQrJRmIuOq468SeHwenrHrph6J-U20', 'dept_id': '1473482314370056194', 'Tenant-Id': '683252'}, 'mime_type': 'application/json', 'files': {'图片1': 'C:\\\\Users\\\\asus\\\\Desktop\\\\1.jpg', '图片2': 'C:\\\\Users\\\\asus\\\\Desktop\\\\2.jpg'}, 'cookies': False, 'timeout': 10, 'validate': {'check_mode': 'check_code', 'expected_code': 206, 'expected_desc': {'$..msg': '请求未授权'}, 'expected_format': {'code': 101058, 'success': False, 'data': {}}}}" ]
+      }, {
+        "name" : "车型信息",
+        "uid" : "384ceab430a9948d",
+        "parentUid" : "b876ccd15953ae123c45981f7af739e7",
+        "status" : "failed",
+        "time" : {
+          "start" : 1692546683767,
+          "stop" : 1692546685055,
+          "duration" : 1288
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'case_id': 4, 'api_name': '车型信息', 'case_name': '新增车型信息', 'is_run': True, 'level': 'trivial', 'premise_caseid': 1, 'premise_key': 'detail.type', 'relevance_field': 'deptSeriesId', 'url': 'api/ld-erps/deptcartype/submit', 'method': 'post', 'data': {'brandName': '1500010931297513473', 'deptBrandId': '1500010931297513473', 'deptFirmId': '1500010984066052098', 'deptSeriesId': '1500011053616001025', 'typeName': 'a1', 'typeCode': 'a23', 'ageStyleType': 1, 'ageStyleTypeName': '1', 'gearBoxType': 1, 'gearBoxTypeName': '1', 'engineCapacity': 'a4', 'emissionStandard': 1, 'emissionStandardName': '1', 'versionNo': 'a5', 'powerType': 1, 'powerTypeName': '1', 'guidePrice': '6', 'costPrice': '7', 'referenceRebate': '7', 'status': 1, 'furl': '', 'imgsUrl': 'upload/20230718/b817487e07842052d575d9d2935a29fd.jpg', 'remark': '<p>豪车</p>', 'appliedScope': '1,2'}, 'headers': {'Content-Type': 'application/json;charset=UTF-8', 'Authorization': 'Basic c2FiZXI6bGRAMTIzNDU2', 'Blade-Auth': 'bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZW5hbnRfaWQiOiI2ODMyNTIiLCJ0ZW5hbnRfbmFtZSI6Iua8lOekuuenn-aItyjmlbDmja7lvILluLjmmoLlgZzkvb_nlKgpIiwidXNlcl9uYW1lIjoiYWRtaW4iLCJkZXB0X25hbWUiOiLmvJTnpLrnp5_miLciLCJyZWFsX25hbWUiOiJhZG1pbiIsImF2YXRhciI6InVwbG9hZC8yMDIyMDExMi8zZTg3ZDI2YzZhMzUxOWM5YmM5N2YwM2I2Y2E0N2E3OS5wbmciLCJhdXRob3JpdGllcyI6WyJhZG1pbiJdLCJjbGllbnRfaWQiOiJzYWJlciIsInJvbGVfbmFtZSI6ImFkbWluIiwicG9zdF9pZCI6IjE0ODEyMDc0NTI2NzU5NDQ0NDkiLCJ1c2VyX2lkIjoiMTQ3MzQ4MjMxOTgxNzk2OTY2NSIsInJvbGVfaWQiOiIxNDczNDgyMzEwNTQwNjU2NjQxIiwicG9zdF9uYW1lIjoiY2VvIiwic2NvcGUiOlsiYWxsIl0sIm5pY2tfbmFtZSI6ImFkbWluIiwib2F1dGhfaWQiOiIiLCJkZXRhaWwiOnsidHlwZSI6IndlYiJ9LCJleHAiOjE2ODk2ODAxMzEsImRlcHRfaWQiOiIxNDczNDgyMzE0MzcwMDU2MTk0IiwicG93ZXJlZCBieSBsZCI6InBvd2VyZWQgYnkgYmxhZGV4IiwianRpIjoiNjY4NDAwOGEtYWUwMi00YzQ0LWE2OWItY2FiYzdkZjY3ZWUzIiwiYWNjb3VudCI6ImFkbWluIn0.u01NTOYLZSSCyoUsKowvKEWyTW_1qDeBXqdszhQkbxw', 'Cookie': 'saber-refresh-token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZW5hbnRfaWQiOiI2ODMyNTIiLCJ0ZW5hbnRfbmFtZSI6Iua8lOekuuenn-aItyjmlbDmja7lvILluLjmmoLlgZzkvb_nlKgpIiwidXNlcl9uYW1lIjoiYWRtaW4iLCJkZXB0X25hbWUiOiLmvJTnpLrnp5_miLciLCJyZWFsX25hbWUiOiJhZG1pbiIsImF2YXRhciI6InVwbG9hZC8yMDIyMDExMi8zZTg3ZDI2YzZhMzUxOWM5YmM5N2YwM2I2Y2E0N2E3OS5wbmciLCJhdXRob3JpdGllcyI6WyJhZG1pbiJdLCJjbGllbnRfaWQiOiJzYWJlciIsInJvbGVfbmFtZSI6ImFkbWluIiwicG9zdF9pZCI6IjE0ODEyMDc0NTI2NzU5NDQ0NDkiLCJ1c2VyX2lkIjoiMTQ3MzQ4MjMxOTgxNzk2OTY2NSIsInJvbGVfaWQiOiIxNDczNDgyMzEwNTQwNjU2NjQxIiwicG9zdF9uYW1lIjoiY2VvIiwic2NvcGUiOlsiYWxsIl0sIm5pY2tfbmFtZSI6ImFkbWluIiwiYXRpIjoiNjY4NDAwOGEtYWUwMi00YzQ0LWE2OWItY2FiYzdkZjY3ZWUzIiwib2F1dGhfaWQiOiIiLCJkZXRhaWwiOnsidHlwZSI6IndlYiJ9LCJleHAiOjE2OTAyODEzMzEsImRlcHRfaWQiOiIxNDczNDgyMzE0MzcwMDU2MTk0IiwicG93ZXJlZCBieSBsZCI6InBvd2VyZWQgYnkgYmxhZGV4IiwianRpIjoiZTg1NDE0NGQtZTY5Zi00MGY3LWJjM2MtNTZjOTU1ZjEzNDFiIiwiYWNjb3VudCI6ImFkbWluIn0.J8qEnQvTnFrl-WQrJRmIuOq468SeHwenrHrph6J-U20', 'dept_id': '1473482314370056194', 'Tenant-Id': '683252'}, 'mime_type': 'application/json', 'files': None, 'cookies': False, 'timeout': 10, 'validate': {'check_mode': 'check_code', 'expected_code': 401, 'expected_desc': {'$..msg': '门店车型代码重复！'}, 'expected_format': {'code': 101058, 'success': False, 'data': {}, 'msg': '门店车型代码重复！'}}}" ]
+      } ],
+      "uid" : "b876ccd15953ae123c45981f7af739e7"
+    }, {
+      "name" : "2968-MainThread",
+      "children" : [ {
+        "name" : "金融机构逻辑删除",
+        "uid" : "3b16dd76c66dbeec",
+        "parentUid" : "1c35eb78a2ff614ff347b565e5da3828",
+        "status" : "passed",
+        "time" : {
+          "start" : 1692607344222,
+          "stop" : 1692607345278,
+          "duration" : 1056
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'case_id': 3, 'api_name': '金融机构逻辑删除', 'case_name': '删除金融机构', 'is_run': True, 'level': 'normal', 'premise_caseid': None, 'premise_key': 'error', 'relevance_field': 'ids', 'url': 'api/ld-erps/finance/remove', 'method': 'post', 'data': {'ids': '1455772183081054209'}, 'headers': {'Content-Type': 'application/x-www-form-urlencoded', 'Authorization': 'Basic c2FiZXI6bGRAMTIzNDU2', 'Blade-Auth': 'bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZW5hbnRfaWQiOiI2ODMyNTIiLCJ0ZW5hbnRfbmFtZSI6Iua8lOekuuenn-aItyjmlbDmja7lvILluLjmmoLlgZzkvb_nlKgpIiwidXNlcl9uYW1lIjoiYWRtaW4iLCJkZXB0X25hbWUiOiLmvJTnpLrnp5_miLciLCJyZWFsX25hbWUiOiJhZG1pbiIsImF2YXRhciI6InVwbG9hZC8yMDIyMDExMi8zZTg3ZDI2YzZhMzUxOWM5YmM5N2YwM2I2Y2E0N2E3OS5wbmciLCJhdXRob3JpdGllcyI6WyJhZG1pbiJdLCJjbGllbnRfaWQiOiJzYWJlciIsInJvbGVfbmFtZSI6ImFkbWluIiwicG9zdF9pZCI6IjE0ODEyMDc0NTI2NzU5NDQ0NDkiLCJ1c2VyX2lkIjoiMTQ3MzQ4MjMxOTgxNzk2OTY2NSIsInJvbGVfaWQiOiIxNDczNDgyMzEwNTQwNjU2NjQxIiwicG9zdF9uYW1lIjoiY2VvIiwic2NvcGUiOlsiYWxsIl0sIm5pY2tfbmFtZSI6ImFkbWluIiwib2F1dGhfaWQiOiIiLCJkZXRhaWwiOnsidHlwZSI6IndlYiJ9LCJleHAiOjE2ODk2ODAxMzEsImRlcHRfaWQiOiIxNDczNDgyMzE0MzcwMDU2MTk0IiwicG93ZXJlZCBieSBsZCI6InBvd2VyZWQgYnkgYmxhZGV4IiwianRpIjoiNjY4NDAwOGEtYWUwMi00YzQ0LWE2OWItY2FiYzdkZjY3ZWUzIiwiYWNjb3VudCI6ImFkbWluIn0.u01NTOYLZSSCyoUsKowvKEWyTW_1qDeBXqdszhQkbxw', 'Cookie': 'saber-refresh-token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZW5hbnRfaWQiOiI2ODMyNTIiLCJ0ZW5hbnRfbmFtZSI6Iua8lOekuuenn-aItyjmlbDmja7lvILluLjmmoLlgZzkvb_nlKgpIiwidXNlcl9uYW1lIjoiYWRtaW4iLCJkZXB0X25hbWUiOiLmvJTnpLrnp5_miLciLCJyZWFsX25hbWUiOiJhZG1pbiIsImF2YXRhciI6InVwbG9hZC8yMDIyMDExMi8zZTg3ZDI2YzZhMzUxOWM5YmM5N2YwM2I2Y2E0N2E3OS5wbmciLCJhdXRob3JpdGllcyI6WyJhZG1pbiJdLCJjbGllbnRfaWQiOiJzYWJlciIsInJvbGVfbmFtZSI6ImFkbWluIiwicG9zdF9pZCI6IjE0ODEyMDc0NTI2NzU5NDQ0NDkiLCJ1c2VyX2lkIjoiMTQ3MzQ4MjMxOTgxNzk2OTY2NSIsInJvbGVfaWQiOiIxNDczNDgyMzEwNTQwNjU2NjQxIiwicG9zdF9uYW1lIjoiY2VvIiwic2NvcGUiOlsiYWxsIl0sIm5pY2tfbmFtZSI6ImFkbWluIiwiYXRpIjoiNjY4NDAwOGEtYWUwMi00YzQ0LWE2OWItY2FiYzdkZjY3ZWUzIiwib2F1dGhfaWQiOiIiLCJkZXRhaWwiOnsidHlwZSI6IndlYiJ9LCJleHAiOjE2OTAyODEzMzEsImRlcHRfaWQiOiIxNDczNDgyMzE0MzcwMDU2MTk0IiwicG93ZXJlZCBieSBsZCI6InBvd2VyZWQgYnkgYmxhZGV4IiwianRpIjoiZTg1NDE0NGQtZTY5Zi00MGY3LWJjM2MtNTZjOTU1ZjEzNDFiIiwiYWNjb3VudCI6ImFkbWluIn0.J8qEnQvTnFrl-WQrJRmIuOq468SeHwenrHrph6J-U20', 'dept_id': '1473482314370056194', 'Tenant-Id': '683252'}, 'mime_type': 'www-form-urlencoded', 'files': None, 'cookies': False, 'timeout': 10, 'validate': {'check_mode': 'check_code', 'expected_code': 401, 'expected_desc': {'$..msg': '门店车型代码重复！'}, 'expected_format': {'code': 101058, 'success': False, 'data': {}}}}" ]
+      }, {
+        "name" : "登录",
+        "uid" : "668871d5009388e5",
+        "parentUid" : "1c35eb78a2ff614ff347b565e5da3828",
+        "status" : "passed",
+        "time" : {
+          "start" : 1692607341709,
+          "stop" : 1692607342966,
+          "duration" : 1257
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'case_id': 1, 'api_name': '登录', 'case_name': '登录成功', 'is_run': True, 'level': 'blocker', 'premise_caseid': None, 'premise_key': 'msg', 'relevance_field': '测试', 'url': 'api/blade-auth/oauth/token?', 'method': 'post', 'data': {'tenantId': '683252', 'username': 'admin', 'password': '670b14728ad9902aecba32e22fa4f6bd', 'grant_type': 'password', 'scope': 'all', 'type': 'account'}, 'headers': {'Authorization': 'Basic c2FiZXI6bGRAMTIzNDU2', 'Tenant-Id': '683252'}, 'mime_type': 'application/x-www-form-urlencoded', 'files': {'图片1': 'C:\\\\Users\\\\asus\\\\Desktop\\\\1.jpg', '图片2': 'C:\\\\Users\\\\asus\\\\Desktop\\\\2.jpg'}, 'cookies': False, 'timeout': 10, 'validate': {'check_mode': 'check_code', 'expected_code': 400, 'expected_desc': {'$..msg': '门店车型代码重复！'}, 'expected_format': {'code': 101058, 'success': False, 'data': {}}}}" ]
+      }, {
+        "name" : "登录",
+        "uid" : "72360d5c09a4f143",
+        "parentUid" : "1c35eb78a2ff614ff347b565e5da3828",
+        "status" : "failed",
+        "time" : {
+          "start" : 1692607342970,
+          "stop" : 1692607344054,
+          "duration" : 1084
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'case_id': 2, 'api_name': '登录', 'case_name': '登录失败', 'is_run': True, 'level': 'critical', 'premise_caseid': None, 'premise_key': 'detail.type', 'relevance_field': 'remark', 'url': 'api/ld-erps/deptoptionalpackage/submit', 'method': 'post', 'data': {'deptBrandId': '1500010931297513473', 'deptFirmId': '1500010984066052098', 'deptSeriesId': '1500011053616001025', 'packageName': '国庆节', 'packageCode': '大礼包', 'remark': '十月'}, 'headers': {'Content-Type': 'application/json;charset=UTF-8', 'Authorization': 'Basic c2FiZXI6bGRAMTIzNDU2', 'Blade-Auth': 'bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZW5hbnRfaWQiOiI2ODMyNTIiLCJ0ZW5hbnRfbmFtZSI6Iua8lOekuuenn-aItyjmlbDmja7lvILluLjmmoLlgZzkvb_nlKgpIiwidXNlcl9uYW1lIjoiYWRtaW4iLCJkZXB0X25hbWUiOiLmvJTnpLrnp5_miLciLCJyZWFsX25hbWUiOiJhZG1pbiIsImF2YXRhciI6InVwbG9hZC8yMDIyMDExMi8zZTg3ZDI2YzZhMzUxOWM5YmM5N2YwM2I2Y2E0N2E3OS5wbmciLCJhdXRob3JpdGllcyI6WyJhZG1pbiJdLCJjbGllbnRfaWQiOiJzYWJlciIsInJvbGVfbmFtZSI6ImFkbWluIiwicG9zdF9pZCI6IjE0ODEyMDc0NTI2NzU5NDQ0NDkiLCJ1c2VyX2lkIjoiMTQ3MzQ4MjMxOTgxNzk2OTY2NSIsInJvbGVfaWQiOiIxNDczNDgyMzEwNTQwNjU2NjQxIiwicG9zdF9uYW1lIjoiY2VvIiwic2NvcGUiOlsiYWxsIl0sIm5pY2tfbmFtZSI6ImFkbWluIiwib2F1dGhfaWQiOiIiLCJkZXRhaWwiOnsidHlwZSI6IndlYiJ9LCJleHAiOjE2ODk2ODAxMzEsImRlcHRfaWQiOiIxNDczNDgyMzE0MzcwMDU2MTk0IiwicG93ZXJlZCBieSBsZCI6InBvd2VyZWQgYnkgYmxhZGV4IiwianRpIjoiNjY4NDAwOGEtYWUwMi00YzQ0LWE2OWItY2FiYzdkZjY3ZWUzIiwiYWNjb3VudCI6ImFkbWluIn0.u01NTOYLZSSCyoUsKowvKEWyTW_1qDeBXqdszhQkbxw', 'Cookie': 'saber-refresh-token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZW5hbnRfaWQiOiI2ODMyNTIiLCJ0ZW5hbnRfbmFtZSI6Iua8lOekuuenn-aItyjmlbDmja7lvILluLjmmoLlgZzkvb_nlKgpIiwidXNlcl9uYW1lIjoiYWRtaW4iLCJkZXB0X25hbWUiOiLmvJTnpLrnp5_miLciLCJyZWFsX25hbWUiOiJhZG1pbiIsImF2YXRhciI6InVwbG9hZC8yMDIyMDExMi8zZTg3ZDI2YzZhMzUxOWM5YmM5N2YwM2I2Y2E0N2E3OS5wbmciLCJhdXRob3JpdGllcyI6WyJhZG1pbiJdLCJjbGllbnRfaWQiOiJzYWJlciIsInJvbGVfbmFtZSI6ImFkbWluIiwicG9zdF9pZCI6IjE0ODEyMDc0NTI2NzU5NDQ0NDkiLCJ1c2VyX2lkIjoiMTQ3MzQ4MjMxOTgxNzk2OTY2NSIsInJvbGVfaWQiOiIxNDczNDgyMzEwNTQwNjU2NjQxIiwicG9zdF9uYW1lIjoiY2VvIiwic2NvcGUiOlsiYWxsIl0sIm5pY2tfbmFtZSI6ImFkbWluIiwiYXRpIjoiNjY4NDAwOGEtYWUwMi00YzQ0LWE2OWItY2FiYzdkZjY3ZWUzIiwib2F1dGhfaWQiOiIiLCJkZXRhaWwiOnsidHlwZSI6IndlYiJ9LCJleHAiOjE2OTAyODEzMzEsImRlcHRfaWQiOiIxNDczNDgyMzE0MzcwMDU2MTk0IiwicG93ZXJlZCBieSBsZCI6InBvd2VyZWQgYnkgYmxhZGV4IiwianRpIjoiZTg1NDE0NGQtZTY5Zi00MGY3LWJjM2MtNTZjOTU1ZjEzNDFiIiwiYWNjb3VudCI6ImFkbWluIn0.J8qEnQvTnFrl-WQrJRmIuOq468SeHwenrHrph6J-U20', 'dept_id': '1473482314370056194', 'Tenant-Id': '683252'}, 'mime_type': 'application/json', 'files': {'图片1': 'C:\\\\Users\\\\asus\\\\Desktop\\\\1.jpg', '图片2': 'C:\\\\Users\\\\asus\\\\Desktop\\\\2.jpg'}, 'cookies': False, 'timeout': 10, 'validate': {'check_mode': 'check_code', 'expected_code': 206, 'expected_desc': {'$..msg': '请求未授权'}, 'expected_format': {'code': 101058, 'success': False, 'data': {}}}}" ]
+      }, {
+        "name" : "车型信息",
+        "uid" : "d7eb991b39dd49c",
+        "parentUid" : "1c35eb78a2ff614ff347b565e5da3828",
+        "status" : "failed",
+        "time" : {
+          "start" : 1692607345286,
+          "stop" : 1692607346543,
+          "duration" : 1257
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'case_id': 4, 'api_name': '车型信息', 'case_name': '新增车型信息', 'is_run': True, 'level': 'trivial', 'premise_caseid': 1, 'premise_key': 'detail.type', 'relevance_field': 'deptSeriesId', 'url': 'api/ld-erps/deptcartype/submit', 'method': 'post', 'data': {'brandName': '1500010931297513473', 'deptBrandId': '1500010931297513473', 'deptFirmId': '1500010984066052098', 'deptSeriesId': '1500011053616001025', 'typeName': 'a1', 'typeCode': 'a23', 'ageStyleType': 1, 'ageStyleTypeName': '1', 'gearBoxType': 1, 'gearBoxTypeName': '1', 'engineCapacity': 'a4', 'emissionStandard': 1, 'emissionStandardName': '1', 'versionNo': 'a5', 'powerType': 1, 'powerTypeName': '1', 'guidePrice': '6', 'costPrice': '7', 'referenceRebate': '7', 'status': 1, 'furl': '', 'imgsUrl': 'upload/20230718/b817487e07842052d575d9d2935a29fd.jpg', 'remark': '<p>豪车</p>', 'appliedScope': '1,2'}, 'headers': {'Content-Type': 'application/json;charset=UTF-8', 'Authorization': 'Basic c2FiZXI6bGRAMTIzNDU2', 'Blade-Auth': 'bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZW5hbnRfaWQiOiI2ODMyNTIiLCJ0ZW5hbnRfbmFtZSI6Iua8lOekuuenn-aItyjmlbDmja7lvILluLjmmoLlgZzkvb_nlKgpIiwidXNlcl9uYW1lIjoiYWRtaW4iLCJkZXB0X25hbWUiOiLmvJTnpLrnp5_miLciLCJyZWFsX25hbWUiOiJhZG1pbiIsImF2YXRhciI6InVwbG9hZC8yMDIyMDExMi8zZTg3ZDI2YzZhMzUxOWM5YmM5N2YwM2I2Y2E0N2E3OS5wbmciLCJhdXRob3JpdGllcyI6WyJhZG1pbiJdLCJjbGllbnRfaWQiOiJzYWJlciIsInJvbGVfbmFtZSI6ImFkbWluIiwicG9zdF9pZCI6IjE0ODEyMDc0NTI2NzU5NDQ0NDkiLCJ1c2VyX2lkIjoiMTQ3MzQ4MjMxOTgxNzk2OTY2NSIsInJvbGVfaWQiOiIxNDczNDgyMzEwNTQwNjU2NjQxIiwicG9zdF9uYW1lIjoiY2VvIiwic2NvcGUiOlsiYWxsIl0sIm5pY2tfbmFtZSI6ImFkbWluIiwib2F1dGhfaWQiOiIiLCJkZXRhaWwiOnsidHlwZSI6IndlYiJ9LCJleHAiOjE2ODk2ODAxMzEsImRlcHRfaWQiOiIxNDczNDgyMzE0MzcwMDU2MTk0IiwicG93ZXJlZCBieSBsZCI6InBvd2VyZWQgYnkgYmxhZGV4IiwianRpIjoiNjY4NDAwOGEtYWUwMi00YzQ0LWE2OWItY2FiYzdkZjY3ZWUzIiwiYWNjb3VudCI6ImFkbWluIn0.u01NTOYLZSSCyoUsKowvKEWyTW_1qDeBXqdszhQkbxw', 'Cookie': 'saber-refresh-token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZW5hbnRfaWQiOiI2ODMyNTIiLCJ0ZW5hbnRfbmFtZSI6Iua8lOekuuenn-aItyjmlbDmja7lvILluLjmmoLlgZzkvb_nlKgpIiwidXNlcl9uYW1lIjoiYWRtaW4iLCJkZXB0X25hbWUiOiLmvJTnpLrnp5_miLciLCJyZWFsX25hbWUiOiJhZG1pbiIsImF2YXRhciI6InVwbG9hZC8yMDIyMDExMi8zZTg3ZDI2YzZhMzUxOWM5YmM5N2YwM2I2Y2E0N2E3OS5wbmciLCJhdXRob3JpdGllcyI6WyJhZG1pbiJdLCJjbGllbnRfaWQiOiJzYWJlciIsInJvbGVfbmFtZSI6ImFkbWluIiwicG9zdF9pZCI6IjE0ODEyMDc0NTI2NzU5NDQ0NDkiLCJ1c2VyX2lkIjoiMTQ3MzQ4MjMxOTgxNzk2OTY2NSIsInJvbGVfaWQiOiIxNDczNDgyMzEwNTQwNjU2NjQxIiwicG9zdF9uYW1lIjoiY2VvIiwic2NvcGUiOlsiYWxsIl0sIm5pY2tfbmFtZSI6ImFkbWluIiwiYXRpIjoiNjY4NDAwOGEtYWUwMi00YzQ0LWE2OWItY2FiYzdkZjY3ZWUzIiwib2F1dGhfaWQiOiIiLCJkZXRhaWwiOnsidHlwZSI6IndlYiJ9LCJleHAiOjE2OTAyODEzMzEsImRlcHRfaWQiOiIxNDczNDgyMzE0MzcwMDU2MTk0IiwicG93ZXJlZCBieSBsZCI6InBvd2VyZWQgYnkgYmxhZGV4IiwianRpIjoiZTg1NDE0NGQtZTY5Zi00MGY3LWJjM2MtNTZjOTU1ZjEzNDFiIiwiYWNjb3VudCI6ImFkbWluIn0.J8qEnQvTnFrl-WQrJRmIuOq468SeHwenrHrph6J-U20', 'dept_id': '1473482314370056194', 'Tenant-Id': '683252'}, 'mime_type': 'application/json', 'files': None, 'cookies': False, 'timeout': 10, 'validate': {'check_mode': 'check_code', 'expected_code': 401, 'expected_desc': {'$..msg': '门店车型代码重复！'}, 'expected_format': {'code': 101058, 'success': False, 'data': {}, 'msg': '门店车型代码重复！'}}}" ]
+      } ],
+      "uid" : "1c35eb78a2ff614ff347b565e5da3828"
+    }, {
+      "name" : "18840-MainThread",
+      "children" : [ {
+        "name" : "test_o1",
+        "uid" : "6cfb5b8678e684c7",
+        "parentUid" : "d51a23507259e4622dbde670d8d30563",
+        "status" : "failed",
+        "time" : {
+          "start" : 1692546665131,
+          "stop" : 1692546665131,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d51a23507259e4622dbde670d8d30563"
+    }, {
+      "name" : "4936-MainThread",
+      "children" : [ {
+        "name" : "登录",
+        "uid" : "cfe06f6873d2d28c",
+        "parentUid" : "7151141a4c61ff892d15304863b82918",
+        "status" : "failed",
+        "time" : {
+          "start" : 1692461949850,
+          "stop" : 1692461950945,
+          "duration" : 1095
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'case_id': 2, 'api_name': '登录', 'case_name': '登录失败', 'is_run': True, 'level': 'critical', 'premise_caseid': None, 'premise_key': 'detail.type', 'relevance_field': 'remark', 'url': 'api/ld-erps/deptoptionalpackage/submit', 'method': 'post', 'data': {'deptBrandId': '1500010931297513473', 'deptFirmId': '1500010984066052098', 'deptSeriesId': '1500011053616001025', 'packageName': '国庆节', 'packageCode': '大礼包', 'remark': '十月'}, 'headers': {'Content-Type': 'application/json;charset=UTF-8', 'Authorization': 'Basic c2FiZXI6bGRAMTIzNDU2', 'Blade-Auth': 'bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZW5hbnRfaWQiOiI2ODMyNTIiLCJ0ZW5hbnRfbmFtZSI6Iua8lOekuuenn-aItyjmlbDmja7lvILluLjmmoLlgZzkvb_nlKgpIiwidXNlcl9uYW1lIjoiYWRtaW4iLCJkZXB0X25hbWUiOiLmvJTnpLrnp5_miLciLCJyZWFsX25hbWUiOiJhZG1pbiIsImF2YXRhciI6InVwbG9hZC8yMDIyMDExMi8zZTg3ZDI2YzZhMzUxOWM5YmM5N2YwM2I2Y2E0N2E3OS5wbmciLCJhdXRob3JpdGllcyI6WyJhZG1pbiJdLCJjbGllbnRfaWQiOiJzYWJlciIsInJvbGVfbmFtZSI6ImFkbWluIiwicG9zdF9pZCI6IjE0ODEyMDc0NTI2NzU5NDQ0NDkiLCJ1c2VyX2lkIjoiMTQ3MzQ4MjMxOTgxNzk2OTY2NSIsInJvbGVfaWQiOiIxNDczNDgyMzEwNTQwNjU2NjQxIiwicG9zdF9uYW1lIjoiY2VvIiwic2NvcGUiOlsiYWxsIl0sIm5pY2tfbmFtZSI6ImFkbWluIiwib2F1dGhfaWQiOiIiLCJkZXRhaWwiOnsidHlwZSI6IndlYiJ9LCJleHAiOjE2ODk2ODAxMzEsImRlcHRfaWQiOiIxNDczNDgyMzE0MzcwMDU2MTk0IiwicG93ZXJlZCBieSBsZCI6InBvd2VyZWQgYnkgYmxhZGV4IiwianRpIjoiNjY4NDAwOGEtYWUwMi00YzQ0LWE2OWItY2FiYzdkZjY3ZWUzIiwiYWNjb3VudCI6ImFkbWluIn0.u01NTOYLZSSCyoUsKowvKEWyTW_1qDeBXqdszhQkbxw', 'Cookie': 'saber-refresh-token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZW5hbnRfaWQiOiI2ODMyNTIiLCJ0ZW5hbnRfbmFtZSI6Iua8lOekuuenn-aItyjmlbDmja7lvILluLjmmoLlgZzkvb_nlKgpIiwidXNlcl9uYW1lIjoiYWRtaW4iLCJkZXB0X25hbWUiOiLmvJTnpLrnp5_miLciLCJyZWFsX25hbWUiOiJhZG1pbiIsImF2YXRhciI6InVwbG9hZC8yMDIyMDExMi8zZTg3ZDI2YzZhMzUxOWM5YmM5N2YwM2I2Y2E0N2E3OS5wbmciLCJhdXRob3JpdGllcyI6WyJhZG1pbiJdLCJjbGllbnRfaWQiOiJzYWJlciIsInJvbGVfbmFtZSI6ImFkbWluIiwicG9zdF9pZCI6IjE0ODEyMDc0NTI2NzU5NDQ0NDkiLCJ1c2VyX2lkIjoiMTQ3MzQ4MjMxOTgxNzk2OTY2NSIsInJvbGVfaWQiOiIxNDczNDgyMzEwNTQwNjU2NjQxIiwicG9zdF9uYW1lIjoiY2VvIiwic2NvcGUiOlsiYWxsIl0sIm5pY2tfbmFtZSI6ImFkbWluIiwiYXRpIjoiNjY4NDAwOGEtYWUwMi00YzQ0LWE2OWItY2FiYzdkZjY3ZWUzIiwib2F1dGhfaWQiOiIiLCJkZXRhaWwiOnsidHlwZSI6IndlYiJ9LCJleHAiOjE2OTAyODEzMzEsImRlcHRfaWQiOiIxNDczNDgyMzE0MzcwMDU2MTk0IiwicG93ZXJlZCBieSBsZCI6InBvd2VyZWQgYnkgYmxhZGV4IiwianRpIjoiZTg1NDE0NGQtZTY5Zi00MGY3LWJjM2MtNTZjOTU1ZjEzNDFiIiwiYWNjb3VudCI6ImFkbWluIn0.J8qEnQvTnFrl-WQrJRmIuOq468SeHwenrHrph6J-U20', 'dept_id': '1473482314370056194', 'Tenant-Id': '683252'}, 'mime_type': 'application/json', 'files': {'图片1': 'C:\\\\Users\\\\asus\\\\Desktop\\\\1.jpg', '图片2': 'C:\\\\Users\\\\asus\\\\Desktop\\\\2.jpg'}, 'cookies': False, 'timeout': 10, 'validate': {'check_mode': 'check_code', 'expected_code': 206, 'expected_desc': {'$..msg': '请求未授权'}, 'expected_format': {'code': 101058, 'success': False, 'data': {}}}}" ]
+      }, {
+        "name" : "车型信息",
+        "uid" : "bfd8bbbefa09a15",
+        "parentUid" : "7151141a4c61ff892d15304863b82918",
+        "status" : "failed",
+        "time" : {
+          "start" : 1692461951071,
+          "stop" : 1692461952378,
+          "duration" : 1307
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'case_id': 4, 'api_name': '车型信息', 'case_name': '新增车型信息', 'is_run': True, 'level': 'trivial', 'premise_caseid': 1, 'premise_key': 'detail.type', 'relevance_field': 'deptSeriesId', 'url': 'api/ld-erps/deptcartype/submit', 'method': 'post', 'data': {'brandName': '1500010931297513473', 'deptBrandId': '1500010931297513473', 'deptFirmId': '1500010984066052098', 'deptSeriesId': '1500011053616001025', 'typeName': 'a1', 'typeCode': 'a23', 'ageStyleType': 1, 'ageStyleTypeName': '1', 'gearBoxType': 1, 'gearBoxTypeName': '1', 'engineCapacity': 'a4', 'emissionStandard': 1, 'emissionStandardName': '1', 'versionNo': 'a5', 'powerType': 1, 'powerTypeName': '1', 'guidePrice': '6', 'costPrice': '7', 'referenceRebate': '7', 'status': 1, 'furl': '', 'imgsUrl': 'upload/20230718/b817487e07842052d575d9d2935a29fd.jpg', 'remark': '<p>豪车</p>', 'appliedScope': '1,2'}, 'headers': {'Content-Type': 'application/json;charset=UTF-8', 'Authorization': 'Basic c2FiZXI6bGRAMTIzNDU2', 'Blade-Auth': 'bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZW5hbnRfaWQiOiI2ODMyNTIiLCJ0ZW5hbnRfbmFtZSI6Iua8lOekuuenn-aItyjmlbDmja7lvILluLjmmoLlgZzkvb_nlKgpIiwidXNlcl9uYW1lIjoiYWRtaW4iLCJkZXB0X25hbWUiOiLmvJTnpLrnp5_miLciLCJyZWFsX25hbWUiOiJhZG1pbiIsImF2YXRhciI6InVwbG9hZC8yMDIyMDExMi8zZTg3ZDI2YzZhMzUxOWM5YmM5N2YwM2I2Y2E0N2E3OS5wbmciLCJhdXRob3JpdGllcyI6WyJhZG1pbiJdLCJjbGllbnRfaWQiOiJzYWJlciIsInJvbGVfbmFtZSI6ImFkbWluIiwicG9zdF9pZCI6IjE0ODEyMDc0NTI2NzU5NDQ0NDkiLCJ1c2VyX2lkIjoiMTQ3MzQ4MjMxOTgxNzk2OTY2NSIsInJvbGVfaWQiOiIxNDczNDgyMzEwNTQwNjU2NjQxIiwicG9zdF9uYW1lIjoiY2VvIiwic2NvcGUiOlsiYWxsIl0sIm5pY2tfbmFtZSI6ImFkbWluIiwib2F1dGhfaWQiOiIiLCJkZXRhaWwiOnsidHlwZSI6IndlYiJ9LCJleHAiOjE2ODk2ODAxMzEsImRlcHRfaWQiOiIxNDczNDgyMzE0MzcwMDU2MTk0IiwicG93ZXJlZCBieSBsZCI6InBvd2VyZWQgYnkgYmxhZGV4IiwianRpIjoiNjY4NDAwOGEtYWUwMi00YzQ0LWE2OWItY2FiYzdkZjY3ZWUzIiwiYWNjb3VudCI6ImFkbWluIn0.u01NTOYLZSSCyoUsKowvKEWyTW_1qDeBXqdszhQkbxw', 'Cookie': 'saber-refresh-token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZW5hbnRfaWQiOiI2ODMyNTIiLCJ0ZW5hbnRfbmFtZSI6Iua8lOekuuenn-aItyjmlbDmja7lvILluLjmmoLlgZzkvb_nlKgpIiwidXNlcl9uYW1lIjoiYWRtaW4iLCJkZXB0X25hbWUiOiLmvJTnpLrnp5_miLciLCJyZWFsX25hbWUiOiJhZG1pbiIsImF2YXRhciI6InVwbG9hZC8yMDIyMDExMi8zZTg3ZDI2YzZhMzUxOWM5YmM5N2YwM2I2Y2E0N2E3OS5wbmciLCJhdXRob3JpdGllcyI6WyJhZG1pbiJdLCJjbGllbnRfaWQiOiJzYWJlciIsInJvbGVfbmFtZSI6ImFkbWluIiwicG9zdF9pZCI6IjE0ODEyMDc0NTI2NzU5NDQ0NDkiLCJ1c2VyX2lkIjoiMTQ3MzQ4MjMxOTgxNzk2OTY2NSIsInJvbGVfaWQiOiIxNDczNDgyMzEwNTQwNjU2NjQxIiwicG9zdF9uYW1lIjoiY2VvIiwic2NvcGUiOlsiYWxsIl0sIm5pY2tfbmFtZSI6ImFkbWluIiwiYXRpIjoiNjY4NDAwOGEtYWUwMi00YzQ0LWE2OWItY2FiYzdkZjY3ZWUzIiwib2F1dGhfaWQiOiIiLCJkZXRhaWwiOnsidHlwZSI6IndlYiJ9LCJleHAiOjE2OTAyODEzMzEsImRlcHRfaWQiOiIxNDczNDgyMzE0MzcwMDU2MTk0IiwicG93ZXJlZCBieSBsZCI6InBvd2VyZWQgYnkgYmxhZGV4IiwianRpIjoiZTg1NDE0NGQtZTY5Zi00MGY3LWJjM2MtNTZjOTU1ZjEzNDFiIiwiYWNjb3VudCI6ImFkbWluIn0.J8qEnQvTnFrl-WQrJRmIuOq468SeHwenrHrph6J-U20', 'dept_id': '1473482314370056194', 'Tenant-Id': '683252'}, 'mime_type': 'application/json', 'files': None, 'cookies': False, 'timeout': 10, 'validate': {'check_mode': 'check_code', 'expected_code': 401, 'expected_desc': {'$..msg': '门店车型代码重复！'}, 'expected_format': {'code': 101058, 'success': False, 'data': {}, 'msg': '门店车型代码重复！'}}}" ]
+      }, {
+        "name" : "金融机构逻辑删除",
+        "uid" : "8072bfa3201b5788",
+        "parentUid" : "7151141a4c61ff892d15304863b82918",
+        "status" : "passed",
+        "time" : {
+          "start" : 1692461953557,
+          "stop" : 1692461954621,
+          "duration" : 1064
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'case_id': 3, 'api_name': '金融机构逻辑删除', 'case_name': '删除金融机构', 'is_run': True, 'level': 'normal', 'premise_caseid': None, 'premise_key': 'error', 'relevance_field': 'ids', 'url': 'api/ld-erps/finance/remove', 'method': 'post', 'data': {'ids': '1455772183081054209'}, 'headers': {'Content-Type': 'application/x-www-form-urlencoded', 'Authorization': 'Basic c2FiZXI6bGRAMTIzNDU2', 'Blade-Auth': 'bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZW5hbnRfaWQiOiI2ODMyNTIiLCJ0ZW5hbnRfbmFtZSI6Iua8lOekuuenn-aItyjmlbDmja7lvILluLjmmoLlgZzkvb_nlKgpIiwidXNlcl9uYW1lIjoiYWRtaW4iLCJkZXB0X25hbWUiOiLmvJTnpLrnp5_miLciLCJyZWFsX25hbWUiOiJhZG1pbiIsImF2YXRhciI6InVwbG9hZC8yMDIyMDExMi8zZTg3ZDI2YzZhMzUxOWM5YmM5N2YwM2I2Y2E0N2E3OS5wbmciLCJhdXRob3JpdGllcyI6WyJhZG1pbiJdLCJjbGllbnRfaWQiOiJzYWJlciIsInJvbGVfbmFtZSI6ImFkbWluIiwicG9zdF9pZCI6IjE0ODEyMDc0NTI2NzU5NDQ0NDkiLCJ1c2VyX2lkIjoiMTQ3MzQ4MjMxOTgxNzk2OTY2NSIsInJvbGVfaWQiOiIxNDczNDgyMzEwNTQwNjU2NjQxIiwicG9zdF9uYW1lIjoiY2VvIiwic2NvcGUiOlsiYWxsIl0sIm5pY2tfbmFtZSI6ImFkbWluIiwib2F1dGhfaWQiOiIiLCJkZXRhaWwiOnsidHlwZSI6IndlYiJ9LCJleHAiOjE2ODk2ODAxMzEsImRlcHRfaWQiOiIxNDczNDgyMzE0MzcwMDU2MTk0IiwicG93ZXJlZCBieSBsZCI6InBvd2VyZWQgYnkgYmxhZGV4IiwianRpIjoiNjY4NDAwOGEtYWUwMi00YzQ0LWE2OWItY2FiYzdkZjY3ZWUzIiwiYWNjb3VudCI6ImFkbWluIn0.u01NTOYLZSSCyoUsKowvKEWyTW_1qDeBXqdszhQkbxw', 'Cookie': 'saber-refresh-token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZW5hbnRfaWQiOiI2ODMyNTIiLCJ0ZW5hbnRfbmFtZSI6Iua8lOekuuenn-aItyjmlbDmja7lvILluLjmmoLlgZzkvb_nlKgpIiwidXNlcl9uYW1lIjoiYWRtaW4iLCJkZXB0X25hbWUiOiLmvJTnpLrnp5_miLciLCJyZWFsX25hbWUiOiJhZG1pbiIsImF2YXRhciI6InVwbG9hZC8yMDIyMDExMi8zZTg3ZDI2YzZhMzUxOWM5YmM5N2YwM2I2Y2E0N2E3OS5wbmciLCJhdXRob3JpdGllcyI6WyJhZG1pbiJdLCJjbGllbnRfaWQiOiJzYWJlciIsInJvbGVfbmFtZSI6ImFkbWluIiwicG9zdF9pZCI6IjE0ODEyMDc0NTI2NzU5NDQ0NDkiLCJ1c2VyX2lkIjoiMTQ3MzQ4MjMxOTgxNzk2OTY2NSIsInJvbGVfaWQiOiIxNDczNDgyMzEwNTQwNjU2NjQxIiwicG9zdF9uYW1lIjoiY2VvIiwic2NvcGUiOlsiYWxsIl0sIm5pY2tfbmFtZSI6ImFkbWluIiwiYXRpIjoiNjY4NDAwOGEtYWUwMi00YzQ0LWE2OWItY2FiYzdkZjY3ZWUzIiwib2F1dGhfaWQiOiIiLCJkZXRhaWwiOnsidHlwZSI6IndlYiJ9LCJleHAiOjE2OTAyODEzMzEsImRlcHRfaWQiOiIxNDczNDgyMzE0MzcwMDU2MTk0IiwicG93ZXJlZCBieSBsZCI6InBvd2VyZWQgYnkgYmxhZGV4IiwianRpIjoiZTg1NDE0NGQtZTY5Zi00MGY3LWJjM2MtNTZjOTU1ZjEzNDFiIiwiYWNjb3VudCI6ImFkbWluIn0.J8qEnQvTnFrl-WQrJRmIuOq468SeHwenrHrph6J-U20', 'dept_id': '1473482314370056194', 'Tenant-Id': '683252'}, 'mime_type': 'www-form-urlencoded', 'files': None, 'cookies': False, 'timeout': 10, 'validate': {'check_mode': 'check_code', 'expected_code': 401, 'expected_desc': {'$..msg': '门店车型代码重复！'}, 'expected_format': {'code': 101058, 'success': False, 'data': {}}}}" ]
+      }, {
+        "name" : "登录",
+        "uid" : "49b984c4b6e1cdd0",
+        "parentUid" : "7151141a4c61ff892d15304863b82918",
+        "status" : "passed",
+        "time" : {
+          "start" : 1692461952409,
+          "stop" : 1692461953545,
+          "duration" : 1136
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'case_id': 1, 'api_name': '登录', 'case_name': '登录成功', 'is_run': True, 'level': 'blocker', 'premise_caseid': None, 'premise_key': 'msg', 'relevance_field': '测试', 'url': 'api/blade-auth/oauth/token?', 'method': 'post', 'data': {'tenantId': '683252', 'username': 'admin', 'password': '670b14728ad9902aecba32e22fa4f6bd', 'grant_type': 'password', 'scope': 'all', 'type': 'account'}, 'headers': {'Authorization': 'Basic c2FiZXI6bGRAMTIzNDU2', 'Tenant-Id': '683252'}, 'mime_type': 'application/x-www-form-urlencoded', 'files': {'图片1': 'C:\\\\Users\\\\asus\\\\Desktop\\\\1.jpg', '图片2': 'C:\\\\Users\\\\asus\\\\Desktop\\\\2.jpg'}, 'cookies': False, 'timeout': 10, 'validate': {'check_mode': 'check_code', 'expected_code': 400, 'expected_desc': {'$..msg': '门店车型代码重复！'}, 'expected_format': {'code': 101058, 'success': False, 'data': {}}}}" ]
+      } ],
+      "uid" : "7151141a4c61ff892d15304863b82918"
+    }, {
+      "name" : "14036-MainThread",
+      "children" : [ {
+        "name" : "test_o1",
+        "uid" : "83e196c6dbbb62b0",
+        "parentUid" : "d5d5e34a3822817e7cf1599b98bb9709",
+        "status" : "failed",
+        "time" : {
+          "start" : 1692546586376,
+          "stop" : 1692546586376,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d5d5e34a3822817e7cf1599b98bb9709"
+    }, {
+      "name" : "4724-MainThread",
+      "children" : [ {
+        "name" : "登录",
+        "uid" : "27ff4bd4d75c15b4",
+        "parentUid" : "5eff30c7e1c56a7574ad35e65493ca99",
+        "status" : "passed",
+        "time" : {
+          "start" : 1692546953218,
+          "stop" : 1692546954346,
+          "duration" : 1128
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'case_id': 1, 'api_name': '登录', 'case_name': '登录成功', 'is_run': True, 'level': 'blocker', 'premise_caseid': None, 'premise_key': 'msg', 'relevance_field': '测试', 'url': 'api/blade-auth/oauth/token?', 'method': 'post', 'data': {'tenantId': '683252', 'username': 'admin', 'password': '670b14728ad9902aecba32e22fa4f6bd', 'grant_type': 'password', 'scope': 'all', 'type': 'account'}, 'headers': {'Authorization': 'Basic c2FiZXI6bGRAMTIzNDU2', 'Tenant-Id': '683252'}, 'mime_type': 'application/x-www-form-urlencoded', 'files': {'图片1': 'C:\\\\Users\\\\asus\\\\Desktop\\\\1.jpg', '图片2': 'C:\\\\Users\\\\asus\\\\Desktop\\\\2.jpg'}, 'cookies': False, 'timeout': 10, 'validate': {'check_mode': 'check_code', 'expected_code': 400, 'expected_desc': {'$..msg': '门店车型代码重复！'}, 'expected_format': {'code': 101058, 'success': False, 'data': {}}}}" ]
+      }, {
+        "name" : "金融机构逻辑删除",
+        "uid" : "d294ed2d4ba5e307",
+        "parentUid" : "5eff30c7e1c56a7574ad35e65493ca99",
+        "status" : "passed",
+        "time" : {
+          "start" : 1692546954348,
+          "stop" : 1692546955420,
+          "duration" : 1072
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'case_id': 3, 'api_name': '金融机构逻辑删除', 'case_name': '删除金融机构', 'is_run': True, 'level': 'normal', 'premise_caseid': None, 'premise_key': 'error', 'relevance_field': 'ids', 'url': 'api/ld-erps/finance/remove', 'method': 'post', 'data': {'ids': '1455772183081054209'}, 'headers': {'Content-Type': 'application/x-www-form-urlencoded', 'Authorization': 'Basic c2FiZXI6bGRAMTIzNDU2', 'Blade-Auth': 'bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZW5hbnRfaWQiOiI2ODMyNTIiLCJ0ZW5hbnRfbmFtZSI6Iua8lOekuuenn-aItyjmlbDmja7lvILluLjmmoLlgZzkvb_nlKgpIiwidXNlcl9uYW1lIjoiYWRtaW4iLCJkZXB0X25hbWUiOiLmvJTnpLrnp5_miLciLCJyZWFsX25hbWUiOiJhZG1pbiIsImF2YXRhciI6InVwbG9hZC8yMDIyMDExMi8zZTg3ZDI2YzZhMzUxOWM5YmM5N2YwM2I2Y2E0N2E3OS5wbmciLCJhdXRob3JpdGllcyI6WyJhZG1pbiJdLCJjbGllbnRfaWQiOiJzYWJlciIsInJvbGVfbmFtZSI6ImFkbWluIiwicG9zdF9pZCI6IjE0ODEyMDc0NTI2NzU5NDQ0NDkiLCJ1c2VyX2lkIjoiMTQ3MzQ4MjMxOTgxNzk2OTY2NSIsInJvbGVfaWQiOiIxNDczNDgyMzEwNTQwNjU2NjQxIiwicG9zdF9uYW1lIjoiY2VvIiwic2NvcGUiOlsiYWxsIl0sIm5pY2tfbmFtZSI6ImFkbWluIiwib2F1dGhfaWQiOiIiLCJkZXRhaWwiOnsidHlwZSI6IndlYiJ9LCJleHAiOjE2ODk2ODAxMzEsImRlcHRfaWQiOiIxNDczNDgyMzE0MzcwMDU2MTk0IiwicG93ZXJlZCBieSBsZCI6InBvd2VyZWQgYnkgYmxhZGV4IiwianRpIjoiNjY4NDAwOGEtYWUwMi00YzQ0LWE2OWItY2FiYzdkZjY3ZWUzIiwiYWNjb3VudCI6ImFkbWluIn0.u01NTOYLZSSCyoUsKowvKEWyTW_1qDeBXqdszhQkbxw', 'Cookie': 'saber-refresh-token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZW5hbnRfaWQiOiI2ODMyNTIiLCJ0ZW5hbnRfbmFtZSI6Iua8lOekuuenn-aItyjmlbDmja7lvILluLjmmoLlgZzkvb_nlKgpIiwidXNlcl9uYW1lIjoiYWRtaW4iLCJkZXB0X25hbWUiOiLmvJTnpLrnp5_miLciLCJyZWFsX25hbWUiOiJhZG1pbiIsImF2YXRhciI6InVwbG9hZC8yMDIyMDExMi8zZTg3ZDI2YzZhMzUxOWM5YmM5N2YwM2I2Y2E0N2E3OS5wbmciLCJhdXRob3JpdGllcyI6WyJhZG1pbiJdLCJjbGllbnRfaWQiOiJzYWJlciIsInJvbGVfbmFtZSI6ImFkbWluIiwicG9zdF9pZCI6IjE0ODEyMDc0NTI2NzU5NDQ0NDkiLCJ1c2VyX2lkIjoiMTQ3MzQ4MjMxOTgxNzk2OTY2NSIsInJvbGVfaWQiOiIxNDczNDgyMzEwNTQwNjU2NjQxIiwicG9zdF9uYW1lIjoiY2VvIiwic2NvcGUiOlsiYWxsIl0sIm5pY2tfbmFtZSI6ImFkbWluIiwiYXRpIjoiNjY4NDAwOGEtYWUwMi00YzQ0LWE2OWItY2FiYzdkZjY3ZWUzIiwib2F1dGhfaWQiOiIiLCJkZXRhaWwiOnsidHlwZSI6IndlYiJ9LCJleHAiOjE2OTAyODEzMzEsImRlcHRfaWQiOiIxNDczNDgyMzE0MzcwMDU2MTk0IiwicG93ZXJlZCBieSBsZCI6InBvd2VyZWQgYnkgYmxhZGV4IiwianRpIjoiZTg1NDE0NGQtZTY5Zi00MGY3LWJjM2MtNTZjOTU1ZjEzNDFiIiwiYWNjb3VudCI6ImFkbWluIn0.J8qEnQvTnFrl-WQrJRmIuOq468SeHwenrHrph6J-U20', 'dept_id': '1473482314370056194', 'Tenant-Id': '683252'}, 'mime_type': 'www-form-urlencoded', 'files': None, 'cookies': False, 'timeout': 10, 'validate': {'check_mode': 'check_code', 'expected_code': 401, 'expected_desc': {'$..msg': '门店车型代码重复！'}, 'expected_format': {'code': 101058, 'success': False, 'data': {}}}}" ]
+      }, {
+        "name" : "车型信息",
+        "uid" : "d996107f461426f2",
+        "parentUid" : "5eff30c7e1c56a7574ad35e65493ca99",
+        "status" : "failed",
+        "time" : {
+          "start" : 1692546951952,
+          "stop" : 1692546953208,
+          "duration" : 1256
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'case_id': 4, 'api_name': '车型信息', 'case_name': '新增车型信息', 'is_run': True, 'level': 'trivial', 'premise_caseid': 1, 'premise_key': 'detail.type', 'relevance_field': 'deptSeriesId', 'url': 'api/ld-erps/deptcartype/submit', 'method': 'post', 'data': {'brandName': '1500010931297513473', 'deptBrandId': '1500010931297513473', 'deptFirmId': '1500010984066052098', 'deptSeriesId': '1500011053616001025', 'typeName': 'a1', 'typeCode': 'a23', 'ageStyleType': 1, 'ageStyleTypeName': '1', 'gearBoxType': 1, 'gearBoxTypeName': '1', 'engineCapacity': 'a4', 'emissionStandard': 1, 'emissionStandardName': '1', 'versionNo': 'a5', 'powerType': 1, 'powerTypeName': '1', 'guidePrice': '6', 'costPrice': '7', 'referenceRebate': '7', 'status': 1, 'furl': '', 'imgsUrl': 'upload/20230718/b817487e07842052d575d9d2935a29fd.jpg', 'remark': '<p>豪车</p>', 'appliedScope': '1,2'}, 'headers': {'Content-Type': 'application/json;charset=UTF-8', 'Authorization': 'Basic c2FiZXI6bGRAMTIzNDU2', 'Blade-Auth': 'bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZW5hbnRfaWQiOiI2ODMyNTIiLCJ0ZW5hbnRfbmFtZSI6Iua8lOekuuenn-aItyjmlbDmja7lvILluLjmmoLlgZzkvb_nlKgpIiwidXNlcl9uYW1lIjoiYWRtaW4iLCJkZXB0X25hbWUiOiLmvJTnpLrnp5_miLciLCJyZWFsX25hbWUiOiJhZG1pbiIsImF2YXRhciI6InVwbG9hZC8yMDIyMDExMi8zZTg3ZDI2YzZhMzUxOWM5YmM5N2YwM2I2Y2E0N2E3OS5wbmciLCJhdXRob3JpdGllcyI6WyJhZG1pbiJdLCJjbGllbnRfaWQiOiJzYWJlciIsInJvbGVfbmFtZSI6ImFkbWluIiwicG9zdF9pZCI6IjE0ODEyMDc0NTI2NzU5NDQ0NDkiLCJ1c2VyX2lkIjoiMTQ3MzQ4MjMxOTgxNzk2OTY2NSIsInJvbGVfaWQiOiIxNDczNDgyMzEwNTQwNjU2NjQxIiwicG9zdF9uYW1lIjoiY2VvIiwic2NvcGUiOlsiYWxsIl0sIm5pY2tfbmFtZSI6ImFkbWluIiwib2F1dGhfaWQiOiIiLCJkZXRhaWwiOnsidHlwZSI6IndlYiJ9LCJleHAiOjE2ODk2ODAxMzEsImRlcHRfaWQiOiIxNDczNDgyMzE0MzcwMDU2MTk0IiwicG93ZXJlZCBieSBsZCI6InBvd2VyZWQgYnkgYmxhZGV4IiwianRpIjoiNjY4NDAwOGEtYWUwMi00YzQ0LWE2OWItY2FiYzdkZjY3ZWUzIiwiYWNjb3VudCI6ImFkbWluIn0.u01NTOYLZSSCyoUsKowvKEWyTW_1qDeBXqdszhQkbxw', 'Cookie': 'saber-refresh-token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZW5hbnRfaWQiOiI2ODMyNTIiLCJ0ZW5hbnRfbmFtZSI6Iua8lOekuuenn-aItyjmlbDmja7lvILluLjmmoLlgZzkvb_nlKgpIiwidXNlcl9uYW1lIjoiYWRtaW4iLCJkZXB0X25hbWUiOiLmvJTnpLrnp5_miLciLCJyZWFsX25hbWUiOiJhZG1pbiIsImF2YXRhciI6InVwbG9hZC8yMDIyMDExMi8zZTg3ZDI2YzZhMzUxOWM5YmM5N2YwM2I2Y2E0N2E3OS5wbmciLCJhdXRob3JpdGllcyI6WyJhZG1pbiJdLCJjbGllbnRfaWQiOiJzYWJlciIsInJvbGVfbmFtZSI6ImFkbWluIiwicG9zdF9pZCI6IjE0ODEyMDc0NTI2NzU5NDQ0NDkiLCJ1c2VyX2lkIjoiMTQ3MzQ4MjMxOTgxNzk2OTY2NSIsInJvbGVfaWQiOiIxNDczNDgyMzEwNTQwNjU2NjQxIiwicG9zdF9uYW1lIjoiY2VvIiwic2NvcGUiOlsiYWxsIl0sIm5pY2tfbmFtZSI6ImFkbWluIiwiYXRpIjoiNjY4NDAwOGEtYWUwMi00YzQ0LWE2OWItY2FiYzdkZjY3ZWUzIiwib2F1dGhfaWQiOiIiLCJkZXRhaWwiOnsidHlwZSI6IndlYiJ9LCJleHAiOjE2OTAyODEzMzEsImRlcHRfaWQiOiIxNDczNDgyMzE0MzcwMDU2MTk0IiwicG93ZXJlZCBieSBsZCI6InBvd2VyZWQgYnkgYmxhZGV4IiwianRpIjoiZTg1NDE0NGQtZTY5Zi00MGY3LWJjM2MtNTZjOTU1ZjEzNDFiIiwiYWNjb3VudCI6ImFkbWluIn0.J8qEnQvTnFrl-WQrJRmIuOq468SeHwenrHrph6J-U20', 'dept_id': '1473482314370056194', 'Tenant-Id': '683252'}, 'mime_type': 'application/json', 'files': None, 'cookies': False, 'timeout': 10, 'validate': {'check_mode': 'check_code', 'expected_code': 401, 'expected_desc': {'$..msg': '门店车型代码重复！'}, 'expected_format': {'code': 101058, 'success': False, 'data': {}, 'msg': '门店车型代码重复！'}}}" ]
+      }, {
+        "name" : "test_o1",
+        "uid" : "fc63e227faab6858",
+        "parentUid" : "5eff30c7e1c56a7574ad35e65493ca99",
+        "status" : "failed",
+        "time" : {
+          "start" : 1692546950754,
+          "stop" : 1692546950754,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "登录",
+        "uid" : "466d0e48321c3dc1",
+        "parentUid" : "5eff30c7e1c56a7574ad35e65493ca99",
+        "status" : "failed",
+        "time" : {
+          "start" : 1692546950806,
+          "stop" : 1692546951939,
+          "duration" : 1133
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'case_id': 2, 'api_name': '登录', 'case_name': '登录失败', 'is_run': True, 'level': 'critical', 'premise_caseid': None, 'premise_key': 'detail.type', 'relevance_field': 'remark', 'url': 'api/ld-erps/deptoptionalpackage/submit', 'method': 'post', 'data': {'deptBrandId': '1500010931297513473', 'deptFirmId': '1500010984066052098', 'deptSeriesId': '1500011053616001025', 'packageName': '国庆节', 'packageCode': '大礼包', 'remark': '十月'}, 'headers': {'Content-Type': 'application/json;charset=UTF-8', 'Authorization': 'Basic c2FiZXI6bGRAMTIzNDU2', 'Blade-Auth': 'bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZW5hbnRfaWQiOiI2ODMyNTIiLCJ0ZW5hbnRfbmFtZSI6Iua8lOekuuenn-aItyjmlbDmja7lvILluLjmmoLlgZzkvb_nlKgpIiwidXNlcl9uYW1lIjoiYWRtaW4iLCJkZXB0X25hbWUiOiLmvJTnpLrnp5_miLciLCJyZWFsX25hbWUiOiJhZG1pbiIsImF2YXRhciI6InVwbG9hZC8yMDIyMDExMi8zZTg3ZDI2YzZhMzUxOWM5YmM5N2YwM2I2Y2E0N2E3OS5wbmciLCJhdXRob3JpdGllcyI6WyJhZG1pbiJdLCJjbGllbnRfaWQiOiJzYWJlciIsInJvbGVfbmFtZSI6ImFkbWluIiwicG9zdF9pZCI6IjE0ODEyMDc0NTI2NzU5NDQ0NDkiLCJ1c2VyX2lkIjoiMTQ3MzQ4MjMxOTgxNzk2OTY2NSIsInJvbGVfaWQiOiIxNDczNDgyMzEwNTQwNjU2NjQxIiwicG9zdF9uYW1lIjoiY2VvIiwic2NvcGUiOlsiYWxsIl0sIm5pY2tfbmFtZSI6ImFkbWluIiwib2F1dGhfaWQiOiIiLCJkZXRhaWwiOnsidHlwZSI6IndlYiJ9LCJleHAiOjE2ODk2ODAxMzEsImRlcHRfaWQiOiIxNDczNDgyMzE0MzcwMDU2MTk0IiwicG93ZXJlZCBieSBsZCI6InBvd2VyZWQgYnkgYmxhZGV4IiwianRpIjoiNjY4NDAwOGEtYWUwMi00YzQ0LWE2OWItY2FiYzdkZjY3ZWUzIiwiYWNjb3VudCI6ImFkbWluIn0.u01NTOYLZSSCyoUsKowvKEWyTW_1qDeBXqdszhQkbxw', 'Cookie': 'saber-refresh-token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZW5hbnRfaWQiOiI2ODMyNTIiLCJ0ZW5hbnRfbmFtZSI6Iua8lOekuuenn-aItyjmlbDmja7lvILluLjmmoLlgZzkvb_nlKgpIiwidXNlcl9uYW1lIjoiYWRtaW4iLCJkZXB0X25hbWUiOiLmvJTnpLrnp5_miLciLCJyZWFsX25hbWUiOiJhZG1pbiIsImF2YXRhciI6InVwbG9hZC8yMDIyMDExMi8zZTg3ZDI2YzZhMzUxOWM5YmM5N2YwM2I2Y2E0N2E3OS5wbmciLCJhdXRob3JpdGllcyI6WyJhZG1pbiJdLCJjbGllbnRfaWQiOiJzYWJlciIsInJvbGVfbmFtZSI6ImFkbWluIiwicG9zdF9pZCI6IjE0ODEyMDc0NTI2NzU5NDQ0NDkiLCJ1c2VyX2lkIjoiMTQ3MzQ4MjMxOTgxNzk2OTY2NSIsInJvbGVfaWQiOiIxNDczNDgyMzEwNTQwNjU2NjQxIiwicG9zdF9uYW1lIjoiY2VvIiwic2NvcGUiOlsiYWxsIl0sIm5pY2tfbmFtZSI6ImFkbWluIiwiYXRpIjoiNjY4NDAwOGEtYWUwMi00YzQ0LWE2OWItY2FiYzdkZjY3ZWUzIiwib2F1dGhfaWQiOiIiLCJkZXRhaWwiOnsidHlwZSI6IndlYiJ9LCJleHAiOjE2OTAyODEzMzEsImRlcHRfaWQiOiIxNDczNDgyMzE0MzcwMDU2MTk0IiwicG93ZXJlZCBieSBsZCI6InBvd2VyZWQgYnkgYmxhZGV4IiwianRpIjoiZTg1NDE0NGQtZTY5Zi00MGY3LWJjM2MtNTZjOTU1ZjEzNDFiIiwiYWNjb3VudCI6ImFkbWluIn0.J8qEnQvTnFrl-WQrJRmIuOq468SeHwenrHrph6J-U20', 'dept_id': '1473482314370056194', 'Tenant-Id': '683252'}, 'mime_type': 'application/json', 'files': {'图片1': 'C:\\\\Users\\\\asus\\\\Desktop\\\\1.jpg', '图片2': 'C:\\\\Users\\\\asus\\\\Desktop\\\\2.jpg'}, 'cookies': False, 'timeout': 10, 'validate': {'check_mode': 'check_code', 'expected_code': 206, 'expected_desc': {'$..msg': '请求未授权'}, 'expected_format': {'code': 101058, 'success': False, 'data': {}}}}" ]
+      } ],
+      "uid" : "5eff30c7e1c56a7574ad35e65493ca99"
+    }, {
+      "name" : "17844-MainThread",
+      "children" : [ {
+        "name" : "登录",
+        "uid" : "640c7a55be3ae712",
+        "parentUid" : "28e370505eec62d72e0c17f4868990ae",
+        "status" : "failed",
+        "time" : {
+          "start" : 1692547332196,
+          "stop" : 1692547333293,
+          "duration" : 1097
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'case_id': 2, 'api_name': '登录', 'case_name': '登录失败', 'is_run': True, 'level': 'critical', 'premise_caseid': None, 'premise_key': 'detail.type', 'relevance_field': 'remark', 'url': 'api/ld-erps/deptoptionalpackage/submit', 'method': 'post', 'data': {'deptBrandId': '1500010931297513473', 'deptFirmId': '1500010984066052098', 'deptSeriesId': '1500011053616001025', 'packageName': '国庆节', 'packageCode': '大礼包', 'remark': '十月'}, 'headers': {'Content-Type': 'application/json;charset=UTF-8', 'Authorization': 'Basic c2FiZXI6bGRAMTIzNDU2', 'Blade-Auth': 'bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZW5hbnRfaWQiOiI2ODMyNTIiLCJ0ZW5hbnRfbmFtZSI6Iua8lOekuuenn-aItyjmlbDmja7lvILluLjmmoLlgZzkvb_nlKgpIiwidXNlcl9uYW1lIjoiYWRtaW4iLCJkZXB0X25hbWUiOiLmvJTnpLrnp5_miLciLCJyZWFsX25hbWUiOiJhZG1pbiIsImF2YXRhciI6InVwbG9hZC8yMDIyMDExMi8zZTg3ZDI2YzZhMzUxOWM5YmM5N2YwM2I2Y2E0N2E3OS5wbmciLCJhdXRob3JpdGllcyI6WyJhZG1pbiJdLCJjbGllbnRfaWQiOiJzYWJlciIsInJvbGVfbmFtZSI6ImFkbWluIiwicG9zdF9pZCI6IjE0ODEyMDc0NTI2NzU5NDQ0NDkiLCJ1c2VyX2lkIjoiMTQ3MzQ4MjMxOTgxNzk2OTY2NSIsInJvbGVfaWQiOiIxNDczNDgyMzEwNTQwNjU2NjQxIiwicG9zdF9uYW1lIjoiY2VvIiwic2NvcGUiOlsiYWxsIl0sIm5pY2tfbmFtZSI6ImFkbWluIiwib2F1dGhfaWQiOiIiLCJkZXRhaWwiOnsidHlwZSI6IndlYiJ9LCJleHAiOjE2ODk2ODAxMzEsImRlcHRfaWQiOiIxNDczNDgyMzE0MzcwMDU2MTk0IiwicG93ZXJlZCBieSBsZCI6InBvd2VyZWQgYnkgYmxhZGV4IiwianRpIjoiNjY4NDAwOGEtYWUwMi00YzQ0LWE2OWItY2FiYzdkZjY3ZWUzIiwiYWNjb3VudCI6ImFkbWluIn0.u01NTOYLZSSCyoUsKowvKEWyTW_1qDeBXqdszhQkbxw', 'Cookie': 'saber-refresh-token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZW5hbnRfaWQiOiI2ODMyNTIiLCJ0ZW5hbnRfbmFtZSI6Iua8lOekuuenn-aItyjmlbDmja7lvILluLjmmoLlgZzkvb_nlKgpIiwidXNlcl9uYW1lIjoiYWRtaW4iLCJkZXB0X25hbWUiOiLmvJTnpLrnp5_miLciLCJyZWFsX25hbWUiOiJhZG1pbiIsImF2YXRhciI6InVwbG9hZC8yMDIyMDExMi8zZTg3ZDI2YzZhMzUxOWM5YmM5N2YwM2I2Y2E0N2E3OS5wbmciLCJhdXRob3JpdGllcyI6WyJhZG1pbiJdLCJjbGllbnRfaWQiOiJzYWJlciIsInJvbGVfbmFtZSI6ImFkbWluIiwicG9zdF9pZCI6IjE0ODEyMDc0NTI2NzU5NDQ0NDkiLCJ1c2VyX2lkIjoiMTQ3MzQ4MjMxOTgxNzk2OTY2NSIsInJvbGVfaWQiOiIxNDczNDgyMzEwNTQwNjU2NjQxIiwicG9zdF9uYW1lIjoiY2VvIiwic2NvcGUiOlsiYWxsIl0sIm5pY2tfbmFtZSI6ImFkbWluIiwiYXRpIjoiNjY4NDAwOGEtYWUwMi00YzQ0LWE2OWItY2FiYzdkZjY3ZWUzIiwib2F1dGhfaWQiOiIiLCJkZXRhaWwiOnsidHlwZSI6IndlYiJ9LCJleHAiOjE2OTAyODEzMzEsImRlcHRfaWQiOiIxNDczNDgyMzE0MzcwMDU2MTk0IiwicG93ZXJlZCBieSBsZCI6InBvd2VyZWQgYnkgYmxhZGV4IiwianRpIjoiZTg1NDE0NGQtZTY5Zi00MGY3LWJjM2MtNTZjOTU1ZjEzNDFiIiwiYWNjb3VudCI6ImFkbWluIn0.J8qEnQvTnFrl-WQrJRmIuOq468SeHwenrHrph6J-U20', 'dept_id': '1473482314370056194', 'Tenant-Id': '683252'}, 'mime_type': 'application/json', 'files': {'图片1': 'C:\\\\Users\\\\asus\\\\Desktop\\\\1.jpg', '图片2': 'C:\\\\Users\\\\asus\\\\Desktop\\\\2.jpg'}, 'cookies': False, 'timeout': 10, 'validate': {'check_mode': 'check_code', 'expected_code': 206, 'expected_desc': {'$..msg': '请求未授权'}, 'expected_format': {'code': 101058, 'success': False, 'data': {}}}}" ]
+      }, {
+        "name" : "金融机构逻辑删除",
+        "uid" : "3ff703f13f575275",
+        "parentUid" : "28e370505eec62d72e0c17f4868990ae",
+        "status" : "passed",
+        "time" : {
+          "start" : 1692547335693,
+          "stop" : 1692547336751,
+          "duration" : 1058
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'case_id': 3, 'api_name': '金融机构逻辑删除', 'case_name': '删除金融机构', 'is_run': True, 'level': 'normal', 'premise_caseid': None, 'premise_key': 'error', 'relevance_field': 'ids', 'url': 'api/ld-erps/finance/remove', 'method': 'post', 'data': {'ids': '1455772183081054209'}, 'headers': {'Content-Type': 'application/x-www-form-urlencoded', 'Authorization': 'Basic c2FiZXI6bGRAMTIzNDU2', 'Blade-Auth': 'bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZW5hbnRfaWQiOiI2ODMyNTIiLCJ0ZW5hbnRfbmFtZSI6Iua8lOekuuenn-aItyjmlbDmja7lvILluLjmmoLlgZzkvb_nlKgpIiwidXNlcl9uYW1lIjoiYWRtaW4iLCJkZXB0X25hbWUiOiLmvJTnpLrnp5_miLciLCJyZWFsX25hbWUiOiJhZG1pbiIsImF2YXRhciI6InVwbG9hZC8yMDIyMDExMi8zZTg3ZDI2YzZhMzUxOWM5YmM5N2YwM2I2Y2E0N2E3OS5wbmciLCJhdXRob3JpdGllcyI6WyJhZG1pbiJdLCJjbGllbnRfaWQiOiJzYWJlciIsInJvbGVfbmFtZSI6ImFkbWluIiwicG9zdF9pZCI6IjE0ODEyMDc0NTI2NzU5NDQ0NDkiLCJ1c2VyX2lkIjoiMTQ3MzQ4MjMxOTgxNzk2OTY2NSIsInJvbGVfaWQiOiIxNDczNDgyMzEwNTQwNjU2NjQxIiwicG9zdF9uYW1lIjoiY2VvIiwic2NvcGUiOlsiYWxsIl0sIm5pY2tfbmFtZSI6ImFkbWluIiwib2F1dGhfaWQiOiIiLCJkZXRhaWwiOnsidHlwZSI6IndlYiJ9LCJleHAiOjE2ODk2ODAxMzEsImRlcHRfaWQiOiIxNDczNDgyMzE0MzcwMDU2MTk0IiwicG93ZXJlZCBieSBsZCI6InBvd2VyZWQgYnkgYmxhZGV4IiwianRpIjoiNjY4NDAwOGEtYWUwMi00YzQ0LWE2OWItY2FiYzdkZjY3ZWUzIiwiYWNjb3VudCI6ImFkbWluIn0.u01NTOYLZSSCyoUsKowvKEWyTW_1qDeBXqdszhQkbxw', 'Cookie': 'saber-refresh-token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZW5hbnRfaWQiOiI2ODMyNTIiLCJ0ZW5hbnRfbmFtZSI6Iua8lOekuuenn-aItyjmlbDmja7lvILluLjmmoLlgZzkvb_nlKgpIiwidXNlcl9uYW1lIjoiYWRtaW4iLCJkZXB0X25hbWUiOiLmvJTnpLrnp5_miLciLCJyZWFsX25hbWUiOiJhZG1pbiIsImF2YXRhciI6InVwbG9hZC8yMDIyMDExMi8zZTg3ZDI2YzZhMzUxOWM5YmM5N2YwM2I2Y2E0N2E3OS5wbmciLCJhdXRob3JpdGllcyI6WyJhZG1pbiJdLCJjbGllbnRfaWQiOiJzYWJlciIsInJvbGVfbmFtZSI6ImFkbWluIiwicG9zdF9pZCI6IjE0ODEyMDc0NTI2NzU5NDQ0NDkiLCJ1c2VyX2lkIjoiMTQ3MzQ4MjMxOTgxNzk2OTY2NSIsInJvbGVfaWQiOiIxNDczNDgyMzEwNTQwNjU2NjQxIiwicG9zdF9uYW1lIjoiY2VvIiwic2NvcGUiOlsiYWxsIl0sIm5pY2tfbmFtZSI6ImFkbWluIiwiYXRpIjoiNjY4NDAwOGEtYWUwMi00YzQ0LWE2OWItY2FiYzdkZjY3ZWUzIiwib2F1dGhfaWQiOiIiLCJkZXRhaWwiOnsidHlwZSI6IndlYiJ9LCJleHAiOjE2OTAyODEzMzEsImRlcHRfaWQiOiIxNDczNDgyMzE0MzcwMDU2MTk0IiwicG93ZXJlZCBieSBsZCI6InBvd2VyZWQgYnkgYmxhZGV4IiwianRpIjoiZTg1NDE0NGQtZTY5Zi00MGY3LWJjM2MtNTZjOTU1ZjEzNDFiIiwiYWNjb3VudCI6ImFkbWluIn0.J8qEnQvTnFrl-WQrJRmIuOq468SeHwenrHrph6J-U20', 'dept_id': '1473482314370056194', 'Tenant-Id': '683252'}, 'mime_type': 'www-form-urlencoded', 'files': None, 'cookies': False, 'timeout': 10, 'validate': {'check_mode': 'check_code', 'expected_code': 401, 'expected_desc': {'$..msg': '门店车型代码重复！'}, 'expected_format': {'code': 101058, 'success': False, 'data': {}}}}" ]
+      }, {
+        "name" : "车型信息",
+        "uid" : "11a21f762d0a3824",
+        "parentUid" : "28e370505eec62d72e0c17f4868990ae",
+        "status" : "failed",
+        "time" : {
+          "start" : 1692547333305,
+          "stop" : 1692547334563,
+          "duration" : 1258
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'case_id': 4, 'api_name': '车型信息', 'case_name': '新增车型信息', 'is_run': True, 'level': 'trivial', 'premise_caseid': 1, 'premise_key': 'detail.type', 'relevance_field': 'deptSeriesId', 'url': 'api/ld-erps/deptcartype/submit', 'method': 'post', 'data': {'brandName': '1500010931297513473', 'deptBrandId': '1500010931297513473', 'deptFirmId': '1500010984066052098', 'deptSeriesId': '1500011053616001025', 'typeName': 'a1', 'typeCode': 'a23', 'ageStyleType': 1, 'ageStyleTypeName': '1', 'gearBoxType': 1, 'gearBoxTypeName': '1', 'engineCapacity': 'a4', 'emissionStandard': 1, 'emissionStandardName': '1', 'versionNo': 'a5', 'powerType': 1, 'powerTypeName': '1', 'guidePrice': '6', 'costPrice': '7', 'referenceRebate': '7', 'status': 1, 'furl': '', 'imgsUrl': 'upload/20230718/b817487e07842052d575d9d2935a29fd.jpg', 'remark': '<p>豪车</p>', 'appliedScope': '1,2'}, 'headers': {'Content-Type': 'application/json;charset=UTF-8', 'Authorization': 'Basic c2FiZXI6bGRAMTIzNDU2', 'Blade-Auth': 'bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZW5hbnRfaWQiOiI2ODMyNTIiLCJ0ZW5hbnRfbmFtZSI6Iua8lOekuuenn-aItyjmlbDmja7lvILluLjmmoLlgZzkvb_nlKgpIiwidXNlcl9uYW1lIjoiYWRtaW4iLCJkZXB0X25hbWUiOiLmvJTnpLrnp5_miLciLCJyZWFsX25hbWUiOiJhZG1pbiIsImF2YXRhciI6InVwbG9hZC8yMDIyMDExMi8zZTg3ZDI2YzZhMzUxOWM5YmM5N2YwM2I2Y2E0N2E3OS5wbmciLCJhdXRob3JpdGllcyI6WyJhZG1pbiJdLCJjbGllbnRfaWQiOiJzYWJlciIsInJvbGVfbmFtZSI6ImFkbWluIiwicG9zdF9pZCI6IjE0ODEyMDc0NTI2NzU5NDQ0NDkiLCJ1c2VyX2lkIjoiMTQ3MzQ4MjMxOTgxNzk2OTY2NSIsInJvbGVfaWQiOiIxNDczNDgyMzEwNTQwNjU2NjQxIiwicG9zdF9uYW1lIjoiY2VvIiwic2NvcGUiOlsiYWxsIl0sIm5pY2tfbmFtZSI6ImFkbWluIiwib2F1dGhfaWQiOiIiLCJkZXRhaWwiOnsidHlwZSI6IndlYiJ9LCJleHAiOjE2ODk2ODAxMzEsImRlcHRfaWQiOiIxNDczNDgyMzE0MzcwMDU2MTk0IiwicG93ZXJlZCBieSBsZCI6InBvd2VyZWQgYnkgYmxhZGV4IiwianRpIjoiNjY4NDAwOGEtYWUwMi00YzQ0LWE2OWItY2FiYzdkZjY3ZWUzIiwiYWNjb3VudCI6ImFkbWluIn0.u01NTOYLZSSCyoUsKowvKEWyTW_1qDeBXqdszhQkbxw', 'Cookie': 'saber-refresh-token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZW5hbnRfaWQiOiI2ODMyNTIiLCJ0ZW5hbnRfbmFtZSI6Iua8lOekuuenn-aItyjmlbDmja7lvILluLjmmoLlgZzkvb_nlKgpIiwidXNlcl9uYW1lIjoiYWRtaW4iLCJkZXB0X25hbWUiOiLmvJTnpLrnp5_miLciLCJyZWFsX25hbWUiOiJhZG1pbiIsImF2YXRhciI6InVwbG9hZC8yMDIyMDExMi8zZTg3ZDI2YzZhMzUxOWM5YmM5N2YwM2I2Y2E0N2E3OS5wbmciLCJhdXRob3JpdGllcyI6WyJhZG1pbiJdLCJjbGllbnRfaWQiOiJzYWJlciIsInJvbGVfbmFtZSI6ImFkbWluIiwicG9zdF9pZCI6IjE0ODEyMDc0NTI2NzU5NDQ0NDkiLCJ1c2VyX2lkIjoiMTQ3MzQ4MjMxOTgxNzk2OTY2NSIsInJvbGVfaWQiOiIxNDczNDgyMzEwNTQwNjU2NjQxIiwicG9zdF9uYW1lIjoiY2VvIiwic2NvcGUiOlsiYWxsIl0sIm5pY2tfbmFtZSI6ImFkbWluIiwiYXRpIjoiNjY4NDAwOGEtYWUwMi00YzQ0LWE2OWItY2FiYzdkZjY3ZWUzIiwib2F1dGhfaWQiOiIiLCJkZXRhaWwiOnsidHlwZSI6IndlYiJ9LCJleHAiOjE2OTAyODEzMzEsImRlcHRfaWQiOiIxNDczNDgyMzE0MzcwMDU2MTk0IiwicG93ZXJlZCBieSBsZCI6InBvd2VyZWQgYnkgYmxhZGV4IiwianRpIjoiZTg1NDE0NGQtZTY5Zi00MGY3LWJjM2MtNTZjOTU1ZjEzNDFiIiwiYWNjb3VudCI6ImFkbWluIn0.J8qEnQvTnFrl-WQrJRmIuOq468SeHwenrHrph6J-U20', 'dept_id': '1473482314370056194', 'Tenant-Id': '683252'}, 'mime_type': 'application/json', 'files': None, 'cookies': False, 'timeout': 10, 'validate': {'check_mode': 'check_code', 'expected_code': 401, 'expected_desc': {'$..msg': '门店车型代码重复！'}, 'expected_format': {'code': 101058, 'success': False, 'data': {}, 'msg': '门店车型代码重复！'}}}" ]
+      }, {
+        "name" : "test_o1",
+        "uid" : "b8ded886d0b2162e",
+        "parentUid" : "28e370505eec62d72e0c17f4868990ae",
+        "status" : "failed",
+        "time" : {
+          "start" : 1692547332143,
+          "stop" : 1692547332143,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "登录",
+        "uid" : "7f15f7780b0a0b56",
+        "parentUid" : "28e370505eec62d72e0c17f4868990ae",
+        "status" : "passed",
+        "time" : {
+          "start" : 1692547334574,
+          "stop" : 1692547335687,
+          "duration" : 1113
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'case_id': 1, 'api_name': '登录', 'case_name': '登录成功', 'is_run': True, 'level': 'blocker', 'premise_caseid': None, 'premise_key': 'msg', 'relevance_field': '测试', 'url': 'api/blade-auth/oauth/token?', 'method': 'post', 'data': {'tenantId': '683252', 'username': 'admin', 'password': '670b14728ad9902aecba32e22fa4f6bd', 'grant_type': 'password', 'scope': 'all', 'type': 'account'}, 'headers': {'Authorization': 'Basic c2FiZXI6bGRAMTIzNDU2', 'Tenant-Id': '683252'}, 'mime_type': 'application/x-www-form-urlencoded', 'files': {'图片1': 'C:\\\\Users\\\\asus\\\\Desktop\\\\1.jpg', '图片2': 'C:\\\\Users\\\\asus\\\\Desktop\\\\2.jpg'}, 'cookies': False, 'timeout': 10, 'validate': {'check_mode': 'check_code', 'expected_code': 400, 'expected_desc': {'$..msg': '门店车型代码重复！'}, 'expected_format': {'code': 101058, 'success': False, 'data': {}}}}" ]
+      } ],
+      "uid" : "28e370505eec62d72e0c17f4868990ae"
+    }, {
+      "name" : "16100-MainThread",
+      "children" : [ {
+        "name" : "test_o1",
+        "uid" : "ea2482f18f4a58ad",
+        "parentUid" : "e898b8228d2802ac9c96265cbf4245c1",
+        "status" : "failed",
+        "time" : {
+          "start" : 1692461983641,
+          "stop" : 1692461983641,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e898b8228d2802ac9c96265cbf4245c1"
+    } ],
+    "uid" : "9780555c1293d1b7f135d6f44284811a"
+  } ]
+}

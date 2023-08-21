@@ -1,0 +1,63 @@
+2023-08-16 00:57:37,520 - check_result - check_result.py  - [line:124] - ERROR: 
+预期数据:{'code': 101058, 'success': False, 'data': {}, 'msg': '门店车型代码重复！'} 
+实际数据:{'error': 'invalid_grant', 'error_description': 'Bad credentials'} 
+数据格式校验结果：[root['error'], root['error_description']] 
+错误信息:Traceback (most recent call last):
+  File "D:\Pytest_API\comm\check_result.py", line 119, in test_check_result
+    assert expected_format == actual_format
+AssertionError
+
+2023-08-16 01:06:28,857 - check_result - check_result.py  - [line:124] - ERROR: 
+预期数据:{'code': 101058, 'success': False, 'data': {}, 'msg': '门店车型代码重复！'} 
+实际数据:{'error': 'invalid_grant', 'error_description': 'Bad credentials'} 
+数据格式校验结果：[root['error'], root['error_description']] 
+错误信息:Traceback (most recent call last):
+  File "D:\Pytest_API\comm\check_result.py", line 119, in test_check_result
+    assert expected_format == actual_format
+AssertionError
+
+2023-08-16 01:11:02,538 - check_result - check_result.py  - [line:124] - ERROR: 
+预期数据:{'code': 101058, 'success': False, 'data': {}, 'msg': '门店车型代码重复！'} 
+实际数据:{'error': 'invalid_grant', 'error_description': 'Bad credentials'} 
+数据格式校验结果：[root['error'], root['error_description']] 
+错误信息:Traceback (most recent call last):
+  File "D:\Pytest_API\comm\check_result.py", line 119, in test_check_result
+    assert expected_format == actual_format
+AssertionError
+
+2023-08-16 01:11:49,154 - check_result - check_result.py  - [line:124] - ERROR: 
+预期数据:{'code': 101058, 'success': False, 'data': {}, 'msg': '门店车型代码重复！'} 
+实际数据:{'error': 'invalid_grant', 'error_description': 'Bad credentials'} 
+数据格式校验结果：[root['error'], root['error_description']] 
+错误信息:Traceback (most recent call last):
+  File "D:\Pytest_API\comm\check_result.py", line 119, in test_check_result
+    assert expected_format == actual_format
+AssertionError
+
+2023-08-16 09:04:24,125 - check_result - check_result.py  - [line:126] - ERROR: 
+预期数据:{'code': 101058, 'success': False, 'data': {}, 'msg': '门店车型代码重复！'} 
+实际数据:{'error': 'invalid_grant', 'error_description': 'Bad credentials'} 
+数据格式校验结果：[root['error'], root['error_description']] 
+错误信息:Traceback (most recent call last):
+  File "D:\Pytest_API\comm\check_result.py", line 121, in test_check_result
+    assert expected_format == actual_format
+AssertionError
+
+2023-08-16 09:17:18,707 - check_result - check_result.py  - [line:126] - ERROR: 
+预期数据:{'code': 101058, 'success': False, 'data': {}, 'msg': '门店车型代码重复！'} 
+实际数据:{'error': 'invalid_grant', 'error_description': 'Bad credentials'} 
+数据格式校验结果：[root['error'], root['error_description']] 
+错误信息:Traceback (most recent call last):
+  File "D:\Pytest_API\comm\check_result.py", line 121, in test_check_result
+    assert expected_format == actual_format
+AssertionError
+
+2023-08-16 23:40:56,304 - check_result - check_result.py  - [line:126] - ERROR: 
+预期数据:{'code': 101058, 'success': False, 'data': {}, 'msg': '门店车型代码重复！'} 
+实际数据:{'error': 'invalid_grant', 'error_description': 'Bad credentials'} 
+数据格式校验结果：[root['error'], root['error_description']] 
+错误信息:Traceback (most recent call last):
+  File "D:\Pytest_API\comm\check_result.py", line 121, in test_check_result
+    assert expected_format == actual_format
+AssertionError
+

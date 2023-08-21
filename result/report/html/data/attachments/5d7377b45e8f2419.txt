@@ -1,0 +1,25 @@
+INFO     testcase_info:testcase_parameter.py:59 ********************************************************************************************************************************************************************************************************
+INFO     testcase_info:testcase_parameter.py:60 用例id：3
+INFO     testcase_info:testcase_parameter.py:61 接口名称：金融机构逻辑删除
+INFO     testcase_info:testcase_parameter.py:62 用例名称：删除金融机构
+INFO     testcase_info:testcase_parameter.py:63 前置用例：None
+INFO     testcase_info:testcase_parameter.py:64 前置用例响应数据：error
+INFO     testcase_info:testcase_parameter.py:65 数据依赖字段：ids
+INFO     testcase_info:testcase_parameter.py:66 api_url：api/ld-erps/finance/remove
+INFO     testcase_info:testcase_parameter.py:67 请求地址：http://lduat.xsdmt.com.cn/api/ld-erps/finance/remove
+INFO     testcase_info:testcase_parameter.py:68 请求方式：post
+INFO     testcase_info:testcase_parameter.py:69 请求数据：{'ids': '1455772183081054209'}
+INFO     testcase_info:testcase_parameter.py:70 请求头信息：{'Content-Type': 'application/x-www-form-urlencoded', 'Authorization': 'Basic c2FiZXI6bGRAMTIzNDU2', 'Blade-Auth': 'bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZW5hbnRfaWQiOiI2ODMyNTIiLCJ0ZW5hbnRfbmFtZSI6Iua8lOekuuenn-aItyjmlbDmja7lvILluLjmmoLlgZzkvb_nlKgpIiwidXNlcl9uYW1lIjoiYWRtaW4iLCJkZXB0X25hbWUiOiLmvJTnpLrnp5_miLciLCJyZWFsX25hbWUiOiJhZG1pbiIsImF2YXRhciI6InVwbG9hZC8yMDIyMDExMi8zZTg3ZDI2YzZhMzUxOWM5YmM5N2YwM2I2Y2E0N2E3OS5wbmciLCJhdXRob3JpdGllcyI6WyJhZG1pbiJdLCJjbGllbnRfaWQiOiJzYWJlciIsInJvbGVfbmFtZSI6ImFkbWluIiwicG9zdF9pZCI6IjE0ODEyMDc0NTI2NzU5NDQ0NDkiLCJ1c2VyX2lkIjoiMTQ3MzQ4MjMxOTgxNzk2OTY2NSIsInJvbGVfaWQiOiIxNDczNDgyMzEwNTQwNjU2NjQxIiwicG9zdF9uYW1lIjoiY2VvIiwic2NvcGUiOlsiYWxsIl0sIm5pY2tfbmFtZSI6ImFkbWluIiwib2F1dGhfaWQiOiIiLCJkZXRhaWwiOnsidHlwZSI6IndlYiJ9LCJleHAiOjE2ODk2ODAxMzEsImRlcHRfaWQiOiIxNDczNDgyMzE0MzcwMDU2MTk0IiwicG93ZXJlZCBieSBsZCI6InBvd2VyZWQgYnkgYmxhZGV4IiwianRpIjoiNjY4NDAwOGEtYWUwMi00YzQ0LWE2OWItY2FiYzdkZjY3ZWUzIiwiYWNjb3VudCI6ImFkbWluIn0.u01NTOYLZSSCyoUsKowvKEWyTW_1qDeBXqdszhQkbxw', 'Cookie': 'saber-refresh-token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZW5hbnRfaWQiOiI2ODMyNTIiLCJ0ZW5hbnRfbmFtZSI6Iua8lOekuuenn-aItyjmlbDmja7lvILluLjmmoLlgZzkvb_nlKgpIiwidXNlcl9uYW1lIjoiYWRtaW4iLCJkZXB0X25hbWUiOiLmvJTnpLrnp5_miLciLCJyZWFsX25hbWUiOiJhZG1pbiIsImF2YXRhciI6InVwbG9hZC8yMDIyMDExMi8zZTg3ZDI2YzZhMzUxOWM5YmM5N2YwM2I2Y2E0N2E3OS5wbmciLCJhdXRob3JpdGllcyI6WyJhZG1pbiJdLCJjbGllbnRfaWQiOiJzYWJlciIsInJvbGVfbmFtZSI6ImFkbWluIiwicG9zdF9pZCI6IjE0ODEyMDc0NTI2NzU5NDQ0NDkiLCJ1c2VyX2lkIjoiMTQ3MzQ4MjMxOTgxNzk2OTY2NSIsInJvbGVfaWQiOiIxNDczNDgyMzEwNTQwNjU2NjQxIiwicG9zdF9uYW1lIjoiY2VvIiwic2NvcGUiOlsiYWxsIl0sIm5pY2tfbmFtZSI6ImFkbWluIiwiYXRpIjoiNjY4NDAwOGEtYWUwMi00YzQ0LWE2OWItY2FiYzdkZjY3ZWUzIiwib2F1dGhfaWQiOiIiLCJkZXRhaWwiOnsidHlwZSI6IndlYiJ9LCJleHAiOjE2OTAyODEzMzEsImRlcHRfaWQiOiIxNDczNDgyMzE0MzcwMDU2MTk0IiwicG93ZXJlZCBieSBsZCI6InBvd2VyZWQgYnkgYmxhZGV4IiwianRpIjoiZTg1NDE0NGQtZTY5Zi00MGY3LWJjM2MtNTZjOTU1ZjEzNDFiIiwiYWNjb3VudCI6ImFkbWluIn0.J8qEnQvTnFrl-WQrJRmIuOq468SeHwenrHrph6J-U20', 'dept_id': '1473482314370056194', 'Tenant-Id': '683252'}
+INFO     testcase_info:testcase_parameter.py:71 参数媒体类型：www-form-urlencoded
+INFO     testcase_info:testcase_parameter.py:72 上传文件：None
+INFO     testcase_info:testcase_parameter.py:73 cookies：False
+INFO     testcase_info:testcase_parameter.py:74 超时时长：10
+INFO     testcase_info:testcase_parameter.py:75 待核验信息：{'check_mode': 'check_code', 'expected_code': 401, 'expected_desc': {'$..msg': '门店车型代码重复！'}, 'expected_format': {'code': 101058, 'success': False, 'data': {}}}
+INFO     api_method:api_method.py:33 POST请求方法2: POST--www-form-urlencoded,请求响应信息：{'msg': '请求未授权', 'code': 401, 'data': None}
+INFO     testcase_info:testcase_parameter.py:118 
+请求响应信息： [401, '{"msg":"请求未授权","code":401,"data":null}']
+INFO     check_result:check_result.py:58 
+待核验信息：{'check_mode': 'check_code', 'expected_code': 401, 'expected_desc': {'$..msg': '门店车型代码重复！'}, 'expected_format': {'code': 101058, 'success': False, 'data': {}}} 
+请求响应信息：[401, '{"msg":"请求未授权","code":401,"data":null}'] 
+预期响应码：401 
+实际响应码：401

@@ -1,0 +1,6 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"failed","Mon Aug 21 16:42:25 CST 2023","Mon Aug 21 16:42:26 CST 2023","1257","comm","testcase_parameter","Testcase_Suite","","","车型信息","新增车型信息"
+"failed","Mon Aug 21 00:02:12 CST 2023","Mon Aug 21 00:02:12 CST 2023","0","comm","testcase_parameter","Testcase_Suite","","","test_o1",""
+"passed","Mon Aug 21 16:42:24 CST 2023","Mon Aug 21 16:42:25 CST 2023","1056","comm","testcase_parameter","Testcase_Suite","","","金融机构逻辑删除","删除金融机构"
+"passed","Mon Aug 21 16:42:21 CST 2023","Mon Aug 21 16:42:22 CST 2023","1257","comm","testcase_parameter","Testcase_Suite","","","登录","登录成功"
+"failed","Mon Aug 21 16:42:22 CST 2023","Mon Aug 21 16:42:24 CST 2023","1084","comm","testcase_parameter","Testcase_Suite","","","登录","登录失败"
